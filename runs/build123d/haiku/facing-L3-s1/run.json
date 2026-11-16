@@ -1,0 +1,52 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "haiku",
+ "task": "facing-L3-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T22:09:51Z",
+ "end_utc": "2026-11-16T22:32:40Z",
+ "wall_clock_s": 1369,
+ "tokens": 293944,
+ "tool_uses": 21,
+ "checks": 4,
+ "last_outcome": "fail",
+ "last_failing": [
+  "Q_THIN_WEDGE",
+  "Q_STUB",
+  "FDM_WALL_MIN",
+  "FDM_OVERHANG"
+ ],
+ "stiffness_last": "ok   STIFFNESS        weakest mount B: 33.3 N/mm, need 32.0 N/mm (mount B: 0.9 kg (8.83 N) over at most 0.276 mm (span 69.0 mm / 250; PLA, filament printed); +-2%)",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T22:18:52Z",
+   "approx_check_s": 27
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T22:23:17Z",
+   "approx_check_s": 47
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T22:26:05Z",
+   "approx_check_s": 43
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T22:30:35Z",
+   "approx_check_s": 146
+  }
+ ],
+ "setup_s": 27,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 42,
+  "cache_creation_input_tokens": 254424,
+  "cache_read_input_tokens": 4251898,
+  "output_tokens": 206421
+ }
+}

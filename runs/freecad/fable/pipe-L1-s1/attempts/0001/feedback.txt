@@ -1,0 +1,21 @@
+PASS  (16/16 required checks)  pipe-L1-s1
+  ok   FILE_VALID       1 closed valid solid, 33 faces
+  ok   HOLES            8 holes on axis within 0.000 mm (tol 0.1), dia 4.50-5.50, grip 5.5-6.0 mm
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  ok   NO_INTERFERENCE  no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 1.23 mm wide)
+  ok   Q_TINY_FACE      smallest face 47.12 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 1.61 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     no steps
+  ok   Q_THIN_WEDGE     sharpest corner 57.2 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 89.7 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 3.25 mm apart (min 0.05 mm)
+  ok   Q_STUB           no member runs on past a face it joins
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 57 deg (min 45 deg)
+  ok   SECTION_MIN      thinnest section 153.9 mm2 between A-B (need 100.5)
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits pass, clean pass, sturdy pass (not required)
+  info volume 38906.4 mm3, bounding box 71.5 x 91.6 x 93.1 mm

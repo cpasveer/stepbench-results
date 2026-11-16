@@ -1,0 +1,157 @@
+{
+  "n": 1,
+  "time": "2026-11-16T22:28:35.050+00:00",
+  "by": "sonnet",
+  "file": "output.step",
+  "sha256": "3ec795997610ed539e7c03070acd19eaa1135c1ae434ef3e440e1c5a4a640405",
+  "archive": "attempts/0001",
+  "files": {
+    "step": "attempts/0001/output.step",
+    "script": "attempts/0001/submission.py",
+    "script_link": "found",
+    "feedback": "attempts/0001/feedback.txt"
+  },
+  "feedback_format": "text",
+  "step_header": {
+    "file_description": "FILE_DESCRIPTION(('FreeCAD Model'),'2;1');",
+    "file_name": "FILE_NAME('Open CASCADE Shape Model','2026-11-16T22:28:29',('FreeCAD'),( 'FreeCAD'),'Open CASCADE STEP processor 7.8','FreeCAD','Unknown');",
+    "file_schema": "FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));",
+    "name": "Open CASCADE Shape Model",
+    "time_stamp": "2026-11-16T22:28:29",
+    "author": [
+      "FreeCAD"
+    ],
+    "organization": [
+      "FreeCAD"
+    ],
+    "preprocessor_version": "Open CASCADE STEP processor 7.8",
+    "originating_system": "FreeCAD",
+    "authorization": "Unknown"
+  },
+  "task_set": null,
+  "tool": "freecad",
+  "tool_vs_header": "consistent",
+  "task": "flange-L2-s1",
+  "passed": false,
+  "outcome": "fail",
+  "counts_as_attempt": true,
+  "verdict": {
+    "passed": false,
+    "outcome": "fail",
+    "counts_as_attempt": true,
+    "errors": [],
+    "requirements": {
+      "fits": {
+        "required": true,
+        "result": "fail",
+        "failed": [
+          "FILE_VALID"
+        ]
+      }
+    },
+    "score": null
+  },
+  "checks": [
+    {
+      "name": "FILE_VALID",
+      "status": "fail",
+      "required": true,
+      "group": "fits",
+      "reason": "expected exactly 1 solid, found 3",
+      "value": 3,
+      "unit": "solids",
+      "details": {}
+    },
+    {
+      "name": "HOLES",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "SEATING",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "SEAT_INSIDE",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "NO_INTERFERENCE",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "KEY_TURN",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "CLEAN",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "SECTION_MIN",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "STIFFNESS",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "MANUFACTURING",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    }
+  ],
+  "info": {}
+}

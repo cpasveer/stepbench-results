@@ -1,0 +1,32 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "fable",
+ "task": "facing-L1-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T21:05:43Z",
+ "end_utc": "2026-11-16T21:07:08Z",
+ "wall_clock_s": 85,
+ "tokens": 79459,
+ "tool_uses": 5,
+ "checks": 1,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T21:06:52.051+00:00",
+   "approx_check_s": 17
+  }
+ ],
+ "setup_s": 39,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 79062,
+  "cache_read_input_tokens": 293979,
+  "output_tokens": 4486
+ }
+}

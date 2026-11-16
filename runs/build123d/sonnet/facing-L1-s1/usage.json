@@ -1,0 +1,65 @@
+[
+ {
+  "message_id": "msg_011Ch7HtcBThLHNtvLhxjhDr",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9460,
+  "ephemeral_5m_input_tokens": 9460,
+  "ephemeral_1h_input_tokens": 0,
+  "cache_read_input_tokens": 56282,
+  "output_tokens": 93
+ },
+ {
+  "message_id": "msg_011Ch7Htkva8wCWodVb7Ln5F",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7849,
+  "ephemeral_5m_input_tokens": 7849,
+  "ephemeral_1h_input_tokens": 0,
+  "cache_read_input_tokens": 65742,
+  "output_tokens": 121
+ },
+ {
+  "message_id": "msg_011Ch7HucQ8Y3k6VN1h5WRdP",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 654,
+  "ephemeral_5m_input_tokens": 654,
+  "ephemeral_1h_input_tokens": 0,
+  "cache_read_input_tokens": 73591,
+  "output_tokens": 2240
+ },
+ {
+  "message_id": "msg_011Ch7HwhvpndzqJoFmuTg1h",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3202,
+  "ephemeral_5m_input_tokens": 3202,
+  "ephemeral_1h_input_tokens": 0,
+  "cache_read_input_tokens": 74245,
+  "output_tokens": 597
+ },
+ {
+  "message_id": "msg_011Ch7HxouX2XcrTR3HxrFgX",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 891,
+  "ephemeral_5m_input_tokens": 891,
+  "ephemeral_1h_input_tokens": 0,
+  "cache_read_input_tokens": 77447,
+  "output_tokens": 200
+ },
+ {
+  "message_id": "msg_011Ch7Hy3Wa764pMzazgTRpW",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 261,
+  "ephemeral_5m_input_tokens": 261,
+  "ephemeral_1h_input_tokens": 0,
+  "cache_read_input_tokens": 78338,
+  "output_tokens": 84
+ },
+ {
+  "message_id": "msg_011Ch7HyMnATEMyPHesFbJ4f",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 138,
+  "ephemeral_5m_input_tokens": 138,
+  "ephemeral_1h_input_tokens": 0,
+  "cache_read_input_tokens": 78599,
+  "output_tokens": 289
+ }
+]

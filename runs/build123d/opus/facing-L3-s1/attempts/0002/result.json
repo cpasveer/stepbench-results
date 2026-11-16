@@ -1,0 +1,2037 @@
+{
+  "n": 2,
+  "time": "2026-11-16T21:19:55.192+00:00",
+  "by": "opus",
+  "file": "output.step",
+  "sha256": "5a66080d93fc103a9b829492a54d31bff9460b7f865986e75b09a14d9b0a2956",
+  "archive": "attempts/0002",
+  "files": {
+    "step": "attempts/0002/output.step",
+    "script": "attempts/0002/submission.py",
+    "script_link": "found",
+    "feedback": "attempts/0002/feedback.txt"
+  },
+  "feedback_format": "text",
+  "step_header": {
+    "file_description": "FILE_DESCRIPTION(('Open CASCADE Model'),'2;1');",
+    "file_name": "FILE_NAME('Open CASCADE Shape Model','2026-11-16T21:18:50',('Author'),( 'Open CASCADE'),'Open CASCADE STEP processor 8.0','build123d', 'Unknown');",
+    "file_schema": "FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));",
+    "name": "Open CASCADE Shape Model",
+    "time_stamp": "2026-11-16T21:18:50",
+    "author": [
+      "Author"
+    ],
+    "organization": [
+      "Open CASCADE"
+    ],
+    "preprocessor_version": "Open CASCADE STEP processor 8.0",
+    "originating_system": "build123d",
+    "authorization": "Unknown"
+  },
+  "task_set": null,
+  "tool": "build123d",
+  "tool_vs_header": "consistent",
+  "task": "facing-L3-s1",
+  "passed": false,
+  "outcome": "fail",
+  "counts_as_attempt": true,
+  "verdict": {
+    "passed": false,
+    "outcome": "fail",
+    "counts_as_attempt": true,
+    "errors": [],
+    "requirements": {
+      "fits": {
+        "required": true,
+        "result": "pass",
+        "failed": []
+      },
+      "clean": {
+        "required": true,
+        "result": "pass",
+        "failed": []
+      },
+      "makeable": {
+        "required": true,
+        "result": "fail",
+        "failed": [
+          "FDM_WALL_MIN"
+        ]
+      },
+      "sturdy": {
+        "required": true,
+        "result": "pass",
+        "failed": []
+      }
+    },
+    "score": null
+  },
+  "checks": [
+    {
+      "name": "FILE_VALID",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "1 closed valid solid, 53 faces",
+      "value": 1,
+      "unit": "solids",
+      "details": {}
+    },
+    {
+      "name": "HOLES",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "7 holes on axis within 0.000 mm (tol 0.1), dia 4.50-5.50, grip 4.0-5.0 mm",
+      "value": 0.0,
+      "unit": "mm",
+      "details": {
+        "holes": [
+          {
+            "bolt": "A1",
+            "offset": 0.0,
+            "diameter": 4.5,
+            "grip": 4.0
+          },
+          {
+            "bolt": "A2",
+            "offset": 0.0,
+            "diameter": 4.5,
+            "grip": 4.0
+          },
+          {
+            "bolt": "A3",
+            "offset": 0.0,
+            "diameter": 4.5,
+            "grip": 4.0
+          },
+          {
+            "bolt": "A4",
+            "offset": 0.0,
+            "diameter": 4.5,
+            "grip": 4.0
+          },
+          {
+            "bolt": "B1",
+            "offset": 0.0,
+            "diameter": 5.5,
+            "grip": 5.0
+          },
+          {
+            "bolt": "B2",
+            "offset": 0.0,
+            "diameter": 5.5,
+            "grip": 5.0
+          },
+          {
+            "bolt": "B3",
+            "offset": 0.0,
+            "diameter": 5.5,
+            "grip": 5.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "SEATING",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "seated on every mounting face; worst bolt ring 100% in contact (need 75%)",
+      "value": 1.0,
+      "unit": "ratio",
+      "details": {
+        "bolts": [
+          {
+            "bolt": "A1",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A2",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A3",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A4",
+            "contact": 1.0
+          },
+          {
+            "bolt": "B1",
+            "contact": 1.0
+          },
+          {
+            "bolt": "B2",
+            "contact": 1.0
+          },
+          {
+            "bolt": "B3",
+            "contact": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "SEAT_INSIDE",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)",
+      "value": 0.0,
+      "unit": "mm2",
+      "details": {
+        "faces": [
+          {
+            "part": "A",
+            "seat_mm2": 1348.501,
+            "outside_mm2": 0.0
+          },
+          {
+            "part": "B",
+            "seat_mm2": 899.0,
+            "outside_mm2": 0.0
+          }
+        ],
+        "setback_mm": 1.0
+      }
+    },
+    {
+      "name": "NO_INTERFERENCE",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)",
+      "value": 0.0,
+      "unit": "mm3",
+      "details": {
+        "overlaps": [
+          {
+            "what": "part vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "part vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A1 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A1 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A1 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A2 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A2 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A2 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A3 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A3 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A3 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A4 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A4 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A4 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B1 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B1 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B1 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B2 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B2 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B2 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B3 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B3 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B3 vs fixed B",
+            "volume": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "CLEAR_PATH",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "no obstacles in this task",
+      "value": 0.0,
+      "unit": "mm3",
+      "details": {
+        "overlaps": []
+      }
+    },
+    {
+      "name": "TOOL_ACCESS",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "a straight tool (30 mm long, head dia + 0) reaches every bolt",
+      "value": 0.0,
+      "unit": "mm3",
+      "details": {
+        "envelopes": [
+          {
+            "bolt": "A1",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A1",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A1",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A2",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A2",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A2",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A3",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A3",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A3",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A4",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A4",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A4",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B1",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B1",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B1",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B2",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B2",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B2",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B3",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B3",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B3",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "KEY_TURN",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)",
+      "value": 60.0,
+      "unit": "deg",
+      "details": {
+        "bolts": [
+          {
+            "bolt": "A1",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 280.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 30.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "A2",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 280.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 120.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "A3",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 280.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 210.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "A4",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 276.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 302.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B1",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 266.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 194.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B2",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 288.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 298.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B3",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 278.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 54.0,
+            "blocked_by": []
+          }
+        ],
+        "grid": {
+          "tilt_max": 25.0,
+          "tilt_step": 5.0,
+          "lean_directions": 8,
+          "coarse_deg": 10.0,
+          "fine_deg": 2.0,
+          "swing_needed": 60.0
+        }
+      }
+    },
+    {
+      "name": "Q_SLIVER_FACE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "no sliver faces (narrowest long face 2.55 mm wide)",
+      "value": 2.5507,
+      "unit": "mm",
+      "details": {
+        "rule": "No sliver faces",
+        "limit": 0.25,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_TINY_FACE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "smallest face 33.05 mm2 (min 0.1 mm2)",
+      "value": 33.0531,
+      "unit": "mm2",
+      "details": {
+        "rule": "No tiny faces",
+        "limit": 0.1,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_SHORT_EDGE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "shortest edge 1.14 mm (min 0.1 mm)",
+      "value": 1.1405,
+      "unit": "mm",
+      "details": {
+        "rule": "No very short edges",
+        "limit": 0.1,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_SMALL_STEP",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "lowest step 49.70 mm (min 0.2 mm)",
+      "value": 49.7026,
+      "unit": "mm",
+      "details": {
+        "rule": "No hairline steps between faces meant to be flush",
+        "limit": 0.2,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_THIN_WEDGE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "sharpest corner 30.0 deg (min 5 deg)",
+      "value": 29.983,
+      "unit": "deg",
+      "details": {
+        "rule": "No knife edges or thin wedges",
+        "limit": 5.0,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_CREASE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "gentlest bend between faces 41.5 deg (min 2 deg)",
+      "value": 41.512,
+      "unit": "deg",
+      "details": {
+        "rule": "No near-flat creases",
+        "limit": 2.0,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_UNMERGED",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "no face is split on its own surface",
+      "value": 0,
+      "unit": "pairs",
+      "details": {
+        "rule": "Faces on the same surface are merged",
+        "limit": 0.0,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_NEAR_VERTICES",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "closest unjoined corners 1.44 mm apart (min 0.05 mm)",
+      "value": 1.43709,
+      "unit": "mm",
+      "details": {
+        "rule": "No near-coincident corners",
+        "limit": 0.05,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_STUB",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "no member runs on past a face it joins",
+      "value": null,
+      "unit": "mm",
+      "details": {
+        "rule": "No stubs: members end at the faces they join",
+        "limit": 5.0,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_SHALLOW_JOINT",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "narrowest inside corner 90 deg (min 45 deg)",
+      "value": 90.0,
+      "unit": "deg",
+      "details": {
+        "rule": "No shallow joints",
+        "limit": 45.0,
+        "where": []
+      }
+    },
+    {
+      "name": "SECTION_MIN",
+      "status": "pass",
+      "required": false,
+      "group": "sturdy",
+      "reason": "thinnest section 296.6 mm2 between A-B (need 100.5)",
+      "value": 2.9502,
+      "unit": "ratio",
+      "details": {
+        "sections": [
+          {
+            "pair": "A-B",
+            "area": 296.585,
+            "required": 100.531,
+            "at": [
+              -125.23,
+              131.0,
+              -57.36
+            ],
+            "normal": [
+              0.0264,
+              0.1104,
+              0.9935
+            ],
+            "outline": [
+              [
+                [
+                  -123.373,
+                  111.38,
+                  -55.232
+                ],
+                [
+                  -122.03,
+                  111.542,
+                  -55.285
+                ],
+                [
+                  -120.702,
+                  111.794,
+                  -55.349
+                ],
+                [
+                  -119.394,
+                  112.135,
+                  -55.421
+                ],
+                [
+                  -118.113,
+                  112.563,
+                  -55.503
+                ],
+                [
+                  -116.864,
+                  113.077,
+                  -55.593
+                ],
+                [
+                  -115.653,
+                  113.673,
+                  -55.691
+                ],
+                [
+                  -114.485,
+                  114.349,
+                  -55.798
+                ],
+                [
+                  -113.367,
+                  115.103,
+                  -55.911
+                ],
+                [
+                  -112.302,
+                  115.929,
+                  -56.031
+                ],
+                [
+                  -111.296,
+                  116.825,
+                  -56.157
+                ],
+                [
+                  -110.352,
+                  117.787,
+                  -56.289
+                ],
+                [
+                  -109.476,
+                  118.809,
+                  -56.426
+                ],
+                [
+                  -108.671,
+                  119.888,
+                  -56.567
+                ],
+                [
+                  -107.94,
+                  121.018,
+                  -56.712
+                ],
+                [
+                  -107.287,
+                  122.194,
+                  -56.86
+                ],
+                [
+                  -106.715,
+                  123.411,
+                  -57.011
+                ],
+                [
+                  -106.226,
+                  124.664,
+                  -57.163
+                ],
+                [
+                  -105.822,
+                  125.947,
+                  -57.316
+                ],
+                [
+                  -105.506,
+                  127.254,
+                  -57.47
+                ],
+                [
+                  -105.278,
+                  128.579,
+                  -57.623
+                ],
+                [
+                  -105.139,
+                  129.916,
+                  -57.776
+                ],
+                [
+                  -105.091,
+                  131.261,
+                  -57.926
+                ],
+                [
+                  -105.133,
+                  132.605,
+                  -58.074
+                ],
+                [
+                  -105.266,
+                  133.944,
+                  -58.22
+                ],
+                [
+                  -105.488,
+                  135.272,
+                  -58.361
+                ],
+                [
+                  -105.799,
+                  136.582,
+                  -58.499
+                ],
+                [
+                  -106.198,
+                  137.868,
+                  -58.631
+                ],
+                [
+                  -106.683,
+                  139.125,
+                  -58.758
+                ],
+                [
+                  -107.251,
+                  140.348,
+                  -58.879
+                ],
+                [
+                  -107.901,
+                  141.529,
+                  -58.993
+                ],
+                [
+                  -108.63,
+                  142.665,
+                  -59.1
+                ],
+                [
+                  -109.433,
+                  143.75,
+                  -59.199
+                ],
+                [
+                  -110.309,
+                  144.778,
+                  -59.29
+                ],
+                [
+                  -111.252,
+                  145.745,
+                  -59.372
+                ],
+                [
+                  -112.258,
+                  146.646,
+                  -59.446
+                ],
+                [
+                  -113.324,
+                  147.478,
+                  -59.51
+                ],
+                [
+                  -114.444,
+                  148.237,
+                  -59.564
+                ],
+                [
+                  -115.613,
+                  148.917,
+                  -59.609
+                ],
+                [
+                  -116.825,
+                  149.518,
+                  -59.644
+                ],
+                [
+                  -118.075,
+                  150.035,
+                  -59.668
+                ],
+                [
+                  -119.358,
+                  150.467,
+                  -59.682
+                ],
+                [
+                  -120.667,
+                  150.811,
+                  -59.685
+                ],
+                [
+                  -121.961,
+                  151.099,
+                  -59.683
+                ],
+                [
+                  -122.76,
+                  151.652,
+                  -59.723
+                ],
+                [
+                  -124.106,
+                  151.513,
+                  -59.672
+                ],
+                [
+                  -125.451,
+                  151.375,
+                  -59.621
+                ],
+                [
+                  -126.797,
+                  151.236,
+                  -59.57
+                ],
+                [
+                  -128.143,
+                  151.098,
+                  -59.519
+                ],
+                [
+                  -129.488,
+                  150.959,
+                  -59.468
+                ],
+                [
+                  -130.834,
+                  150.821,
+                  -59.416
+                ],
+                [
+                  -132.179,
+                  150.683,
+                  -59.365
+                ],
+                [
+                  -133.487,
+                  150.514,
+                  -59.312
+                ],
+                [
+                  -133.664,
+                  149.375,
+                  -59.181
+                ],
+                [
+                  -134.864,
+                  148.756,
+                  -59.08
+                ],
+                [
+                  -136.018,
+                  148.057,
+                  -58.972
+                ],
+                [
+                  -137.122,
+                  147.283,
+                  -58.856
+                ],
+                [
+                  -138.17,
+                  146.436,
+                  -58.734
+                ],
+                [
+                  -139.159,
+                  145.521,
+                  -58.607
+                ],
+                [
+                  -140.084,
+                  144.542,
+                  -58.473
+                ],
+                [
+                  -140.941,
+                  143.503,
+                  -58.335
+                ],
+                [
+                  -141.725,
+                  142.41,
+                  -58.193
+                ],
+                [
+                  -142.434,
+                  141.266,
+                  -58.047
+                ],
+                [
+                  -143.065,
+                  140.078,
+                  -57.898
+                ],
+                [
+                  -143.614,
+                  138.85,
+                  -57.747
+                ],
+                [
+                  -144.079,
+                  137.588,
+                  -57.594
+                ],
+                [
+                  -144.458,
+                  136.298,
+                  -57.441
+                ],
+                [
+                  -144.749,
+                  134.985,
+                  -57.287
+                ],
+                [
+                  -144.952,
+                  133.656,
+                  -57.134
+                ],
+                [
+                  -145.065,
+                  132.316,
+                  -56.982
+                ],
+                [
+                  -145.088,
+                  130.971,
+                  -56.832
+                ],
+                [
+                  -145.02,
+                  129.627,
+                  -56.685
+                ],
+                [
+                  -144.862,
+                  128.291,
+                  -56.54
+                ],
+                [
+                  -144.615,
+                  126.968,
+                  -56.4
+                ],
+                [
+                  -144.278,
+                  125.664,
+                  -56.264
+                ],
+                [
+                  -143.855,
+                  124.385,
+                  -56.133
+                ],
+                [
+                  -143.347,
+                  123.137,
+                  -56.008
+                ],
+                [
+                  -142.755,
+                  121.926,
+                  -55.889
+                ],
+                [
+                  -142.082,
+                  120.757,
+                  -55.777
+                ],
+                [
+                  -141.332,
+                  119.635,
+                  -55.672
+                ],
+                [
+                  -140.508,
+                  118.566,
+                  -55.575
+                ],
+                [
+                  -139.613,
+                  117.554,
+                  -55.487
+                ],
+                [
+                  -138.651,
+                  116.605,
+                  -55.407
+                ],
+                [
+                  -137.628,
+                  115.723,
+                  -55.336
+                ],
+                [
+                  -136.546,
+                  114.912,
+                  -55.274
+                ],
+                [
+                  -135.412,
+                  114.175,
+                  -55.223
+                ],
+                [
+                  -134.23,
+                  113.516,
+                  -55.181
+                ],
+                [
+                  -133.84,
+                  112.507,
+                  -55.079
+                ],
+                [
+                  -133.012,
+                  111.915,
+                  -55.035
+                ],
+                [
+                  -131.681,
+                  111.667,
+                  -55.043
+                ],
+                [
+                  -130.35,
+                  111.418,
+                  -55.051
+                ],
+                [
+                  -129.019,
+                  111.17,
+                  -55.058
+                ],
+                [
+                  -127.689,
+                  110.922,
+                  -55.066
+                ],
+                [
+                  -126.358,
+                  110.674,
+                  -55.074
+                ],
+                [
+                  -125.027,
+                  110.426,
+                  -55.082
+                ],
+                [
+                  -123.697,
+                  110.178,
+                  -55.089
+                ],
+                [
+                  -123.373,
+                  111.38,
+                  -55.232
+                ]
+              ],
+              [
+                [
+                  -112.646,
+                  143.751,
+                  -59.114
+                ],
+                [
+                  -111.857,
+                  142.909,
+                  -59.041
+                ],
+                [
+                  -111.126,
+                  142.018,
+                  -58.961
+                ],
+                [
+                  -110.455,
+                  141.082,
+                  -58.875
+                ],
+                [
+                  -109.847,
+                  140.103,
+                  -58.783
+                ],
+                [
+                  -109.305,
+                  139.088,
+                  -58.684
+                ],
+                [
+                  -108.83,
+                  138.04,
+                  -58.58
+                ],
+                [
+                  -108.425,
+                  136.963,
+                  -58.471
+                ],
+                [
+                  -108.091,
+                  135.863,
+                  -58.358
+                ],
+                [
+                  -107.83,
+                  134.743,
+                  -58.24
+                ],
+                [
+                  -107.642,
+                  133.61,
+                  -58.119
+                ],
+                [
+                  -107.529,
+                  132.466,
+                  -57.995
+                ],
+                [
+                  -107.491,
+                  131.319,
+                  -57.869
+                ],
+                [
+                  -107.527,
+                  130.171,
+                  -57.74
+                ],
+                [
+                  -107.639,
+                  129.028,
+                  -57.61
+                ],
+                [
+                  -107.824,
+                  127.895,
+                  -57.48
+                ],
+                [
+                  -108.084,
+                  126.777,
+                  -57.348
+                ],
+                [
+                  -108.415,
+                  125.678,
+                  -57.218
+                ],
+                [
+                  -108.817,
+                  124.602,
+                  -57.087
+                ],
+                [
+                  -109.289,
+                  123.556,
+                  -56.959
+                ],
+                [
+                  -109.828,
+                  122.542,
+                  -56.832
+                ],
+                [
+                  -110.433,
+                  121.565,
+                  -56.707
+                ],
+                [
+                  -111.099,
+                  120.629,
+                  -56.585
+                ],
+                [
+                  -111.826,
+                  119.738,
+                  -56.467
+                ],
+                [
+                  -112.61,
+                  118.897,
+                  -56.353
+                ],
+                [
+                  -113.447,
+                  118.108,
+                  -56.243
+                ],
+                [
+                  -114.334,
+                  117.376,
+                  -56.138
+                ],
+                [
+                  -115.268,
+                  116.702,
+                  -56.038
+                ],
+                [
+                  -116.244,
+                  116.091,
+                  -55.944
+                ],
+                [
+                  -117.259,
+                  115.545,
+                  -55.857
+                ],
+                [
+                  -118.307,
+                  115.066,
+                  -55.776
+                ],
+                [
+                  -119.385,
+                  114.657,
+                  -55.702
+                ],
+                [
+                  -120.488,
+                  114.319,
+                  -55.635
+                ],
+                [
+                  -121.611,
+                  114.053,
+                  -55.576
+                ],
+                [
+                  -122.749,
+                  113.862,
+                  -55.524
+                ],
+                [
+                  -123.898,
+                  113.746,
+                  -55.481
+                ],
+                [
+                  -125.052,
+                  113.706,
+                  -55.446
+                ],
+                [
+                  -126.207,
+                  113.741,
+                  -55.419
+                ],
+                [
+                  -127.357,
+                  113.853,
+                  -55.401
+                ],
+                [
+                  -128.497,
+                  114.039,
+                  -55.391
+                ],
+                [
+                  -129.623,
+                  114.3,
+                  -55.39
+                ],
+                [
+                  -130.729,
+                  114.634,
+                  -55.398
+                ],
+                [
+                  -131.811,
+                  115.039,
+                  -55.414
+                ],
+                [
+                  -132.863,
+                  115.515,
+                  -55.439
+                ],
+                [
+                  -133.882,
+                  116.059,
+                  -55.473
+                ],
+                [
+                  -134.863,
+                  116.668,
+                  -55.514
+                ],
+                [
+                  -135.802,
+                  117.34,
+                  -55.564
+                ],
+                [
+                  -136.694,
+                  118.072,
+                  -55.622
+                ],
+                [
+                  -137.536,
+                  118.861,
+                  -55.687
+                ],
+                [
+                  -138.324,
+                  119.703,
+                  -55.76
+                ],
+                [
+                  -139.055,
+                  120.594,
+                  -55.839
+                ],
+                [
+                  -139.726,
+                  121.53,
+                  -55.926
+                ],
+                [
+                  -140.334,
+                  122.509,
+                  -56.018
+                ],
+                [
+                  -140.877,
+                  123.524,
+                  -56.117
+                ],
+                [
+                  -141.352,
+                  124.572,
+                  -56.22
+                ],
+                [
+                  -141.757,
+                  125.649,
+                  -56.329
+                ],
+                [
+                  -142.091,
+                  126.749,
+                  -56.443
+                ],
+                [
+                  -142.352,
+                  127.869,
+                  -56.56
+                ],
+                [
+                  -142.539,
+                  129.002,
+                  -56.681
+                ],
+                [
+                  -142.653,
+                  130.146,
+                  -56.805
+                ],
+                [
+                  -142.691,
+                  131.293,
+                  -56.932
+                ],
+                [
+                  -142.654,
+                  132.441,
+                  -57.06
+                ],
+                [
+                  -142.543,
+                  133.584,
+                  -57.19
+                ],
+                [
+                  -142.357,
+                  134.717,
+                  -57.321
+                ],
+                [
+                  -142.098,
+                  135.835,
+                  -57.452
+                ],
+                [
+                  -141.767,
+                  136.934,
+                  -57.583
+                ],
+                [
+                  -141.364,
+                  138.01,
+                  -57.713
+                ],
+                [
+                  -140.892,
+                  139.057,
+                  -57.842
+                ],
+                [
+                  -140.353,
+                  140.071,
+                  -57.969
+                ],
+                [
+                  -139.749,
+                  141.048,
+                  -58.094
+                ],
+                [
+                  -139.082,
+                  141.983,
+                  -58.215
+                ],
+                [
+                  -138.355,
+                  142.874,
+                  -58.334
+                ],
+                [
+                  -137.572,
+                  143.715,
+                  -58.448
+                ],
+                [
+                  -136.735,
+                  144.504,
+                  -58.558
+                ],
+                [
+                  -135.847,
+                  145.237,
+                  -58.663
+                ],
+                [
+                  -134.914,
+                  145.91,
+                  -58.762
+                ],
+                [
+                  -133.938,
+                  146.521,
+                  -58.856
+                ],
+                [
+                  -132.923,
+                  147.067,
+                  -58.944
+                ],
+                [
+                  -131.875,
+                  147.546,
+                  -59.025
+                ],
+                [
+                  -130.797,
+                  147.955,
+                  -59.099
+                ],
+                [
+                  -129.694,
+                  148.293,
+                  -59.166
+                ],
+                [
+                  -128.571,
+                  148.559,
+                  -59.225
+                ],
+                [
+                  -127.432,
+                  148.75,
+                  -59.277
+                ],
+                [
+                  -126.284,
+                  148.866,
+                  -59.32
+                ],
+                [
+                  -125.129,
+                  148.906,
+                  -59.355
+                ],
+                [
+                  -123.975,
+                  148.871,
+                  -59.382
+                ],
+                [
+                  -122.825,
+                  148.76,
+                  -59.4
+                ],
+                [
+                  -121.684,
+                  148.573,
+                  -59.41
+                ],
+                [
+                  -120.559,
+                  148.313,
+                  -59.41
+                ],
+                [
+                  -119.453,
+                  147.979,
+                  -59.403
+                ],
+                [
+                  -118.371,
+                  147.573,
+                  -59.386
+                ],
+                [
+                  -117.318,
+                  147.097,
+                  -59.361
+                ],
+                [
+                  -116.299,
+                  146.553,
+                  -59.328
+                ],
+                [
+                  -115.319,
+                  145.944,
+                  -59.286
+                ],
+                [
+                  -114.38,
+                  145.272,
+                  -59.237
+                ],
+                [
+                  -113.488,
+                  144.54,
+                  -59.179
+                ],
+                [
+                  -112.646,
+                  143.751,
+                  -59.114
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "STIFFNESS",
+      "status": "pass",
+      "required": true,
+      "group": "sturdy",
+      "reason": "weakest mount B: 312.1 N/mm, need 32.0 N/mm (mount B: 0.9 kg (8.83 N) over at most 0.276 mm (span 69.0 mm / 250; PLA, filament printed); +-15%)",
+      "value": 9.7502,
+      "unit": "ratio",
+      "details": {
+        "verdict": "pass",
+        "per_mount": [
+          {
+            "mount": "B",
+            "mass_kg": 0.9,
+            "design_load_N": 8.83,
+            "span_mm": 68.95,
+            "deflection_ratio": 250,
+            "allowed_deflection_mm": 0.2758,
+            "required": 32.0143564701158,
+            "bolts": "stated load",
+            "statement": "Fixed part B carries 0.9 kg (8.83 N). With A held, that weight may move B by at most 0.276 mm, whichever way it pulls (a turning load counts as the weight at the 68.95 mm span): at least 32.0 N/mm, in PLA, filament printed.",
+            "figure": 312.14711543387875,
+            "verdict": "pass",
+            "margin_percent": 875.0
+          }
+        ],
+        "precision": 15.0,
+        "stages": [
+          {
+            "stage": "screen, 4 mm",
+            "seconds": 10.1,
+            "figure": 312.14711543387875,
+            "verdict": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FDM_WALL_MIN",
+      "status": "fail",
+      "required": true,
+      "group": "makeable",
+      "reason": "wall 0.24 mm thin at [-130.597, 174.505, -31.483] (min 0.8 mm; 86 of 29379 samples under): wall from the plane face 37.7 x 11.5 mm (face 17) straight into the material to the inside of a hole r = 4.75 mm, 12.6 mm long (face 18), direction [0.103, -0.759, 0.643]; along a strip about 10 mm long (27 sample points)",
+      "value": 0.243,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum wall thickness",
+        "limit": 0.8,
+        "where": [
+          {
+            "point": [
+              -130.597,
+              174.505,
+              -31.483
+            ],
+            "face": 17,
+            "between": {
+              "faces": [
+                17,
+                18
+              ],
+              "face_types": [
+                "plane face 37.7 x 11.5 mm",
+                "inside of a hole r = 4.75 mm, 12.6 mm long"
+              ],
+              "direction": [
+                0.1025,
+                -0.7592,
+                0.6428
+              ],
+              "extent": "along a strip about 10 mm long (27 sample points)"
+            }
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    },
+    {
+      "name": "FDM_OVERHANG",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "steepest overhang 40.0 deg (max 45 deg)",
+      "value": 40.0,
+      "unit": "deg",
+      "details": {
+        "rule": "Overhang without support",
+        "limit": 45.0,
+        "where": [
+          {
+            "point": [
+              -88.264,
+              127.626,
+              -35.1
+            ],
+            "face": 3
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    },
+    {
+      "name": "FDM_BRIDGE",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "longest bridge 7.3 mm (max 10 mm)",
+      "value": 7.29,
+      "unit": "mm",
+      "details": {
+        "rule": "Maximum bridge span",
+        "limit": 10.0,
+        "where": [
+          {
+            "point": [
+              -131.982,
+              167.001,
+              -30.5
+            ],
+            "face": 19
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    },
+    {
+      "name": "FDM_HOLE_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "15 hole(s), smallest 4.50 mm (min 2 mm)",
+      "value": 4.5,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum hole diameter",
+        "limit": 2.0,
+        "where": [
+          {
+            "point": [
+              -170.031,
+              134.819,
+              -92.0
+            ],
+            "face": 35
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    },
+    {
+      "name": "FDM_PIN_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "8 pin(s), smallest 10.50 mm (min 3 mm)",
+      "value": 10.5,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum pin diameter",
+        "limit": 3.0,
+        "where": [
+          {
+            "point": [
+              -168.389,
+              129.653,
+              -86.487
+            ],
+            "face": 32
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    },
+    {
+      "name": "FDM_GAP_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "narrowest gap 4.50 mm (min 0.5 mm)",
+      "value": 4.5,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum gap between faces",
+        "limit": 0.5,
+        "where": [
+          {
+            "point": [
+              -168.065,
+              137.099,
+              -92.889
+            ],
+            "face": 35
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    },
+    {
+      "name": "FDM_BED_CONTACT",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "1349 mm2 flat on the bed over 1 face(s) (min 50 mm2)",
+      "value": 1348.5,
+      "unit": "mm2",
+      "details": {
+        "rule": "Flat face on the bed, large enough",
+        "limit": 50.0,
+        "where": [
+          {
+            "point": [
+              -135.08,
+              95.022,
+              -94.0
+            ],
+            "face": 52
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    },
+    {
+      "name": "FDM_STANCE",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "68.5 mm tall on a 70.5 mm stance, 0.97 x (max 3 x)",
+      "value": 0.97,
+      "unit": "x",
+      "details": {
+        "rule": "Stance wide enough for the height",
+        "limit": 3.0,
+        "where": [
+          {
+            "point": [
+              -135.08,
+              95.022,
+              -94.0
+            ],
+            "face": 52
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    },
+    {
+      "name": "FDM_SEALED_HOLLOW",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "no sealed hollows",
+      "value": 0,
+      "unit": "voids",
+      "details": {
+        "rule": "No sealed hollows",
+        "limit": 0.0,
+        "where": [],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    },
+    {
+      "name": "FDM_SUPPORT_REMOVABLE",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "no support needed in this direction",
+      "value": 0.0,
+      "unit": "mm2",
+      "details": {
+        "rule": "Support can be removed",
+        "limit": 0.0,
+        "where": [],
+        "process": "fdm",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 12 candidates: +Z)"
+      }
+    }
+  ],
+  "info": {
+    "volume": 51129.923,
+    "bbox_min": [
+      -173.032,
+      80.468,
+      -94.0
+    ],
+    "bbox_max": [
+      -78.968,
+      175.33,
+      -25.5
+    ],
+    "bbox_size": [
+      94.064,
+      94.862,
+      68.5
+    ],
+    "build_box": [
+      89.849,
+      93.45,
+      100.075
+    ],
+    "fits_build_volume": true
+  }
+}

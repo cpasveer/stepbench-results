@@ -1,0 +1,31 @@
+FAIL  (18/26 required checks)  facing-L2-s1
+  ok   FILE_VALID       1 closed valid solid, 56 faces
+  FAIL HOLES            A3: grip 68.50 mm outside 3-25 (material under the head) (+1 more)
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  FAIL SEAT_INSIDE      the part's seat on A has 37.6 mm2 within 1 mm of that part's mounting face edge or past it (limit 0.5 mm2): keep the seat 1 mm inside the face's outline
+  FAIL NO_INTERFERENCE  bolt B3 head would hit fixed part A: 425.293 mm3 overlap (2 clashes)
+  FAIL KEY_TURN         A3: its 3 mm hex key turns at most 0 of the 60 degrees needed, blocked by fixed part B (+1 more)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 1.44 mm wide)
+  FAIL Q_TINY_FACE      4 tiny face(s), smallest 0.093 mm2 (min 0.1 mm2)
+  FAIL Q_SHORT_EDGE     2 very short edge(s), shortest 0.088 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 0.39 mm (min 0.2 mm)
+  ok   Q_THIN_WEDGE     sharpest corner 32.0 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 32.8 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 0.39 mm apart (min 0.05 mm)
+  ok   Q_STUB           no short stubs (shortest run-on 6.8 mm, min 5 mm)
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 74 deg (min 45 deg)
+  --   SECTION_MIN      skipped: the part does not fit yet
+  ok   FDM_WALL_MIN     thinnest wall 1.99 mm (min 0.8 mm)
+  FAIL FDM_OVERHANG     overhang 90.0 deg (flat ceiling with no support at one end) (max 45 deg), 436 mm2 needs support
+  ok   FDM_BRIDGE       no bridges
+  ok   FDM_HOLE_MIN     7 hole(s), smallest 4.55 mm (min 2 mm)
+  ok   FDM_PIN_MIN      6 pin(s), smallest 13.00 mm (min 3 mm)
+  ok   FDM_GAP_MIN      narrowest gap 0.92 mm (min 0.5 mm)
+  ok   FDM_BED_CONTACT  2216 mm2 flat on the bed over 1 face(s) (min 50 mm2)
+  ok   FDM_STANCE       68.5 mm tall on a 73.0 mm stance, 0.94 x (max 3 x)
+  ok   FDM_SEALED_HOLLOW no sealed hollows
+  FAIL FDM_SUPPORT_REMOVABLE 0 mm2 of support cannot be removed (in a 0.9 mm slot at [-117.43, 132.846, -61.875]; reach limit 3 mm)
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits fail, clean fail, makeable fail, sturdy not measured (not required)
+  info volume 76310.1 mm3, bounding box 96.6 x 96.9 x 68.5 mm

@@ -1,0 +1,42 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "haiku",
+ "task": "flange-L3-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T22:10:51Z",
+ "end_utc": "2026-11-16T22:33:28Z",
+ "wall_clock_s": 1357.0,
+ "tokens": 313088,
+ "tool_uses": 30,
+ "checks": 2,
+ "last_outcome": "fail",
+ "last_failing": [
+  "STIFFNESS",
+  "FDM_OVERHANG",
+  "FDM_SUPPORT_REMOVABLE"
+ ],
+ "stiffness_last": "FAIL STIFFNESS        weakest mount B: 2.6 N/mm, need 26.3 N/mm (mount B: 0.8 kg (7.85 N) over at most 0.298 mm (span 74.5 mm / 250; PLA, filament printed); +-15%)",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T22:20:25.671+00:00",
+   "approx_check_s": 49.7
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T22:32:40.644+00:00",
+   "approx_check_s": 91.2
+  }
+ ],
+ "setup_s": 32.0,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 60,
+  "cache_creation_input_tokens": 277490,
+  "cache_read_input_tokens": 5941490,
+  "output_tokens": 218768
+ },
+ "notes": "The container restarted at about 22:30Z, after check 1, while the subagent was analysing. The coordinator resumed the same subagent from its transcript with the single message \"Follow AGENT.md.\" (no other input). wall_clock_s includes the restart downtime. tokens is the context size of the final assistant message, computed from the transcript, because the first Agent result was lost in the restart. The resume message also made the subagent mention in its final report that it had not opened AGENT.md, since the file sits outside its task folder."
+}

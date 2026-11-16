@@ -1,0 +1,37 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "opus",
+ "task": "flange-L1-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T21:08:52Z",
+ "end_utc": "2026-11-16T21:24:46Z",
+ "wall_clock_s": 954,
+ "tokens": 101787,
+ "tool_uses": 19,
+ "checks": 2,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T21:23:32.875+00:00",
+   "approx_check_s": 29
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T21:24:35.931+00:00",
+   "approx_check_s": 43
+  }
+ ],
+ "setup_s": 34,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 38,
+  "cache_creation_input_tokens": 78058,
+  "cache_read_input_tokens": 1612384,
+  "output_tokens": 15595
+ }
+}

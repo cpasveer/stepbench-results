@@ -1,0 +1,53 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "fable",
+ "task": "pipe-L3-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T21:06:03Z",
+ "end_utc": "2026-11-16T21:37:35Z",
+ "wall_clock_s": 1892,
+ "tokens": 171458,
+ "tool_uses": 20,
+ "checks": 5,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": "ok   STIFFNESS        weakest mount B: 18.6 N/mm, need 15.7 N/mm (mount B: 0.5 kg (4.91 N) over at most 0.313 mm (span 78.2 mm / 250; PLA, filament printed); +-15%)",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T21:18:18Z",
+   "approx_check_s": 63
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T21:20:15Z",
+   "approx_check_s": 39
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T21:22:02Z",
+   "approx_check_s": 45
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T21:29:50Z",
+   "approx_check_s": 409
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-16T21:37:11Z",
+   "approx_check_s": 401
+  }
+ ],
+ "setup_s": 27,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 39,
+  "cache_creation_input_tokens": 354519,
+  "cache_read_input_tokens": 2439284,
+  "output_tokens": 78428
+ },
+ "notes": "approx_check_s = check finish time minus the STEP header timestamp of the checked file"
+}

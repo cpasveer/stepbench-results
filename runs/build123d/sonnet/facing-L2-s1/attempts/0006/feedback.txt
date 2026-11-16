@@ -1,0 +1,31 @@
+FAIL  (25/26 required checks)  facing-L2-s1
+  ok   FILE_VALID       1 closed valid solid, 48 faces
+  ok   HOLES            7 holes on axis within 0.080 mm (tol 0.1), dia 4.30-5.30, grip 6.0-6.0 mm
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  ok   NO_INTERFERENCE  no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 1.87 mm wide)
+  ok   Q_TINY_FACE      smallest face 6.85 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 1.14 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 2.00 mm (min 0.2 mm)
+  ok   Q_THIN_WEDGE     sharpest corner 32.0 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 40.9 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 0.95 mm apart (min 0.05 mm)
+  ok   Q_STUB           no short stubs (shortest run-on 6.8 mm, min 5 mm)
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 45 deg (min 45 deg)
+  ok   SECTION_MIN      thinnest section 314.2 mm2 between A-B (need 100.5)
+  ok   FDM_WALL_MIN     thinnest wall 0.80 mm (min 0.8 mm)
+  FAIL FDM_OVERHANG     overhang 90.0 deg (flat ceiling with no support at one end) (max 45 deg), 199 mm2 needs support
+  ok   FDM_BRIDGE       longest bridge 7.4 mm (max 10 mm)
+  ok   FDM_HOLE_MIN     10 hole(s), smallest 4.30 mm (min 2 mm)
+  ok   FDM_PIN_MIN      7 pin(s), smallest 10.00 mm (min 3 mm)
+  ok   FDM_GAP_MIN      narrowest gap 0.72 mm (min 0.5 mm)
+  ok   FDM_BED_CONTACT  1921 mm2 flat on the bed over 1 face(s) (min 50 mm2)
+  ok   FDM_STANCE       68.5 mm tall on a 70.0 mm stance, 0.98 x (max 3 x)
+  ok   FDM_SEALED_HOLLOW no sealed hollows
+  ok   FDM_SUPPORT_REMOVABLE all support can be reached (199 mm2 of overhang held up)
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits pass, clean pass, makeable fail, sturdy pass (not required)
+  info volume 47839.8 mm3, bounding box 93.6 x 94.4 x 68.5 mm

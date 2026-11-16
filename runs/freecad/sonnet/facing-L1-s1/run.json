@@ -1,0 +1,34 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "sonnet",
+ "task": "facing-L1-s1",
+ "tool": "freecad",
+ "freecad_version": "1.1.4",
+ "start_utc": "2026-11-16T22:25:45Z",
+ "end_utc": "2026-11-16T22:27:06Z",
+ "wall_clock_s": 81,
+ "tokens": 80196,
+ "tool_uses": 6,
+ "checks": 1,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T22:26:51.956+00:00",
+   "approx_check_s": 10
+  }
+ ],
+ "setup_s": 103,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 14,
+  "cache_creation_input_tokens": 23616,
+  "cache_read_input_tokens": 503510,
+  "output_tokens": 4427
+ },
+ "messages": 7
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/user/stepbench-runs/tasks-freecad/flange-L1-s1/scratch/debug.py", line 155, in <module>
+    assert shape.isValid() and len(shape.Solids) == 1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)
+(C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+

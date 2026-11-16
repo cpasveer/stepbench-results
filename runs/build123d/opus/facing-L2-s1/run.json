@@ -1,0 +1,48 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "opus",
+ "task": "facing-L2-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T21:08:48Z",
+ "end_utc": "2026-11-16T22:38:01.396Z",
+ "wall_clock_s": 5353,
+ "tokens": 7697247,
+ "tool_uses": 48,
+ "checks": 4,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T21:18:38.185+00:00",
+   "approx_check_s": 53
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T21:39:42.404+00:00",
+   "approx_check_s": 1052
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T21:52:47.316+00:00",
+   "approx_check_s": 672
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T22:37:37.196+00:00",
+   "approx_check_s": 1213
+  }
+ ],
+ "setup_s": 31.5,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 92,
+  "cache_creation_input_tokens": 1329916,
+  "cache_read_input_tokens": 6233891,
+  "output_tokens": 133348
+ },
+ "notes": "Container restarted at about 22:04-22:16 UTC while a checker run (started 22:04:11) was in progress; that run was killed, recorded no attempt and does not count. The coordinator resumed the subagent from its transcript with only 'Follow AGENT.md.'. wall_clock_s includes the downtime. No STIFFNESS line in the last report (sturdy not required)."
+}

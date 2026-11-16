@@ -1,0 +1,52 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "opus",
+ "task": "flange-L3-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T21:08:46Z",
+ "end_utc": "2026-11-16T21:24:39Z",
+ "wall_clock_s": 953.7,
+ "tokens": 138770,
+ "tool_uses": 21,
+ "checks": 5,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": "ok   STIFFNESS        weakest mount B: 40.2 N/mm, need 26.3 N/mm (mount B: 0.8 kg (7.85 N) over at most 0.298 mm (span 74.5 mm / 250; PLA, filament printed); +-15%)",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T21:15:22Z",
+   "approx_check_s": 58
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T21:17:48Z",
+   "approx_check_s": 92
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T21:21:10Z",
+   "approx_check_s": 74
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T21:23:02Z",
+   "approx_check_s": 62
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-16T21:24:18Z",
+   "approx_check_s": 63
+  }
+ ],
+ "setup_s": 27.0,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 40,
+  "cache_creation_input_tokens": 81710,
+  "cache_read_input_tokens": 2327611,
+  "output_tokens": 53934
+ }
+}

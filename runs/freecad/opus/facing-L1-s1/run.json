@@ -1,0 +1,33 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "opus",
+ "task": "facing-L1-s1",
+ "tool": "freecad",
+ "freecad_version": "1.1.4",
+ "start_utc": "2026-11-16T22:25:54.832Z",
+ "end_utc": "2026-11-16T22:27:39.719Z",
+ "wall_clock_s": 104.9,
+ "tokens": 82274,
+ "tool_uses": 8,
+ "checks": 1,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T22:27:27.215+00:00",
+   "approx_check_s": 14.1
+  }
+ ],
+ "setup_s": 107,
+ "nproc": 4,
+ "python": "3.13.18 (system python3); checker via uv Python 3.12; FreeCAD bundled Python 3.11",
+ "usage_totals": {
+  "input_tokens": 16,
+  "cache_creation_input_tokens": 25616,
+  "cache_read_input_tokens": 595294,
+  "output_tokens": 6464
+ }
+}

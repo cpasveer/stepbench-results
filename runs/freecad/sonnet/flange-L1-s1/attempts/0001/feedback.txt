@@ -1,0 +1,12 @@
+FAIL  (0/10 required checks)  flange-L1-s1
+  FAIL FILE_VALID       no file at output.step
+  --   HOLES            skipped: file not valid
+  --   SEATING          skipped: file not valid
+  --   SEAT_INSIDE      skipped: file not valid
+  --   NO_INTERFERENCE  skipped: file not valid
+  --   KEY_TURN         skipped: file not valid
+  --   CLEAN            skipped: file not valid
+  --   SECTION_MIN      skipped: file not valid
+  --   STIFFNESS        skipped: file not valid
+  --   MANUFACTURING    skipped: file not valid
+  requirements: fits fail

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "msg_011Ch7PgYybdUacb9qE2RtUr",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9510,
+  "cache_read_input_tokens": 56282,
+  "output_tokens": 115,
+  "ephemeral_5m_input_tokens": 9510,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7PhHUxSLFFn2TJTm1W2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8597,
+  "cache_read_input_tokens": 65792,
+  "output_tokens": 104,
+  "ephemeral_5m_input_tokens": 8597,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7PhVw4XM771Ra8Z4qGf",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 419,
+  "cache_read_input_tokens": 74389,
+  "output_tokens": 155,
+  "ephemeral_5m_input_tokens": 419,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7Phc5u2Kosh3UkkGpQK",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1210,
+  "cache_read_input_tokens": 74808,
+  "output_tokens": 5054,
+  "ephemeral_5m_input_tokens": 1210,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7Pm4dexEEmeQ61oNzHp",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5503,
+  "cache_read_input_tokens": 76018,
+  "output_tokens": 1065,
+  "ephemeral_5m_input_tokens": 5503,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7PmdpS94qGRpb8vVDzu",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1297,
+  "cache_read_input_tokens": 81521,
+  "output_tokens": 324,
+  "ephemeral_5m_input_tokens": 1297,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7PmqbrhzemV1zkw5vBi",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 393,
+  "cache_read_input_tokens": 82818,
+  "output_tokens": 246,
+  "ephemeral_5m_input_tokens": 393,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7Pnk41iDxvbkA9yAkev",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1136,
+  "cache_read_input_tokens": 83211,
+  "output_tokens": 203,
+  "ephemeral_5m_input_tokens": 1136,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7PnswXdgKztGC37MBkj",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 234,
+  "cache_read_input_tokens": 84347,
+  "output_tokens": 100,
+  "ephemeral_5m_input_tokens": 234,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7Po8CmWAa45XBRL9Bpa",
+  "input_tokens": 1,
+  "cache_creation_input_tokens": 323,
+  "cache_read_input_tokens": 84581,
+  "output_tokens": 306,
+  "ephemeral_5m_input_tokens": 323,
+  "ephemeral_1h_input_tokens": 0
+ }
+]

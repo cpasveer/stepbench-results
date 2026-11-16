@@ -1,0 +1,141 @@
+{
+  "n": 1,
+  "time": "2026-11-16T22:26:21.839+00:00",
+  "by": "sonnet",
+  "file": "output.step",
+  "sha256": null,
+  "archive": "attempts/0001",
+  "files": {
+    "script": "attempts/0001/submission.py",
+    "script_link": "found",
+    "feedback": "attempts/0001/feedback.txt"
+  },
+  "feedback_format": "text",
+  "step_header": null,
+  "task_set": null,
+  "tool": "freecad",
+  "tool_vs_header": "cannot tell",
+  "task": "flange-L1-s1",
+  "passed": false,
+  "outcome": "fail",
+  "counts_as_attempt": true,
+  "verdict": {
+    "passed": false,
+    "outcome": "fail",
+    "counts_as_attempt": true,
+    "errors": [],
+    "requirements": {
+      "fits": {
+        "required": true,
+        "result": "fail",
+        "failed": [
+          "FILE_VALID"
+        ]
+      }
+    },
+    "score": null
+  },
+  "checks": [
+    {
+      "name": "FILE_VALID",
+      "status": "fail",
+      "required": true,
+      "group": "fits",
+      "reason": "no file at output.step",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "HOLES",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "SEATING",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "SEAT_INSIDE",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "NO_INTERFERENCE",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "KEY_TURN",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "CLEAN",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "SECTION_MIN",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "STIFFNESS",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "MANUFACTURING",
+      "status": "skipped",
+      "required": true,
+      "group": "fits",
+      "reason": "skipped: file not valid",
+      "value": null,
+      "unit": "",
+      "details": {}
+    }
+  ],
+  "info": {}
+}

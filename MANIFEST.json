@@ -1,0 +1,232 @@
+{
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "round": "v1",
+ "tasks": {
+  "facing-L1-s1": {
+   "README.md": "59e1f3c3210009b402334c39601cd997eb55a4d23bcf7de46001f16227c614d2",
+   "fixed_A.step": "b81e7fcc88343b609e2e02fa93dc9f7b494f427713403e4418d47df5c8873045",
+   "fixed_B.step": "992185492ace1e64bb49b3066d5a8cc813697d15ffe6c8c37f9aab29177da0bd",
+   "submission.py": "5307e7fd01ee00a56797d0f21ce7f397d9d7d50603422a994bccf9d31a9b1cb6",
+   "task.json": "d98d0b28b50534267d23a19ed48240f504910bfc4c18662ffbd78742d42435a0"
+  },
+  "facing-L2-s1": {
+   "README.md": "2ac83c9c09ed32da3ab2196470901de99338c947f3e9f008d429cbaad354af31",
+   "fixed_A.step": "b81e7fcc88343b609e2e02fa93dc9f7b494f427713403e4418d47df5c8873045",
+   "fixed_B.step": "992185492ace1e64bb49b3066d5a8cc813697d15ffe6c8c37f9aab29177da0bd",
+   "submission.py": "5307e7fd01ee00a56797d0f21ce7f397d9d7d50603422a994bccf9d31a9b1cb6",
+   "task.json": "1578a5503b227194fa84236e8345cb2fc0cab8b7de159ac512f6ee48464925ce"
+  },
+  "facing-L3-s1": {
+   "README.md": "7059a2f493bfbe960fa46688ed616ad10b96a85dd5ae400b0a42176432cd58aa",
+   "fixed_A.step": "b81e7fcc88343b609e2e02fa93dc9f7b494f427713403e4418d47df5c8873045",
+   "fixed_B.step": "992185492ace1e64bb49b3066d5a8cc813697d15ffe6c8c37f9aab29177da0bd",
+   "submission.py": "5307e7fd01ee00a56797d0f21ce7f397d9d7d50603422a994bccf9d31a9b1cb6",
+   "task.json": "e2c8dc3188187a74f1eb4eea0b27cb38118d80311acfd98ea344e403e25afcae"
+  },
+  "flange-L1-s1": {
+   "README.md": "a632d56ae7aa46bec236984a3e55074bb80c87a9a3efa5dac0eda8426856fac6",
+   "fixed_A.step": "12c7519c5dcdb70ba6d6c571e4d1d9350cc5f3ce40450c83cd33cb1b0813fb39",
+   "fixed_B.step": "03fa84cb4a6ee2e73e2ca61f2572ea5878877b4c2b0f08b58b04c10d4e9bc0f3",
+   "submission.py": "5307e7fd01ee00a56797d0f21ce7f397d9d7d50603422a994bccf9d31a9b1cb6",
+   "task.json": "cc05581848c77f94bdd45ec20531cfcdd04da4d5d7ea857cd62cd5e77d226080"
+  },
+  "flange-L2-s1": {
+   "README.md": "80809c22f03eb1ccd1ab51385c045bf545527f9e1d1dfe9f16c89e84ca21e728",
+   "fixed_A.step": "12c7519c5dcdb70ba6d6c571e4d1d9350cc5f3ce40450c83cd33cb1b0813fb39",
+   "fixed_B.step": "03fa84cb4a6ee2e73e2ca61f2572ea5878877b4c2b0f08b58b04c10d4e9bc0f3",
+   "submission.py": "5307e7fd01ee00a56797d0f21ce7f397d9d7d50603422a994bccf9d31a9b1cb6",
+   "task.json": "46933c4f41e14848b300909e67a80a40e52cdebb9801c2431dcb44d51f043479"
+  },
+  "flange-L3-s1": {
+   "README.md": "1c29568168ab7926687203abd260f498bc85f8b24b04409a495ac45b16d502af",
+   "fixed_A.step": "12c7519c5dcdb70ba6d6c571e4d1d9350cc5f3ce40450c83cd33cb1b0813fb39",
+   "fixed_B.step": "03fa84cb4a6ee2e73e2ca61f2572ea5878877b4c2b0f08b58b04c10d4e9bc0f3",
+   "submission.py": "5307e7fd01ee00a56797d0f21ce7f397d9d7d50603422a994bccf9d31a9b1cb6",
+   "task.json": "e79df67dd854ded75d6b23bbf021d09f1b2cda9fa12a03ba7e91d17727cc16d8"
+  },
+  "pipe-L1-s1": {
+   "README.md": "5c8d68ddf3540cb62a9c92eb7d4b07b5afb1737147c57b8ced8e1b734db19194",
+   "fixed_A.step": "5a68e7f84992350b96633535cff65f811eebc08e6a843aedd3c0251ac4036f90",
+   "fixed_B.step": "b780d2ef06c261e76fd7e0a33e0f128b1eb1c249ca4eaa0ab0a14a697b986c61",
+   "submission.py": "5307e7fd01ee00a56797d0f21ce7f397d9d7d50603422a994bccf9d31a9b1cb6",
+   "task.json": "282f3d292c3d7d06c2afb5daa9af274c5d4785d4a2969aef183a88687cb1b460"
+  },
+  "pipe-L2-s1": {
+   "README.md": "f8b0e63b22d50fcf11bdfffcaeeb775c2f460c2bd15033500ec7644b5f550567",
+   "fixed_A.step": "5a68e7f84992350b96633535cff65f811eebc08e6a843aedd3c0251ac4036f90",
+   "fixed_B.step": "b780d2ef06c261e76fd7e0a33e0f128b1eb1c249ca4eaa0ab0a14a697b986c61",
+   "submission.py": "5307e7fd01ee00a56797d0f21ce7f397d9d7d50603422a994bccf9d31a9b1cb6",
+   "task.json": "7b5c4075108102152d50a672f622225a2fe5c3762c2c7985c4f62998a9f8819b"
+  },
+  "pipe-L3-s1": {
+   "README.md": "c24e7d74edc0b66ee3b0911f7741a227a4654de837ad48ee5c0aa26ca89e62fa",
+   "fixed_A.step": "5a68e7f84992350b96633535cff65f811eebc08e6a843aedd3c0251ac4036f90",
+   "fixed_B.step": "b780d2ef06c261e76fd7e0a33e0f128b1eb1c249ca4eaa0ab0a14a697b986c61",
+   "submission.py": "5307e7fd01ee00a56797d0f21ce7f397d9d7d50603422a994bccf9d31a9b1cb6",
+   "task.json": "0ffb57a4e90f9a13152f57c9a34d9afad1dff5f0cfc74e7296da6a255848ba7d"
+  }
+ },
+ "tasks_freecad": {
+  "facing-L1-s1": {
+   "README.md": "9e18d5edcbcd6dca8893b6049cf825c37afb45118936fb1f3fa00c267ea80f74",
+   "fixed_A.step": "b81e7fcc88343b609e2e02fa93dc9f7b494f427713403e4418d47df5c8873045",
+   "fixed_B.step": "992185492ace1e64bb49b3066d5a8cc813697d15ffe6c8c37f9aab29177da0bd",
+   "submission.py": "2f8c965bd43cf2aa2fb02e5e94dd4beaecff08a75be090109a038c0c0d199a1c",
+   "task.json": "d98d0b28b50534267d23a19ed48240f504910bfc4c18662ffbd78742d42435a0"
+  },
+  "facing-L2-s1": {
+   "README.md": "10113913fe2e89d9738aea6efacbd3552c3d1316e42df7f105fcfb87acf4431c",
+   "fixed_A.step": "b81e7fcc88343b609e2e02fa93dc9f7b494f427713403e4418d47df5c8873045",
+   "fixed_B.step": "992185492ace1e64bb49b3066d5a8cc813697d15ffe6c8c37f9aab29177da0bd",
+   "submission.py": "2f8c965bd43cf2aa2fb02e5e94dd4beaecff08a75be090109a038c0c0d199a1c",
+   "task.json": "1578a5503b227194fa84236e8345cb2fc0cab8b7de159ac512f6ee48464925ce"
+  },
+  "facing-L3-s1": {
+   "README.md": "44795e8b14f7a95a3324112ef0fde2ba286340cf93370cffa5e23babbfebe139",
+   "fixed_A.step": "b81e7fcc88343b609e2e02fa93dc9f7b494f427713403e4418d47df5c8873045",
+   "fixed_B.step": "992185492ace1e64bb49b3066d5a8cc813697d15ffe6c8c37f9aab29177da0bd",
+   "submission.py": "2f8c965bd43cf2aa2fb02e5e94dd4beaecff08a75be090109a038c0c0d199a1c",
+   "task.json": "e2c8dc3188187a74f1eb4eea0b27cb38118d80311acfd98ea344e403e25afcae"
+  },
+  "flange-L1-s1": {
+   "README.md": "2ab33bd32c52c5a53b170fe74cd6fa5272a0edee903ea7fdb93c19e2cd5b9974",
+   "fixed_A.step": "12c7519c5dcdb70ba6d6c571e4d1d9350cc5f3ce40450c83cd33cb1b0813fb39",
+   "fixed_B.step": "03fa84cb4a6ee2e73e2ca61f2572ea5878877b4c2b0f08b58b04c10d4e9bc0f3",
+   "submission.py": "2f8c965bd43cf2aa2fb02e5e94dd4beaecff08a75be090109a038c0c0d199a1c",
+   "task.json": "cc05581848c77f94bdd45ec20531cfcdd04da4d5d7ea857cd62cd5e77d226080"
+  },
+  "flange-L2-s1": {
+   "README.md": "692c0798ca717d2ea71503c14e20b76d7d25cfe0e0e6be95514b0fe2738c5271",
+   "fixed_A.step": "12c7519c5dcdb70ba6d6c571e4d1d9350cc5f3ce40450c83cd33cb1b0813fb39",
+   "fixed_B.step": "03fa84cb4a6ee2e73e2ca61f2572ea5878877b4c2b0f08b58b04c10d4e9bc0f3",
+   "submission.py": "2f8c965bd43cf2aa2fb02e5e94dd4beaecff08a75be090109a038c0c0d199a1c",
+   "task.json": "46933c4f41e14848b300909e67a80a40e52cdebb9801c2431dcb44d51f043479"
+  },
+  "flange-L3-s1": {
+   "README.md": "8284605e2978e61f50fc03569b434e8d22188f86bc932a00dd58a0958ac84ca2",
+   "fixed_A.step": "12c7519c5dcdb70ba6d6c571e4d1d9350cc5f3ce40450c83cd33cb1b0813fb39",
+   "fixed_B.step": "03fa84cb4a6ee2e73e2ca61f2572ea5878877b4c2b0f08b58b04c10d4e9bc0f3",
+   "submission.py": "2f8c965bd43cf2aa2fb02e5e94dd4beaecff08a75be090109a038c0c0d199a1c",
+   "task.json": "e79df67dd854ded75d6b23bbf021d09f1b2cda9fa12a03ba7e91d17727cc16d8"
+  },
+  "pipe-L1-s1": {
+   "README.md": "c03ea95f9a9864a9f5ea0aab0338a1ae9e2e9dc5d92a20bb365876985ee2a175",
+   "fixed_A.step": "5a68e7f84992350b96633535cff65f811eebc08e6a843aedd3c0251ac4036f90",
+   "fixed_B.step": "b780d2ef06c261e76fd7e0a33e0f128b1eb1c249ca4eaa0ab0a14a697b986c61",
+   "submission.py": "2f8c965bd43cf2aa2fb02e5e94dd4beaecff08a75be090109a038c0c0d199a1c",
+   "task.json": "282f3d292c3d7d06c2afb5daa9af274c5d4785d4a2969aef183a88687cb1b460"
+  },
+  "pipe-L2-s1": {
+   "README.md": "3330d405aecd8612e54920e9564c33c039ac81ac8c937b07c82b6c6d4fb51577",
+   "fixed_A.step": "5a68e7f84992350b96633535cff65f811eebc08e6a843aedd3c0251ac4036f90",
+   "fixed_B.step": "b780d2ef06c261e76fd7e0a33e0f128b1eb1c249ca4eaa0ab0a14a697b986c61",
+   "submission.py": "2f8c965bd43cf2aa2fb02e5e94dd4beaecff08a75be090109a038c0c0d199a1c",
+   "task.json": "7b5c4075108102152d50a672f622225a2fe5c3762c2c7985c4f62998a9f8819b"
+  },
+  "pipe-L3-s1": {
+   "README.md": "5f43bb5cf0a76b5c698a9202bb7d4c25da044c799b17bded2fc1ed6f36b50005",
+   "fixed_A.step": "5a68e7f84992350b96633535cff65f811eebc08e6a843aedd3c0251ac4036f90",
+   "fixed_B.step": "b780d2ef06c261e76fd7e0a33e0f128b1eb1c249ca4eaa0ab0a14a697b986c61",
+   "submission.py": "2f8c965bd43cf2aa2fb02e5e94dd4beaecff08a75be090109a038c0c0d199a1c",
+   "task.json": "0ffb57a4e90f9a13152f57c9a34d9afad1dff5f0cfc74e7296da6a255848ba7d"
+  }
+ },
+ "tasks_rhino": {
+  "facing-L1-s1": {
+   "README.md": "6659d04625a4fdb0cc451f6bdad9ed57d45b8c93ba7d8a6295ca0e38f902a066",
+   "fixed_A.step": "b81e7fcc88343b609e2e02fa93dc9f7b494f427713403e4418d47df5c8873045",
+   "fixed_B.step": "992185492ace1e64bb49b3066d5a8cc813697d15ffe6c8c37f9aab29177da0bd",
+   "run_rhino.sh": "357d87df8d92c786215aa375b2aa18ea20380328a44fd13432c121f3ccbb6c6a",
+   "submission.py": "554d396d05b961f9585c7546599ac409e3ccc6bf608083ad91ce028296981ad5",
+   "task.json": "d98d0b28b50534267d23a19ed48240f504910bfc4c18662ffbd78742d42435a0"
+  },
+  "facing-L2-s1": {
+   "README.md": "4f1ffd19ea98d971b56dcdd70d7bb7adba96575121942605018b015857e60912",
+   "fixed_A.step": "b81e7fcc88343b609e2e02fa93dc9f7b494f427713403e4418d47df5c8873045",
+   "fixed_B.step": "992185492ace1e64bb49b3066d5a8cc813697d15ffe6c8c37f9aab29177da0bd",
+   "run_rhino.sh": "357d87df8d92c786215aa375b2aa18ea20380328a44fd13432c121f3ccbb6c6a",
+   "submission.py": "554d396d05b961f9585c7546599ac409e3ccc6bf608083ad91ce028296981ad5",
+   "task.json": "1578a5503b227194fa84236e8345cb2fc0cab8b7de159ac512f6ee48464925ce"
+  },
+  "facing-L3-s1": {
+   "README.md": "4655d754189cbde9ea8a0cc5bd8d06bc5676d4310f309d43da66e3bf4489ca87",
+   "fixed_A.step": "b81e7fcc88343b609e2e02fa93dc9f7b494f427713403e4418d47df5c8873045",
+   "fixed_B.step": "992185492ace1e64bb49b3066d5a8cc813697d15ffe6c8c37f9aab29177da0bd",
+   "run_rhino.sh": "357d87df8d92c786215aa375b2aa18ea20380328a44fd13432c121f3ccbb6c6a",
+   "submission.py": "554d396d05b961f9585c7546599ac409e3ccc6bf608083ad91ce028296981ad5",
+   "task.json": "e2c8dc3188187a74f1eb4eea0b27cb38118d80311acfd98ea344e403e25afcae"
+  },
+  "flange-L1-s1": {
+   "README.md": "d3cd09e01aa815741091f147dc1d7755f2c380a79aec1d0c094ba3e5bf38140b",
+   "fixed_A.step": "12c7519c5dcdb70ba6d6c571e4d1d9350cc5f3ce40450c83cd33cb1b0813fb39",
+   "fixed_B.step": "03fa84cb4a6ee2e73e2ca61f2572ea5878877b4c2b0f08b58b04c10d4e9bc0f3",
+   "run_rhino.sh": "357d87df8d92c786215aa375b2aa18ea20380328a44fd13432c121f3ccbb6c6a",
+   "submission.py": "554d396d05b961f9585c7546599ac409e3ccc6bf608083ad91ce028296981ad5",
+   "task.json": "cc05581848c77f94bdd45ec20531cfcdd04da4d5d7ea857cd62cd5e77d226080"
+  },
+  "flange-L2-s1": {
+   "README.md": "40ae08d818d16962332cd325e6ef6025e3f89f3e06dc41ab0887b47fb38c59b8",
+   "fixed_A.step": "12c7519c5dcdb70ba6d6c571e4d1d9350cc5f3ce40450c83cd33cb1b0813fb39",
+   "fixed_B.step": "03fa84cb4a6ee2e73e2ca61f2572ea5878877b4c2b0f08b58b04c10d4e9bc0f3",
+   "run_rhino.sh": "357d87df8d92c786215aa375b2aa18ea20380328a44fd13432c121f3ccbb6c6a",
+   "submission.py": "554d396d05b961f9585c7546599ac409e3ccc6bf608083ad91ce028296981ad5",
+   "task.json": "46933c4f41e14848b300909e67a80a40e52cdebb9801c2431dcb44d51f043479"
+  },
+  "flange-L3-s1": {
+   "README.md": "a6e3b541a2af1f17251ffc60b9f70b8e84fea240ddabe036afecf098ac612dca",
+   "fixed_A.step": "12c7519c5dcdb70ba6d6c571e4d1d9350cc5f3ce40450c83cd33cb1b0813fb39",
+   "fixed_B.step": "03fa84cb4a6ee2e73e2ca61f2572ea5878877b4c2b0f08b58b04c10d4e9bc0f3",
+   "run_rhino.sh": "357d87df8d92c786215aa375b2aa18ea20380328a44fd13432c121f3ccbb6c6a",
+   "submission.py": "554d396d05b961f9585c7546599ac409e3ccc6bf608083ad91ce028296981ad5",
+   "task.json": "e79df67dd854ded75d6b23bbf021d09f1b2cda9fa12a03ba7e91d17727cc16d8"
+  },
+  "pipe-L1-s1": {
+   "README.md": "c75b41361479f0c2f078173ebf2a765deed4fda25db36a57ef2a38a4628602a2",
+   "fixed_A.step": "5a68e7f84992350b96633535cff65f811eebc08e6a843aedd3c0251ac4036f90",
+   "fixed_B.step": "b780d2ef06c261e76fd7e0a33e0f128b1eb1c249ca4eaa0ab0a14a697b986c61",
+   "run_rhino.sh": "357d87df8d92c786215aa375b2aa18ea20380328a44fd13432c121f3ccbb6c6a",
+   "submission.py": "554d396d05b961f9585c7546599ac409e3ccc6bf608083ad91ce028296981ad5",
+   "task.json": "282f3d292c3d7d06c2afb5daa9af274c5d4785d4a2969aef183a88687cb1b460"
+  },
+  "pipe-L2-s1": {
+   "README.md": "8bd1414433dce4f1a33cbf2ee5fbfb61880874fca37a6ac840a589f343d5aee7",
+   "fixed_A.step": "5a68e7f84992350b96633535cff65f811eebc08e6a843aedd3c0251ac4036f90",
+   "fixed_B.step": "b780d2ef06c261e76fd7e0a33e0f128b1eb1c249ca4eaa0ab0a14a697b986c61",
+   "run_rhino.sh": "357d87df8d92c786215aa375b2aa18ea20380328a44fd13432c121f3ccbb6c6a",
+   "submission.py": "554d396d05b961f9585c7546599ac409e3ccc6bf608083ad91ce028296981ad5",
+   "task.json": "7b5c4075108102152d50a672f622225a2fe5c3762c2c7985c4f62998a9f8819b"
+  },
+  "pipe-L3-s1": {
+   "README.md": "644a7e91c101fe9f7813cfd8b706c6dce338b0dcb5f86e240c6c7d232079ddc9",
+   "fixed_A.step": "5a68e7f84992350b96633535cff65f811eebc08e6a843aedd3c0251ac4036f90",
+   "fixed_B.step": "b780d2ef06c261e76fd7e0a33e0f128b1eb1c249ca4eaa0ab0a14a697b986c61",
+   "run_rhino.sh": "357d87df8d92c786215aa375b2aa18ea20380328a44fd13432c121f3ccbb6c6a",
+   "submission.py": "554d396d05b961f9585c7546599ac409e3ccc6bf608083ad91ce028296981ad5",
+   "task.json": "0ffb57a4e90f9a13152f57c9a34d9afad1dff5f0cfc74e7296da6a255848ba7d"
+  }
+ },
+ "v1": {
+  "levels": [
+   1,
+   2,
+   3
+  ],
+  "models": [
+   "fable",
+   "opus",
+   "sonnet",
+   "haiku"
+  ],
+  "programs": [
+   "build123d",
+   "freecad",
+   "rhino"
+  ],
+  "seed": 1,
+  "setups": [
+   "facing",
+   "flange",
+   "pipe"
+  ]
+ }
+}

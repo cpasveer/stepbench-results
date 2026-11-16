@@ -1,0 +1,31 @@
+FAIL  (25/26 required checks)  flange-L2-s1
+  ok   FILE_VALID       1 closed valid solid, 30 faces
+  ok   HOLES            10 holes on axis within 0.000 mm (tol 0.1), dia 5.50-6.60, grip 8.0-8.0 mm
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  ok   NO_INTERFERENCE  no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 1.41 mm wide)
+  ok   Q_TINY_FACE      smallest face 138.23 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 4.40 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 54.94 mm (min 0.2 mm)
+  FAIL Q_THIN_WEDGE     2 thin wedge(s), sharpest 0.00 deg (face corner)
+  ok   Q_CREASE         gentlest bend between faces 45.0 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 2.25 mm apart (min 0.05 mm)
+  ok   Q_STUB           no member runs on past a face it joins
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 77 deg (min 45 deg)
+  --   SECTION_MIN      skipped: the part does not fit yet
+  ok   FDM_WALL_MIN     thinnest wall 1.91 mm (min 0.8 mm)
+  ok   FDM_OVERHANG     steepest overhang 45.0 deg (max 45 deg)
+  ok   FDM_BRIDGE       no bridges
+  ok   FDM_HOLE_MIN     10 hole(s), smallest 5.50 mm (min 2 mm)
+  ok   FDM_PIN_MIN      1 pin(s), smallest 72.00 mm (min 3 mm)
+  ok   FDM_GAP_MIN      narrowest gap 0.63 mm (min 0.5 mm)
+  ok   FDM_BED_CONTACT  1367 mm2 flat on the bed over 1 face(s) (min 50 mm2)
+  ok   FDM_STANCE       105.5 mm tall on a 67.2 mm stance, 1.57 x (max 3 x)
+  ok   FDM_SEALED_HOLLOW no sealed hollows
+  ok   FDM_SUPPORT_REMOVABLE no support needed in this direction
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits pass, clean fail, makeable pass, sturdy not measured (not required)
+  info volume 130048.7 mm3, bounding box 80.0 x 96.7 x 105.5 mm

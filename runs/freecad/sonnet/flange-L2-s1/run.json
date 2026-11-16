@@ -1,0 +1,53 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "sonnet",
+ "task": "flange-L2-s1",
+ "tool": "freecad",
+ "freecad_version": "1.1.4",
+ "start_utc": "2026-11-16T22:25:18Z",
+ "end_utc": "2026-11-16T22:32:51Z",
+ "wall_clock_s": 453.4,
+ "tokens": 114874,
+ "tool_uses": 16,
+ "checks": 5,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T22:28:35.050Z",
+   "approx_check_s": 197.1
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T22:29:14.400Z",
+   "approx_check_s": 39.4
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T22:30:59.926Z",
+   "approx_check_s": 105.5
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T22:31:40.417Z",
+   "approx_check_s": 40.5
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-16T22:32:47.562Z",
+   "approx_check_s": 67.1
+  }
+ ],
+ "setup_s": 70,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 33,
+  "cache_creation_input_tokens": 58123,
+  "cache_read_input_tokens": 1646570,
+  "output_tokens": 34524
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "haiku",
+ "task": "pipe-L1-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T21:09:02Z",
+ "end_utc": "2026-11-16T21:21:21Z",
+ "wall_clock_s": 739.0,
+ "agent_duration_ms": 727290,
+ "tokens": 188541,
+ "tool_uses": 35,
+ "checks": 5,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "stiffness_note": "the last report has no STIFFNESS line; its sturdiness line is SECTION_MIN: thinnest section 120.0 mm2 between A-B (need 100.5), reported, not required",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T21:14:52.698+00:00",
+   "approx_check_s": 350.7
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T21:16:12.093+00:00",
+   "approx_check_s": 79.4
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T21:17:25.100+00:00",
+   "approx_check_s": 73.0
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T21:18:04.606+00:00",
+   "approx_check_s": 39.5
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-16T21:20:56.305+00:00",
+   "approx_check_s": 171.7
+  }
+ ],
+ "setup_s": 29.7,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 70,
+  "cache_creation_input_tokens": 187656,
+  "cache_read_input_tokens": 4913039,
+  "output_tokens": 101299
+ },
+ "usage_messages": 35
+}

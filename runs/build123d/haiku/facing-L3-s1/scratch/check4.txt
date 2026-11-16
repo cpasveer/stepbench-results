@@ -1,0 +1,37 @@
+warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+FAIL  (25/29 required checks)  facing-L3-s1
+  ok   FILE_VALID       1 closed valid solid, 60 faces
+  ok   HOLES            7 holes on axis within 0.000 mm (tol 0.1), dia 4.50-5.50, grip 4.0-4.0 mm
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  ok   NO_INTERFERENCE  no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)
+  ok   CLEAR_PATH       no obstacles in this task
+  ok   TOOL_ACCESS      a straight tool (30 mm long, head dia + 0) reaches every bolt
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 0.28 mm wide)
+  ok   Q_TINY_FACE      smallest face 1.56 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 0.27 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 4.00 mm (min 0.2 mm)
+  FAIL Q_THIN_WEDGE     6 thin wedge(s), sharpest 0.00 deg (face corner)
+  ok   Q_CREASE         gentlest bend between faces 45.0 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 1.20 mm apart (min 0.05 mm)
+  FAIL Q_STUB           6 stub(s): a member runs 4.00 mm past the face it joins
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 90 deg (min 45 deg)
+  --   SECTION_MIN      skipped: the part does not fit yet
+  ok   STIFFNESS        weakest mount B: 33.3 N/mm, need 32.0 N/mm (mount B: 0.9 kg (8.83 N) over at most 0.276 mm (span 69.0 mm / 250; PLA, filament printed); +-2%)
+  FAIL FDM_WALL_MIN     wall 0.02 mm thin at [-157.039, 112.619, -34.483] (min 0.8 mm; 399 of 20995 samples under): wall from the plane face 8.5 x 5.2 mm (face 49) straight into the material to the plane face 8.5 x 5.2 mm (face 54), direction [-0.811, -0.585, -0.0]; along a strip about 10 mm long (67 sample points)
+  FAIL FDM_OVERHANG     overhang 90.0 deg (flat ceiling with no support at one end) (max 45 deg), 162 mm2 needs support
+  ok   FDM_BRIDGE       no bridges
+  ok   FDM_HOLE_MIN     8 hole(s), smallest 4.50 mm (min 2 mm)
+  ok   FDM_PIN_MIN      8 pin(s), smallest 7.00 mm (min 3 mm)
+  ok   FDM_GAP_MIN      narrowest gap 4.50 mm (min 0.5 mm)
+  ok   FDM_BED_CONTACT  855 mm2 flat on the bed over 1 face(s) (min 50 mm2)
+  ok   FDM_STANCE       68.5 mm tall on a 67.0 mm stance, 1.02 x (max 3 x)
+  ok   FDM_SEALED_HOLLOW no sealed hollows
+  ok   FDM_SUPPORT_REMOVABLE all support can be reached (162 mm2 of overhang held up)
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits pass, clean fail, makeable fail, sturdy not measured
+  info volume 15916.7 mm3, bounding box 90.6 x 93.4 x 68.5 mm
+  attempt #4 archived in ./attempts/0004
+  checks used: 4 of 6

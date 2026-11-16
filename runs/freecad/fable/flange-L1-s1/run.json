@@ -1,0 +1,38 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "fable",
+ "task": "flange-L1-s1",
+ "tool": "freecad",
+ "freecad_version": "FreeCAD 1.1.4",
+ "start_utc": "2026-11-16T22:11:53.330Z",
+ "end_utc": "2026-11-16T22:17:40.995Z",
+ "wall_clock_s": 347.7,
+ "tokens": 107876,
+ "tool_uses": 19,
+ "checks": 2,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T22:15:58.622Z",
+   "approx_check_s": 19.5
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T22:17:23.486Z",
+   "approx_check_s": 22.8
+  }
+ ],
+ "setup_s": 69,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 37,
+  "cache_creation_input_tokens": 51029,
+  "cache_read_input_tokens": 1703241,
+  "output_tokens": 24439
+ }
+}

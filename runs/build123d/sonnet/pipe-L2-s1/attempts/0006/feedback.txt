@@ -1,0 +1,31 @@
+FAIL  (25/26 required checks)  pipe-L2-s1
+  ok   FILE_VALID       1 closed valid solid, 26 faces
+  ok   HOLES            8 holes on axis within 0.000 mm (tol 0.1), dia 4.50-5.50, grip 6.0-6.0 mm
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  ok   NO_INTERFERENCE  no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 3.85 mm wide)
+  ok   Q_TINY_FACE      smallest face 84.82 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 3.77 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     no steps
+  ok   Q_THIN_WEDGE     sharpest corner 40.9 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 4.0 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 3.53 mm apart (min 0.05 mm)
+  ok   Q_STUB           no short stubs (shortest run-on 52.7 mm, min 5 mm)
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 63 deg (min 45 deg)
+  ok   SECTION_MIN      thinnest section 119.7 mm2 between A-B (need 100.5)
+  FAIL FDM_WALL_MIN     wall 0.24 mm thin at [23.968, 98.817, 18.596] (min 0.8 mm; 298 of 18715 samples under): wall from the plane face 54.5 x 13.0 mm (face 0) straight into the material to the plane face 55.1 x 13.0 mm (face 1), direction [-0.531, 0.357, 0.768]; along a strip about 47 mm long (63 sample points)
+  ok   FDM_OVERHANG     steepest overhang 43.8 deg (max 45 deg)
+  ok   FDM_BRIDGE       no bridges
+  ok   FDM_HOLE_MIN     8 hole(s), smallest 4.50 mm (min 2 mm)
+  ok   FDM_PIN_MIN      no round pins
+  ok   FDM_GAP_MIN      narrowest gap 0.54 mm (min 0.5 mm)
+  ok   FDM_BED_CONTACT  952 mm2 flat on the bed over 2 face(s) (min 50 mm2)
+  ok   FDM_STANCE       44.5 mm tall on a 71.2 mm stance, 0.62 x (max 3 x)
+  ok   FDM_SEALED_HOLLOW no sealed hollows
+  ok   FDM_SUPPORT_REMOVABLE no support needed in this direction
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits pass, clean pass, makeable fail, sturdy pass (not required)
+  info volume 44694.9 mm3, bounding box 86.2 x 94.6 x 95.4 mm
