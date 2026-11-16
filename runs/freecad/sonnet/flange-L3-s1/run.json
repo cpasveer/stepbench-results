@@ -1,0 +1,60 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "sonnet",
+ "task": "flange-L3-s1",
+ "tool": "freecad",
+ "freecad_version": "FreeCAD 1.1.4",
+ "start_utc": "2026-11-16T22:25:27Z",
+ "end_utc": "2026-11-16T22:47:46Z",
+ "wall_clock_s": 1339.3,
+ "tokens": 191839,
+ "tool_uses": 31,
+ "checks": 6,
+ "last_outcome": "fail",
+ "last_failing": [
+  "FDM_OVERHANG"
+ ],
+ "stiffness_last": "ok   STIFFNESS        weakest mount B: 68.6 N/mm, need 26.3 N/mm (mount B: 0.8 kg (7.85 N) over at most 0.298 mm (span 74.5 mm / 250; PLA, filament printed); +-15%)",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T22:28:36.993+00:00",
+   "approx_check_s": 26.1
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T22:29:59.785+00:00",
+   "approx_check_s": 56.9
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T22:35:37.148+00:00",
+   "approx_check_s": 120.6
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T22:38:35.498+00:00",
+   "approx_check_s": 63.1
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-16T22:44:15.358+00:00",
+   "approx_check_s": 96.5
+  },
+  {
+   "n": 6,
+   "finished_utc": "2026-11-16T22:46:53.577+00:00",
+   "approx_check_s": 67.6
+  }
+ ],
+ "setup_s": 82.0,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 61,
+  "cache_creation_input_tokens": 134783,
+  "cache_read_input_tokens": 4049295,
+  "output_tokens": 101702
+ }
+}

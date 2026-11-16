@@ -1,0 +1,57 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "fable",
+ "task": "flange-L3-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T21:06:16Z",
+ "end_utc": "2026-11-16T22:58:59Z",
+ "wall_clock_s": 6763,
+ "tokens": 13772057,
+ "tool_uses": 52,
+ "checks": 5,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": "ok   STIFFNESS        weakest mount B: 109.7 N/mm, need 26.3 N/mm (mount B: 0.8 kg (7.85 N) over at most 0.298 mm (span 74.5 mm / 250; PLA, filament printed); +-15%)",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T21:21:13Z",
+   "approx_check_s": 92
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T21:34:19Z",
+   "approx_check_s": 69
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T22:35:13Z",
+   "approx_check_s": 157
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T22:55:07Z",
+   "approx_check_s": 123
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-16T22:58:28Z",
+   "approx_check_s": 72
+  }
+ ],
+ "setup_s": 41,
+ "nproc": 4,
+ "python": "3.12.13",
+ "usage_totals": {
+  "input_tokens": 99,
+  "cache_creation_input_tokens": 1068858,
+  "cache_read_input_tokens": 12465802,
+  "output_tokens": 237298
+ },
+ "interruption": {
+  "note": "The container restarted and stopped the subagent after check 3; the coordinator resumed the same subagent from its saved transcript with only 'Follow AGENT.md.', on the owner's instruction. wall_clock_s includes the gap.",
+  "stopped_utc_approx": "2026-11-16T22:50:00Z",
+  "resumed_utc": "2026-11-16T22:51:11Z"
+ }
+}
