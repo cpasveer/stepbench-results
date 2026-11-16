@@ -1,0 +1,35 @@
+warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+FAIL  (21/26 required checks)  pipe-L2-s1
+  ok   FILE_VALID       1 closed valid solid, 28 faces
+  ok   HOLES            8 holes on axis within 0.000 mm (tol 0.1), dia 4.70-5.60, grip 8.0-8.0 mm
+  FAIL SEATING          B1: 50% of the bearing ring touches the face (need 75%) (+1 more)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  FAIL NO_INTERFERENCE  part blocks bolt A2 (shank or head space): 0.060 mm3 overlap (4 clashes)
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 3.52 mm wide)
+  ok   Q_TINY_FACE      smallest face 2.25 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 0.53 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 5.98 mm (min 0.2 mm)
+  ok   Q_THIN_WEDGE     sharpest corner 16.4 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 16.6 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 1.96 mm apart (min 0.05 mm)
+  FAIL Q_STUB           1 stub(s): a member runs 3.96 mm past the face it joins
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 52 deg (min 45 deg)
+  --   SECTION_MIN      skipped: the part does not fit yet
+  FAIL FDM_WALL_MIN     wall 0.24 mm thin at [-5.935, 99.291, -9.833] (min 0.8 mm; 229 of 16265 samples under): wall from the conical face, 666 mm2 (face 0) straight into the material to the inside fillet r = 34.00 mm, 56.5 mm long (face 2), direction [0.575, 0.811, 0.112]; along a strip about 53 mm long (119 sample points)
+  FAIL FDM_OVERHANG     overhang 72.4 deg (max 45 deg), 783 mm2, and 90 mm of downward edges needs support
+  ok   FDM_BRIDGE       no bridges
+  ok   FDM_HOLE_MIN     8 hole(s), smallest 4.70 mm (min 2 mm)
+  ok   FDM_PIN_MIN      no round pins
+  ok   FDM_GAP_MIN      narrowest gap 0.60 mm (min 0.5 mm)
+  ok   FDM_BED_CONTACT  514 mm2 flat on the bed over 1 face(s) (min 50 mm2)
+  ok   FDM_STANCE       56.5 mm tall on a 19.5 mm stance, 2.90 x (max 3 x)
+  ok   FDM_SEALED_HOLLOW no sealed hollows
+  ok   FDM_SUPPORT_REMOVABLE all support can be reached (696 mm2 of overhang held up)
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits fail, clean fail, makeable fail, sturdy not measured (not required)
+  info volume 37941.9 mm3, bounding box 71.6 x 90.7 x 95.7 mm
+  attempt #5 archived in ./attempts/0005
+  checks used: 5 of 6
+EXIT 1
