@@ -1,0 +1,13 @@
+valid True solids 1 volume 9336.1 bbox BoundBox (-171.782, 81.7181, -94, -80.2181, 173.83, -25.5)
+A1 envelope_overlap 0.000 tool_hit 0.000
+A2 envelope_overlap 0.000 tool_hit 0.000
+A3 envelope_overlap 0.000 tool_hit 0.000
+A4 envelope_overlap 0.000 tool_hit 0.000
+B1 envelope_overlap 1.785 tool_hit 0.000
+B2 envelope_overlap 0.000 tool_hit 0.000
+B3 envelope_overlap 1.109 tool_hit 0.000
+  overhang plane area 37.8 z -30.50 normal Vector (-0.0, 0.0, -1.0)
+  overhang plane area 37.4 z -30.50 normal Vector (-0.0, 0.0, -1.0)
+  overhang plane area 40.6 z -30.50 normal Vector (-0.0, 0.0, -1.0)
+downward overhang area (planar, z-build) 115.8 over 3 faces
+downward cylindrical overhang area 0.0

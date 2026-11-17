@@ -1,0 +1,1227 @@
+{
+  "n": 4,
+  "time": "2026-11-17T07:51:21.632+00:00",
+  "by": "haiku",
+  "file": "output.step",
+  "sha256": "29ffd2d936d8c97ce8d1f8102dcd8f59c2113eb7ee83e93116a8f08a285abbde",
+  "archive": "attempts/0004",
+  "files": {
+    "step": "attempts/0004/output.step",
+    "script": "attempts/0004/submission.py",
+    "script_link": "found",
+    "feedback": "attempts/0004/feedback.txt"
+  },
+  "feedback_format": "text",
+  "step_header": {
+    "file_description": "FILE_DESCRIPTION(('FreeCAD Model'),'2;1');",
+    "file_name": "FILE_NAME('Open CASCADE Shape Model','2026-11-17T07:50:22',('FreeCAD'),( 'FreeCAD'),'Open CASCADE STEP processor 7.8','FreeCAD','Unknown');",
+    "file_schema": "FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));",
+    "name": "Open CASCADE Shape Model",
+    "time_stamp": "2026-11-17T07:50:22",
+    "author": [
+      "FreeCAD"
+    ],
+    "organization": [
+      "FreeCAD"
+    ],
+    "preprocessor_version": "Open CASCADE STEP processor 7.8",
+    "originating_system": "FreeCAD",
+    "authorization": "Unknown"
+  },
+  "task_set": null,
+  "tool": "freecad",
+  "tool_vs_header": "consistent",
+  "task": "pipe-L3-s1",
+  "passed": false,
+  "outcome": "fail",
+  "counts_as_attempt": true,
+  "verdict": {
+    "passed": false,
+    "outcome": "fail",
+    "counts_as_attempt": true,
+    "errors": [],
+    "requirements": {
+      "fits": {
+        "required": true,
+        "result": "pass",
+        "failed": []
+      },
+      "clean": {
+        "required": true,
+        "result": "fail",
+        "failed": [
+          "Q_SLIVER_FACE",
+          "Q_TINY_FACE",
+          "Q_SHORT_EDGE",
+          "Q_SMALL_STEP",
+          "Q_THIN_WEDGE",
+          "Q_CREASE",
+          "Q_STUB",
+          "Q_SHALLOW_JOINT"
+        ]
+      },
+      "makeable": {
+        "required": true,
+        "result": "fail",
+        "failed": [
+          "FDM_OVERHANG",
+          "FDM_GAP_MIN",
+          "FDM_SUPPORT_REMOVABLE"
+        ]
+      },
+      "sturdy": {
+        "required": true,
+        "result": "not measured",
+        "failed": []
+      }
+    },
+    "score": null
+  },
+  "checks": [
+    {
+      "name": "FILE_VALID",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "1 closed valid solid, 57 faces",
+      "value": 1,
+      "unit": "solids",
+      "details": {}
+    },
+    {
+      "name": "HOLES",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "8 holes on axis within 0.000 mm (tol 0.1), dia 4.50-5.50, grip 4.0-5.0 mm",
+      "value": 0.0,
+      "unit": "mm",
+      "details": {
+        "holes": [
+          {
+            "bolt": "A1",
+            "offset": 0.0,
+            "diameter": 5.5,
+            "grip": 5.0
+          },
+          {
+            "bolt": "A2",
+            "offset": 0.0,
+            "diameter": 5.5,
+            "grip": 5.0
+          },
+          {
+            "bolt": "A3",
+            "offset": 0.0,
+            "diameter": 5.5,
+            "grip": 5.0
+          },
+          {
+            "bolt": "A4",
+            "offset": 0.0,
+            "diameter": 5.5,
+            "grip": 5.0
+          },
+          {
+            "bolt": "B1",
+            "offset": 0.0,
+            "diameter": 4.5,
+            "grip": 4.0
+          },
+          {
+            "bolt": "B2",
+            "offset": 0.0,
+            "diameter": 4.5,
+            "grip": 4.0
+          },
+          {
+            "bolt": "B3",
+            "offset": 0.0,
+            "diameter": 4.5,
+            "grip": 4.0
+          },
+          {
+            "bolt": "B4",
+            "offset": 0.0,
+            "diameter": 4.5,
+            "grip": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "SEATING",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "seated on every mounting face; worst bolt ring 100% in contact (need 75%)",
+      "value": 0.9998,
+      "unit": "ratio",
+      "details": {
+        "bolts": [
+          {
+            "bolt": "B1",
+            "contact": 1.0
+          },
+          {
+            "bolt": "B2",
+            "contact": 1.0
+          },
+          {
+            "bolt": "B3",
+            "contact": 1.0
+          },
+          {
+            "bolt": "B4",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A1",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A2",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A3",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A4",
+            "contact": 0.9998
+          }
+        ]
+      }
+    },
+    {
+      "name": "SEAT_INSIDE",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)",
+      "value": 0.0,
+      "unit": "mm2",
+      "details": {
+        "faces": [
+          {
+            "part": "B",
+            "seat_mm2": 1092.383,
+            "outside_mm2": 0.0
+          }
+        ],
+        "setback_mm": 1.0
+      }
+    },
+    {
+      "name": "NO_INTERFERENCE",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)",
+      "value": 0.0,
+      "unit": "mm3",
+      "details": {
+        "overlaps": [
+          {
+            "what": "part vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "part vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A1 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A1 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A1 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A2 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A2 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A2 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A3 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A3 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A3 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A4 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A4 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A4 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B1 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B1 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B1 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B2 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B2 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B2 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B3 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B3 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B3 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B4 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B4 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B4 vs fixed B",
+            "volume": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "CLEAR_PATH",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "no obstacles in this task",
+      "value": 0.0,
+      "unit": "mm3",
+      "details": {
+        "overlaps": []
+      }
+    },
+    {
+      "name": "TOOL_ACCESS",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "a straight tool (30 mm long, head dia + 0) reaches every bolt",
+      "value": 0.0,
+      "unit": "mm3",
+      "details": {
+        "envelopes": [
+          {
+            "bolt": "A1",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A1",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A1",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A2",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A2",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A2",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A3",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A3",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A3",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A4",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A4",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A4",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B1",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B1",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B1",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B2",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B2",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B2",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B3",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B3",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B3",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B4",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B4",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B4",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "KEY_TURN",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)",
+      "value": 60.0,
+      "unit": "deg",
+      "details": {
+        "bolts": [
+          {
+            "bolt": "A1",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 322.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 150.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "A2",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 330.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 184.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "A3",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 316.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 118.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "A4",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 314.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 62.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B1",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 184.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 140.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B2",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 294.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 106.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B3",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 318.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 136.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B4",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 220.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 242.0,
+            "blocked_by": []
+          }
+        ],
+        "grid": {
+          "tilt_max": 25.0,
+          "tilt_step": 5.0,
+          "lean_directions": 8,
+          "coarse_deg": 10.0,
+          "fine_deg": 2.0,
+          "swing_needed": 60.0
+        }
+      }
+    },
+    {
+      "name": "Q_SLIVER_FACE",
+      "status": "fail",
+      "required": true,
+      "group": "clean",
+      "reason": "2 sliver face(s), narrowest 0.004 mm wide and 0.3 mm long",
+      "value": 0.0035,
+      "unit": "mm",
+      "details": {
+        "rule": "No sliver faces",
+        "limit": 0.25,
+        "where": [
+          {
+            "point": [
+              40.672,
+              108.935,
+              6.647
+            ],
+            "face": 7
+          },
+          {
+            "point": [
+              52.439,
+              105.822,
+              5.795
+            ],
+            "face": 28
+          }
+        ]
+      }
+    },
+    {
+      "name": "Q_TINY_FACE",
+      "status": "fail",
+      "required": true,
+      "group": "clean",
+      "reason": "1 tiny face(s), smallest 0.001 mm2 (min 0.1 mm2)",
+      "value": 0.0009,
+      "unit": "mm2",
+      "details": {
+        "rule": "No tiny faces",
+        "limit": 0.1,
+        "where": [
+          {
+            "point": [
+              40.672,
+              108.935,
+              6.647
+            ],
+            "face": 7
+          }
+        ]
+      }
+    },
+    {
+      "name": "Q_SHORT_EDGE",
+      "status": "fail",
+      "required": true,
+      "group": "clean",
+      "reason": "1 very short edge(s), shortest 0.008 mm (min 0.1 mm)",
+      "value": 0.0079,
+      "unit": "mm",
+      "details": {
+        "rule": "No very short edges",
+        "limit": 0.1,
+        "where": [
+          {
+            "point": [
+              40.713,
+              109.032,
+              6.582
+            ],
+            "face": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "Q_SMALL_STEP",
+      "status": "fail",
+      "required": true,
+      "group": "clean",
+      "reason": "1 hairline step(s), lowest 0.007 mm high: faces meant to be flush",
+      "value": 0.0072,
+      "unit": "mm",
+      "details": {
+        "rule": "No hairline steps between faces meant to be flush",
+        "limit": 0.2,
+        "where": [
+          {
+            "point": [
+              40.672,
+              108.935,
+              6.647
+            ],
+            "face": 7
+          }
+        ]
+      }
+    },
+    {
+      "name": "Q_THIN_WEDGE",
+      "status": "fail",
+      "required": true,
+      "group": "clean",
+      "reason": "5 thin wedge(s), sharpest 1.59 deg (face corner)",
+      "value": 1.593,
+      "unit": "deg",
+      "details": {
+        "rule": "No knife edges or thin wedges",
+        "limit": 5.0,
+        "where": [
+          {
+            "point": [
+              40.627,
+              108.839,
+              7.44
+            ],
+            "face": 18
+          },
+          {
+            "point": [
+              51.568,
+              103.906,
+              7.294
+            ],
+            "face": 28
+          },
+          {
+            "point": [
+              40.627,
+              108.839,
+              6.713
+            ],
+            "face": 7
+          }
+        ]
+      }
+    },
+    {
+      "name": "Q_CREASE",
+      "status": "fail",
+      "required": true,
+      "group": "clean",
+      "reason": "2 near-flat crease(s), gentlest 1.96 deg: faces meant to be one",
+      "value": 1.956,
+      "unit": "deg",
+      "details": {
+        "rule": "No near-flat creases",
+        "limit": 2.0,
+        "where": [
+          {
+            "point": [
+              40.627,
+              108.839,
+              7.077
+            ],
+            "face": 6
+          },
+          {
+            "point": [
+              51.568,
+              103.906,
+              7.067
+            ],
+            "face": 15
+          }
+        ]
+      }
+    },
+    {
+      "name": "Q_UNMERGED",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "no face is split on its own surface",
+      "value": 0,
+      "unit": "pairs",
+      "details": {
+        "rule": "Faces on the same surface are merged",
+        "limit": 0.0,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_NEAR_VERTICES",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "closest unjoined corners 0.18 mm apart (min 0.05 mm)",
+      "value": 0.17651,
+      "unit": "mm",
+      "details": {
+        "rule": "No near-coincident corners",
+        "limit": 0.05,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_STUB",
+      "status": "fail",
+      "required": true,
+      "group": "clean",
+      "reason": "7 stub(s): a member runs 0.64 mm past the face it joins",
+      "value": 0.638,
+      "unit": "mm",
+      "details": {
+        "rule": "No stubs: members end at the faces they join",
+        "limit": 5.0,
+        "where": [
+          {
+            "point": [
+              19.911,
+              53.874,
+              33.636
+            ],
+            "face": 26
+          },
+          {
+            "point": [
+              17.418,
+              54.926,
+              43.21
+            ],
+            "face": 33
+          },
+          {
+            "point": [
+              15.57,
+              55.705,
+              41.397
+            ],
+            "face": 18
+          }
+        ]
+      }
+    },
+    {
+      "name": "Q_SHALLOW_JOINT",
+      "status": "fail",
+      "required": true,
+      "group": "clean",
+      "reason": "7 shallow joint(s): faces meet at 3.8 deg, leaving a narrow crevice",
+      "value": 3.75,
+      "unit": "deg",
+      "details": {
+        "rule": "No shallow joints",
+        "limit": 45.0,
+        "where": [
+          {
+            "point": [
+              53.501,
+              108.575,
+              3.699
+            ],
+            "face": 11
+          },
+          {
+            "point": [
+              23.103,
+              53.059,
+              42.878
+            ],
+            "face": 20
+          },
+          {
+            "point": [
+              22.947,
+              52.594,
+              50.247
+            ],
+            "face": 16
+          }
+        ]
+      }
+    },
+    {
+      "name": "SECTION_MIN",
+      "status": "skipped",
+      "required": false,
+      "group": "sturdy",
+      "reason": "skipped: the part does not fit yet",
+      "value": null,
+      "unit": "",
+      "details": {}
+    },
+    {
+      "name": "STIFFNESS",
+      "status": "pass",
+      "required": true,
+      "group": "sturdy",
+      "reason": "weakest mount B: 19.2 N/mm, need 15.7 N/mm (mount B: 0.5 kg (4.91 N) over at most 0.313 mm (span 78.2 mm / 250; PLA, filament printed); +-15%)",
+      "value": 1.2208,
+      "unit": "ratio",
+      "details": {
+        "verdict": "pass",
+        "per_mount": [
+          {
+            "mount": "B",
+            "mass_kg": 0.5,
+            "design_load_N": 4.91,
+            "span_mm": 78.15,
+            "deflection_ratio": 250,
+            "allowed_deflection_mm": 0.3126,
+            "required": 15.689998685633599,
+            "bolts": "stated load",
+            "statement": "Fixed part B carries 0.5 kg (4.91 N). With A held, that weight may move B by at most 0.313 mm, whichever way it pulls (a turning load counts as the weight at the 78.15 mm span): at least 15.7 N/mm, in PLA, filament printed.",
+            "figure": 19.15485820928865,
+            "verdict": "pass",
+            "margin_percent": 22.1
+          }
+        ],
+        "precision": 15.0,
+        "stages": [
+          {
+            "stage": "screen, 4 mm",
+            "seconds": 6.6,
+            "figure": 19.15485820928865,
+            "verdict": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FDM_WALL_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "thinnest wall 1.04 mm (min 0.8 mm)",
+      "value": 1.043,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum wall thickness",
+        "limit": 0.8,
+        "where": [
+          {
+            "point": [
+              33.697,
+              97.811,
+              -11.03
+            ],
+            "face": 56
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    },
+    {
+      "name": "FDM_OVERHANG",
+      "status": "fail",
+      "required": true,
+      "group": "makeable",
+      "reason": "overhang 90.0 deg (flat ceiling with no support at one end) (max 45 deg), 754 mm2, and 22 mm of downward edges needs support",
+      "value": 90.0,
+      "unit": "deg",
+      "details": {
+        "rule": "Overhang without support",
+        "limit": 45.0,
+        "where": [
+          {
+            "point": [
+              19.886,
+              53.885,
+              34.971
+            ],
+            "face": 55
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    },
+    {
+      "name": "FDM_BRIDGE",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "no bridges",
+      "value": null,
+      "unit": "mm",
+      "details": {
+        "rule": "Maximum bridge span",
+        "limit": 10.0,
+        "where": [],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    },
+    {
+      "name": "FDM_HOLE_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "8 hole(s), smallest 4.50 mm (min 2 mm)",
+      "value": 4.5,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum hole diameter",
+        "limit": 2.0,
+        "where": [
+          {
+            "point": [
+              10.352,
+              54.287,
+              39.512
+            ],
+            "face": 40
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    },
+    {
+      "name": "FDM_PIN_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "no round pins",
+      "value": null,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum pin diameter",
+        "limit": 3.0,
+        "where": [],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    },
+    {
+      "name": "FDM_GAP_MIN",
+      "status": "fail",
+      "required": true,
+      "group": "makeable",
+      "reason": "gap 0.06 mm narrow at [22.994, 52.928, 42.913] (min 0.5 mm): gap from the plane face 2.8 x 2.6 mm (face 34) straight out to the plane face 68.9 x 12.0 mm (face 20), direction [-0.111, 0.34, 0.934]; these two faces meet along an edge at an inside angle of 21 deg: a crevice; along a strip about 3 mm long (4 sample points); their shared edge is 0.6 mm long",
+      "value": 0.061,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum gap between faces",
+        "limit": 0.5,
+        "where": [
+          {
+            "point": [
+              22.994,
+              52.928,
+              42.913
+            ],
+            "face": 34,
+            "between": {
+              "faces": [
+                34,
+                20
+              ],
+              "face_types": [
+                "plane face 2.8 x 2.6 mm",
+                "plane face 68.9 x 12.0 mm"
+              ],
+              "direction": [
+                -0.1109,
+                0.34,
+                0.9339
+              ],
+              "meet_at_edge": 92,
+              "inside_angle_deg": 20.8,
+              "extent": "along a strip about 3 mm long (4 sample points)",
+              "edge_length_mm": 0.6
+            }
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    },
+    {
+      "name": "FDM_BED_CONTACT",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "1092 mm2 flat on the bed over 1 face(s) (min 50 mm2)",
+      "value": 1092.38,
+      "unit": "mm2",
+      "details": {
+        "rule": "Flat face on the bed, large enough",
+        "limit": 50.0,
+        "where": [
+          {
+            "point": [
+              22.728,
+              48.346,
+              39.928
+            ],
+            "face": 47
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    },
+    {
+      "name": "FDM_STANCE",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "90.5 mm tall on a 34.0 mm stance, 2.66 x (max 3 x)",
+      "value": 2.66,
+      "unit": "x",
+      "details": {
+        "rule": "Stance wide enough for the height",
+        "limit": 3.0,
+        "where": [
+          {
+            "point": [
+              22.728,
+              48.346,
+              39.928
+            ],
+            "face": 47
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    },
+    {
+      "name": "FDM_SEALED_HOLLOW",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "no sealed hollows",
+      "value": 0,
+      "unit": "voids",
+      "details": {
+        "rule": "No sealed hollows",
+        "limit": 0.0,
+        "where": [],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    },
+    {
+      "name": "FDM_SUPPORT_REMOVABLE",
+      "status": "fail",
+      "required": true,
+      "group": "makeable",
+      "reason": "107 mm2 of support cannot be removed (in a 2.9 mm gap at [18.765, 57.494, 54.826]; reach limit 3 mm)",
+      "value": 107.28,
+      "unit": "mm2",
+      "details": {
+        "rule": "Support can be removed",
+        "limit": 0.0,
+        "where": [
+          {
+            "point": [
+              18.765,
+              57.494,
+              54.826
+            ],
+            "face": 16
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          0.388517,
+          0.921441,
+          0.0
+        ],
+        "direction_chosen": "chosen by the checker (best of 16 candidates: face 47 down)"
+      }
+    }
+  ],
+  "info": {
+    "volume": 34098.118,
+    "bbox_min": [
+      -6.693,
+      43.081,
+      -20.76
+    ],
+    "bbox_max": [
+      59.786,
+      132.675,
+      69.247
+    ],
+    "bbox_size": [
+      66.479,
+      89.594,
+      90.007
+    ],
+    "build_box": [
+      48.479,
+      55.649,
+      106.095
+    ],
+    "fits_build_volume": true
+  }
+}

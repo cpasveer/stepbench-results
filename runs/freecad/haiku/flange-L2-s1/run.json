@@ -1,0 +1,28 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "haiku",
+ "task": "flange-L2-s1",
+ "tool": "freecad",
+ "freecad_version": "FreeCAD 1.1.4",
+ "start_utc": "2026-11-17T07:17:59Z",
+ "end_utc": "2026-11-17T07:25:08Z",
+ "wall_clock_s": 429,
+ "tokens": 157854,
+ "tool_uses": 14,
+ "checks": 0,
+ "last_outcome": null,
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [],
+ "setup_s": 99,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 30,
+  "cache_creation_input_tokens": 100743,
+  "cache_read_input_tokens": 1863171,
+  "output_tokens": 76638
+ },
+ "note": "checker never ran: the agent's jointbench verify command was denied by the session's auto-mode permission classifier; 0 attempts"
+}

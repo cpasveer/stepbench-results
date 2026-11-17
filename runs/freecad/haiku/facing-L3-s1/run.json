@@ -1,0 +1,61 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "haiku",
+ "task": "facing-L3-s1",
+ "tool": "freecad",
+ "freecad_version": "FreeCAD 1.1.4",
+ "start_utc": "2026-11-17T07:17:25Z",
+ "end_utc": "2026-11-17T08:11:55Z",
+ "wall_clock_s": 3270,
+ "tokens": 433705,
+ "tool_uses": 81,
+ "checks": 6,
+ "last_outcome": "fail",
+ "last_failing": [
+  "Q_STUB",
+  "FDM_OVERHANG"
+ ],
+ "stiffness_last": "ok   STIFFNESS        weakest mount B: 33.0 N/mm, need 32.0 N/mm (mount B: 0.9 kg (8.83 N) over at most 0.276 mm (span 69.0 mm / 250; PLA, filament printed); +-2%)",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T07:23:01.581+00:00",
+   "approx_check_s": 26
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T07:30:22.679+00:00",
+   "approx_check_s": 36
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T07:34:42.846+00:00",
+   "approx_check_s": 37
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T07:43:12.595+00:00",
+   "approx_check_s": 66
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T07:48:06.323+00:00",
+   "approx_check_s": 84
+  },
+  {
+   "n": 6,
+   "finished_utc": "2026-11-17T08:11:07.261+00:00",
+   "approx_check_s": 89
+  }
+ ],
+ "setup_s": 72,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 164,
+  "cache_creation_input_tokens": 701443,
+  "cache_read_input_tokens": 21983795,
+  "output_tokens": 321418
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "haiku",
+ "task": "flange-L1-s1",
+ "tool": "freecad",
+ "freecad_version": "FreeCAD 1.1.4",
+ "start_utc": "2026-11-17T07:17:43Z",
+ "end_utc": "2026-11-17T07:28:08Z",
+ "wall_clock_s": 625,
+ "tokens": 173752,
+ "tool_uses": 18,
+ "checks": 1,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T07:27:39.952+00:00",
+   "approx_check_s": 19.9
+  }
+ ],
+ "setup_s": 97,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 38,
+  "cache_creation_input_tokens": 116501,
+  "cache_read_input_tokens": 2557187,
+  "output_tokens": 89924
+ }
+}

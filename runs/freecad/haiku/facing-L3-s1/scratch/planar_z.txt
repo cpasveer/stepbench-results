@@ -1,0 +1,6 @@
+plane z -28.50 normal [-0.0, -0.0, -1.0] area 3.8 center [-147.6, 115.4]
+plane z -28.50 normal [-0.0, -0.0, -1.0] area 3.8 center [-95.4, 124.6]
+plane z -28.50 normal [-0.0, -0.0, -1.0] area 3.8 center [-129.5, 165.3]
+plane z -30.50 normal [-0.0, -0.0, -1.0] area 34.3 center [-151.0, 112.6]
+plane z -30.50 normal [-0.0, -0.0, -1.0] area 34.3 center [-130.3, 169.6]
+plane z -30.50 normal [-0.0, -0.0, -1.0] area 34.3 center [-91.3, 123.1]

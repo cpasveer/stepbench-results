@@ -1,0 +1,3 @@
+Fem ok
+ccx on PATH: /opt/freecad/squashfs-root/usr/bin/ccx
+gmsh on PATH: /opt/freecad/squashfs-root/usr/bin/gmsh

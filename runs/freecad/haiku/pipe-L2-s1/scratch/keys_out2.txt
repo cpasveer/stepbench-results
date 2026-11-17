@@ -1,0 +1,52 @@
+A1 best sector per pose (lean,tilt,start,min clearance,#starts clear>0.5):
+    (0.0, 0.0, 0, 2.61, 28)
+    (25.0, 0, 0, 1.9, 28)
+    (25.0, 90, 0, 1.9, 27)
+    (25.0, 180, 0, 1.9, 36)
+    (25.0, 270, 0, 1.9, 28)
+A2 best sector per pose (lean,tilt,start,min clearance,#starts clear>0.5):
+    (0.0, 0.0, 0, 2.61, 28)
+    (25.0, 0, 0, 1.9, 28)
+    (25.0, 90, 0, 1.9, 29)
+    (25.0, 180, 0, 1.9, 36)
+    (25.0, 270, 0, 1.9, 29)
+A3 best sector per pose (lean,tilt,start,min clearance,#starts clear>0.5):
+    (0.0, 0.0, 30, 2.61, 27)
+    (25.0, 0, 30, 1.9, 26)
+    (25.0, 90, 0, 1.9, 27)
+    (25.0, 180, 20, 1.9, 25)
+    (25.0, 270, 60, 1.9, 27)
+A4 best sector per pose (lean,tilt,start,min clearance,#starts clear>0.5):
+    (0.0, 0.0, 0, 2.61, 28)
+    (25.0, 0, 0, 1.9, 27)
+    (25.0, 90, 0, 1.9, 27)
+    (25.0, 180, 0, 1.9, 23)
+    (25.0, 270, 0, 1.9, 27)
+B1 best sector per pose (lean,tilt,start,min clearance,#starts clear>0.5):
+    (0.0, 0.0, 140, 2.14, 20)
+    (25.0, 0, 110, 1.63, 16)
+    (25.0, 90, 140, 1.63, 5)
+    (25.0, 180, 290, 1.63, 7)
+    (25.0, 270, 200, 1.63, 16)
+B2 best sector per pose (lean,tilt,start,min clearance,#starts clear>0.5):
+    (0.0, 0.0, 0, 2.14, 27)
+    (25.0, 0, 100, 1.63, 26)
+    (25.0, 90, 120, 1.63, 24)
+    (25.0, 180, 0, 1.63, 25)
+    (25.0, 270, 0, 1.63, 25)
+B3 best sector per pose (lean,tilt,start,min clearance,#starts clear>0.5):
+    (0.0, 0.0, 0, 2.14, 27)
+    (25.0, 0, 0, 1.63, 27)
+    (25.0, 90, 0, 1.63, 27)
+    (25.0, 180, 0, 1.63, 27)
+    (25.0, 270, 0, 1.63, 27)
+B4 best sector per pose (lean,tilt,start,min clearance,#starts clear>0.5):
+    (0.0, 0.0, 0, 2.14, 25)
+    (25.0, 0, 0, 1.63, 24)
+    (25.0, 90, 0, 1.63, 23)
+    (25.0, 180, 0, 1.63, 22)
+    (25.0, 270, 0, 1.63, 22)
+FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)
+(C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+

@@ -1,0 +1,24 @@
+warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+FAIL  (12/16 required checks)  pipe-L1-s1
+  ok   FILE_VALID       1 closed valid solid, 26 faces
+  FAIL HOLES            B1: no M4 hole found within 4 mm of the bolt axis (+3 more)
+  FAIL SEATING          B1: 73% of the bearing ring touches the face (need 75%) (+3 more)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  FAIL NO_INTERFERENCE  part blocks bolt B4 (shank or head space): 269.916 mm3 overlap (8 clashes)
+  FAIL KEY_TURN         B1: its 3 mm hex key turns at most 0 of the 60 degrees needed, blocked by the part itself (+3 more)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 4.22 mm wide)
+  ok   Q_TINY_FACE      smallest face 15.44 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 0.54 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     no steps
+  ok   Q_THIN_WEDGE     sharpest corner 38.9 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 51.6 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 2.53 mm apart (min 0.05 mm)
+  ok   Q_STUB           no member runs on past a face it joins
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 51 deg (min 45 deg)
+  --   SECTION_MIN      skipped: the part does not fit yet
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits fail, clean pass, sturdy not measured (not required)
+  info volume 42312.8 mm3, bounding box 73.9 x 91.6 x 92.4 mm
+  attempt #1 archived in ./attempts/0001
+  checks used: 1 of 6

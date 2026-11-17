@@ -1,0 +1,2 @@
+edges with printed value < 75 (small = sharp corner or crevice):
+total edges 127

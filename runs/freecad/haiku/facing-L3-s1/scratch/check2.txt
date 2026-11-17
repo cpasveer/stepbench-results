@@ -1,0 +1,8 @@
+valid True solids 1 volume 31990.9
+A1 envelope 0.000 tool 0.000 channel_foreign 0.000
+A2 envelope 0.000 tool 0.000 channel_foreign 0.000
+A3 envelope 0.000 tool 0.000 channel_foreign 0.000
+A4 envelope 0.000 tool 0.000 channel_foreign 0.000
+B1 envelope 0.000 tool 0.000 channel_foreign 0.000
+B2 envelope 0.000 tool 0.000 channel_foreign 0.000
+B3 envelope 0.000 tool 0.000 channel_foreign 0.000

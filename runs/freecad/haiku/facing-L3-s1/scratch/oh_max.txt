@@ -1,0 +1,1 @@
+total overhang (45deg rule, up build) 0.0 over 0 faces

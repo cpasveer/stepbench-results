@@ -1,0 +1,14 @@
+A1 column-material-volume 0.00  z-ranges []
+A2 column-material-volume 0.00  z-ranges []
+A3 column-material-volume 0.00  z-ranges []
+A4 column-material-volume 0.00  z-ranges []
+B1 column-material-volume 0.00  z-ranges []
+B2 column-material-volume 0.00  z-ranges []
+B3 column-material-volume 0.00  z-ranges []
+part bbox BoundBox (-172.782, 80.7181, -94, -79.2181, 175.58, -25.5)
+z -90.0 within r8 of A3: vol 13.89
+z -85.0 within r8 of A3: vol 0.00
+z -70.0 within r8 of A3: vol 0.00
+z -50.0 within r8 of A3: vol 0.00
+z -35.0 within r8 of A3: vol 0.00
+z -28.0 within r8 of A3: vol 7.44

@@ -1,0 +1,55 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "haiku",
+ "task": "pipe-L2-s1",
+ "tool": "freecad",
+ "freecad_version": "1.1.4",
+ "start_utc": "2026-11-17T07:17:22Z",
+ "end_utc": "2026-11-17T07:54:42Z",
+ "wall_clock_s": 2240.6,
+ "tokens": 493581,
+ "tool_uses": 187,
+ "checks": 5,
+ "last_outcome": "fail",
+ "last_failing": [
+  "FDM_OVERHANG"
+ ],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T07:34:59Z",
+   "approx_check_s": 1058
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T07:45:22Z",
+   "approx_check_s": 623
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T07:48:11Z",
+   "approx_check_s": 169
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T07:51:41Z",
+   "approx_check_s": 210
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T07:53:20Z",
+   "approx_check_s": 99
+  }
+ ],
+ "setup_s": 76,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 376,
+  "cache_creation_input_tokens": 433246,
+  "cache_read_input_tokens": 55511080,
+  "output_tokens": 252103
+ }
+}
