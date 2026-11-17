@@ -1,0 +1,62 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "sonnet",
+ "task": "pipe-L2-s1",
+ "tool": "freecad",
+ "freecad_version": "FreeCAD 1.1.4",
+ "start_utc": "2026-11-17T07:17:15Z",
+ "end_utc": "2026-11-17T08:33:15Z",
+ "wall_clock_s": 4561,
+ "tokens": 199407,
+ "tool_uses": 57,
+ "checks": 6,
+ "last_outcome": "fail",
+ "last_failing": [
+  "SEAT_INSIDE",
+  "FDM_WALL_MIN",
+  "FDM_OVERHANG"
+ ],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T07:22:19.057+00:00",
+   "approx_check_s": 218
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T07:29:31.442+00:00",
+   "approx_check_s": 115
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T07:41:18.143+00:00",
+   "approx_check_s": 111
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T07:52:23.323+00:00",
+   "approx_check_s": 99
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T08:03:52.846+00:00",
+   "approx_check_s": 142
+  },
+  {
+   "n": 6,
+   "finished_utc": "2026-11-17T08:25:17.883+00:00",
+   "approx_check_s": 705
+  }
+ ],
+ "setup_s": 76,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 111,
+  "cache_creation_input_tokens": 826555,
+  "cache_read_input_tokens": 6270749,
+  "output_tokens": 92306
+ }
+}
