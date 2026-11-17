@@ -1,0 +1,60 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "sonnet",
+ "task": "pipe-L3-s1",
+ "tool": "build123d",
+ "start_utc": "2026-11-16T21:09:00Z",
+ "end_utc": "2026-11-17T00:33:40Z",
+ "wall_clock_s": 12280,
+ "tokens": 24263915,
+ "tool_uses": 102,
+ "checks": 5,
+ "last_outcome": "fail",
+ "last_failing": [
+  "Q_UNMERGED",
+  "Q_SHALLOW_JOINT",
+  "STIFFNESS",
+  "FDM_OVERHANG",
+  "FDM_GAP_MIN",
+  "FDM_SUPPORT_REMOVABLE"
+ ],
+ "stiffness_last": "FAIL STIFFNESS        could not be analysed: gmsh could not mesh the solid: Invalid boundary mesh (overlapping facets) on surface 3 surface 12; the model is untidy: Q_UNMERGED, Q_SHALLOW_JOINT",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T21:21:00.990+00:00",
+   "approx_check_s": 315
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T22:29:29.385+00:00",
+   "approx_check_s": 2218
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T22:49:00.246+00:00",
+   "approx_check_s": 138
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T23:29:31.931+00:00",
+   "approx_check_s": 1996
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T00:32:23.171+00:00",
+   "approx_check_s": 2879
+  }
+ ],
+ "setup_s": 33,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 194,
+  "cache_creation_input_tokens": 4479937,
+  "cache_read_input_tokens": 19534077,
+  "output_tokens": 249707
+ },
+ "notes": "The container restarted at about 23:43 UTC, during the agent's 5th checker run. That check was killed and left no attempt. The coordinator resumed the same agent from its transcript with only 'Follow AGENT.md.'. The agent then ran check 5 again. tokens and tool_uses are counted from the transcript, because the Agent tool's usage figure (365074 tokens, 10 tool uses) covered only the resumed segment. approx_check_s runs from the tool call that launched each check to its attempt time; checks 3 and 4 include the model rebuild that ran just before them."
+}

@@ -1,0 +1,33 @@
+ok: wrote output.step
+arm: 39.1 deg off B normal, length 61.1
+face kinds {'plane': 14, 'cyl': 14, 'other': 1}
+  plane area    786.2  A(3.4,5.4,72.6) B(-14.7,-0.8,32.4) loops 1
+  plane area    988.6  A(-3.3,12.3,68.0) B(-20.2,-9.0,28.5) loops 1
+  plane area    456.0  A(0.0,-29.1,24.4) B(-55.0,5.0,75.5) loops 1
+  cyl   area   3562.4  A(0.3,0.2,36.8) B(-38.6,-14.1,56.2) loops 6
+  plane area    456.0  A(0.0,29.1,24.4) B(-36.4,-45.4,53.1) loops 1
+  cyl   area   3285.6  A(0.0,-0.0,29.9) B(-42.7,-17.4,60.7) loops 5
+  plane area    530.6  A(28.5,-0.0,33.5) B(-18.8,-15.6,76.5) loops 1
+  plane area    530.6  A(-28.5,-0.0,33.5) B(-62.6,-15.6,40.0) loops 1
+  plane area   1188.6  A(-6.1,21.9,102.6) B(0.0,0.0,-0.0) loops 5
+  plane area   1074.3  A(-6.1,0.4,69.4) B(-25.3,2.0,30.3) loops 1
+  plane area    584.6  A(-13.8,7.4,64.9) B(-31.5,-6.3,25.7) loops 1
+  other area    946.1  A(-3.8,20.6,100.3) B(0.0,-0.0,3.5) loops 1
+  plane area    912.1  A(-0.2,20.3,98.7) B(1.8,-0.6,7.0) loops 5
+  cyl   area     80.2  A(-17.5,-23.3,33.3) B(-61.7,4.5,56.2) loops 1
+  plane area     70.8  A(-17.5,-22.7,32.4) B(-62.0,3.4,56.5) loops 2
+  cyl   area     96.9  A(-17.5,-21.1,30.1) B(-62.8,0.9,57.4) loops 1
+  cyl   area     80.2  A(17.5,-23.3,33.3) B(-34.8,4.5,78.6) loops 1
+  plane area     70.8  A(17.5,-22.7,32.4) B(-35.1,3.4,79.0) loops 2
+  cyl   area     96.9  A(17.5,-21.1,30.1) B(-35.9,0.9,79.9) loops 1
+  cyl   area     80.2  A(-17.5,23.3,33.3) B(-46.7,-35.9,38.2) loops 1
+  plane area     70.8  A(-17.5,22.7,32.4) B(-47.5,-35.8,39.1) loops 2
+  cyl   area     96.9  A(-17.5,21.1,30.1) B(-49.3,-35.6,41.3) loops 1
+  cyl   area     80.2  A(17.5,23.3,33.3) B(-19.9,-35.9,60.6) loops 1
+  plane area     70.8  A(17.5,22.7,32.4) B(-20.6,-35.8,61.5) loops 2
+  cyl   area     96.9  A(17.5,21.1,30.1) B(-22.4,-35.6,63.7) loops 1
+  cyl   area    100.1  A(-13.4,27.4,87.1) B(-12.5,-12.5,3.5) loops 1
+  cyl   area    100.1  A(5.8,35.4,101.0) B(12.5,-12.5,3.5) loops 1
+  cyl   area    100.1  A(5.8,13.7,113.5) B(12.5,12.5,3.5) loops 1
+  cyl   area    100.1  A(-13.4,5.7,99.6) B(-12.5,12.5,3.5) loops 1
+solid=True valid=True faces=29 volume=49411

@@ -1,0 +1,6 @@
+attempts/0001/output.step:
+voxels 14294 vol 47237.203125 t 223.12731075286865
+CFG full tied 741 worst 0.01624 | transl [0.091  0.5898 0.1583] rot [0.0301 0.0164 0.0175] (t 20s)
+CFG 3.5 tied 194 worst 0.01395 | transl [0.0902 0.3996 0.1503] rot [0.0143 0.0155 0.0154] (t 20s)
+CFG 4.5 tied 268 worst 0.01475 | transl [0.0903 0.4358 0.1517] rot [0.0165 0.0157 0.0159] (t 18s)
+CFG 6 tied 368 worst 0.01540 | transl [0.0905 0.4834 0.1538] rot [0.0197 0.016  0.0165] (t 17s)

@@ -1,0 +1,18 @@
+FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)
+(C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/user/stepbench-runs/tasks-freecad/pipe-L3-s1/scratch/k.step(1352 ents)  Write  Done[0m
+wrote /home/user/stepbench-runs/tasks-freecad/pipe-L3-s1/scratch/k.step volume 41985.3 faces 34
+scratch/k.step V 42.0 shell 14.58 score 20.06 valid True 1 34
+voxels 5124 vol 42529.200000000004 t 81.97107934951782
+diag transl [0.0941 0.3718 0.0688] diag rot [0.024  0.0173 0.0215]
+WORST per unit E: 0.017270743209452353

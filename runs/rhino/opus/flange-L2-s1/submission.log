@@ -1,0 +1,8 @@
+ok: wrote output.step
+A tail flank angle below horizontal: 21.74 deg
+web end A: x_A = 2.94
+web end A: x_A = 5.47
+web end B: x_B = 3.96
+web end B: x_B = 4.04
+faces 25, volume 115203 mm3
+bbox 70.4841922827573,-118.04984936240801,-64.5 150.94270057637863,-20.45568355637818,43.500000000000014

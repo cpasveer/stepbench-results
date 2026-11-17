@@ -1,0 +1,14 @@
+ok: wrote output.step
+bed faces 1
+valid True solid True faces 30 volume 90290
+A1 head 0.000 tool 0.000 keyhits []
+A2 head 0.000 tool 0.000 keyhits []
+A3 head 0.000 tool 0.000 keyhits []
+A4 head 0.000 tool 0.000 keyhits []
+A5 head 0.000 tool 0.000 keyhits []
+A6 head 0.000 tool 0.000 keyhits []
+B1 head 0.000 tool 0.000 keyhits []
+B2 head 0.000 tool 0.000 keyhits []
+B3 head 0.000 tool 0.000 keyhits []
+B4 head 0.000 tool 0.000 keyhits []
+overhang area (excl. holes) 0.0

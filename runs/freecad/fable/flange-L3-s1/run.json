@@ -1,0 +1,50 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "fable",
+ "task": "flange-L3-s1",
+ "tool": "freecad",
+ "freecad_version": "FreeCAD 1.1.4",
+ "start_utc": "2026-11-16T22:25:07Z",
+ "end_utc": "2026-11-17T00:06:11Z",
+ "wall_clock_s": 6064,
+ "tokens": 11101918,
+ "tool_uses": 48,
+ "checks": 4,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": "ok   STIFFNESS        weakest mount B: 84.0 N/mm, need 26.3 N/mm (mount B: 0.8 kg (7.85 N) over at most 0.298 mm (span 74.5 mm / 250; PLA, filament printed); +-15%)",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T22:39:15.134+00:00",
+   "approx_check_s": 89
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T22:45:18.667+00:00",
+   "approx_check_s": 58
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T23:23:35.732+00:00",
+   "approx_check_s": 106
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T00:05:12.275+00:00",
+   "approx_check_s": 65
+  }
+ ],
+ "setup_s": 76,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 92,
+  "cache_creation_input_tokens": 882880,
+  "cache_read_input_tokens": 10019362,
+  "output_tokens": 199584
+ },
+ "interrupted": true,
+ "interrupted_note": "The container restarted at about 2026-11-17T00:06Z while the agent was exploring further variants in scratch/ after its 4th check (pass, committed). The subagent was killed (exit 137) and gave no final reply; it was not restarted. end_utc is the last transcript event."
+}

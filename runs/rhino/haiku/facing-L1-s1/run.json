@@ -1,0 +1,33 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c+4562a24 (the v1 checker 9c2a54c plus exact areas and volumes by adaptive integration, for Rhino's one-edge closed loops; build123d and FreeCAD verdicts proven unchanged on 142 answers)",
+ "model": "haiku",
+ "task": "facing-L1-s1",
+ "tool": "rhino",
+ "rhino_version": "9.1",
+ "where": "owner's Mac, local subagent, Rhino 9 via rhinocode",
+ "start_utc": "2026-11-17T03:07:41Z",
+ "end_utc": "2026-11-17T03:10:40Z",
+ "wall_clock_s": 179.2,
+ "tokens": 104957,
+ "tool_uses": 9,
+ "checks": 1,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T03:10:36Z"
+  }
+ ],
+ "nproc": 12,
+ "python": "checker: kit/.venv 3.14.7",
+ "usage_totals": {
+  "input_tokens": 18,
+  "cache_creation_input_tokens": 104289,
+  "cache_read_input_tokens": 735807,
+  "output_tokens": 32738
+ },
+ "messages": 9
+}

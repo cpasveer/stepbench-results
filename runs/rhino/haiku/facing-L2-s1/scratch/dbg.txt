@@ -1,0 +1,7 @@
+part 0 v=True s=True f=6
+part 1 v=True s=True f=3
+part 2 v=True s=True f=3
+part 3 v=True s=True f=3
+union -> [(True, 8)]
+union -> [(True, 9)]
+union -> [(True, 11)]

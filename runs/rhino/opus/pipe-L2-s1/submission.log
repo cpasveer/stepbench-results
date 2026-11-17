@@ -1,0 +1,20 @@
+ok: wrote output.step
+start
+taper ok
+union ok
+pipe ok
+bed ok
+holes ok
+volume 60642.3 faces 17
+  overhang face 9 cyl 29.9 mm2
+  overhang face 10 cyl 29.9 mm2
+  overhang face 11 cyl 16.4 mm2
+  overhang face 12 cyl 16.4 mm2
+  overhang face 13 cyl 20.9 mm2
+  overhang face 14 cyl 20.9 mm2
+  overhang face 15 cyl 21.3 mm2
+  overhang face 16 cyl 21.0 mm2
+COM in plane 23.4 91.7 bed bbox -19.86757883486505,65.56233652761954,-1.77209358298569E-11 55.252165664267494,110.58546042712443,3.552713678800501E-15 contains Outside
+bed face 8 area 884.3 min width 36.5
+downward edges total 0.0
+overhang total 176.9 bed-level faces [4, 7, 8] height 88.2

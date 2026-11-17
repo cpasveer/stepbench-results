@@ -1,0 +1,5 @@
+voxels 14964 vol 119712.0 true 117333.75781642001
+core fraction 0.6156776263031275 skin modulus factor 0.6799999999999999
+H3 rbe3        k/E: force 0.1746 moment 0.02689 combined 0.02579 | Fdir(A) [-0.24 -0.95  0.19] Maxis(A) [ 0.08 -0.16  0.98] fixA 1183 tieB 1493
+H4 rbe3        k/E: force 0.09585 moment 0.01173 combined 0.01134 | Fdir(A) [-0.3  -0.95  0.12] Maxis(A) [ 0.05 -0.08  1.  ] fixA 440 tieB 384
+H5 rbe3        k/E: force 0.1124 moment 0.01198 combined 0.01165 | Fdir(A) [-0.31 -0.95  0.1 ] Maxis(A) [ 0.05 -0.09  0.99] fixA 1183 tieB 384

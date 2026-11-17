@@ -1,0 +1,49 @@
+ok: wrote output.step
+valid=True solid=True
+  +Z steep face at (-93.9,125.6,-31.5) area 1.4
+  +Z steep face at (-94.7,125.8,-31.5) area 1.8
+  +Z steep face at (-92.4,126.4,-31.5) area 1.2
+  +Z steep face at (-92.4,127.2,-31.5) area 1.8
+  +Z steep face at (-94.7,121.5,-31.5) area 1.0
+  +Z steep face at (-93.8,120.7,-31.5) area 1.2
+  +Z steep face at (-94.1,120.1,-31.5) area 1.8
+  +Z steep face at (-87.0,124.3,-31.5) area 1.8
+  +Z steep face at (-87.9,124.2,-31.5) area 1.4
+  +Z steep face at (-131.5,165.5,-32.5) area 1.8
+  +Z steep face at (-133.0,167.4,-32.5) area 1.0
+  +Z steep face at (-131.5,166.3,-32.5) area 1.2
+  +Z steep face at (-133.6,167.1,-32.5) area 1.8
+  +Z steep face at (-127.1,168.2,-32.5) area 1.1
+  +Z steep face at (-126.4,168.1,-32.5) area 1.8
+  +Z steep face at (-133.3,171.7,-32.5) area 1.0
+  +Z steep face at (-132.9,173.1,-32.5) area 1.8
+  +Z steep face at (-132.4,172.4,-32.5) area 1.3
+  +Z steep face at (-147.5,113.1,-32.0) area 1.2
+  +Z steep face at (-146.8,113.4,-32.0) area 1.8
+  +Z steep face at (-147.2,110.8,-32.0) area 1.8
+  +Z steep face at (-151.3,116.1,-32.0) area 1.1
+  +Z steep face at (-151.5,116.7,-32.0) area 1.8
+  +Z steep face at (-152.9,108.6,-32.0) area 1.8
+  +Z steep face at (-152.5,109.4,-32.0) area 1.3
+OVERHANG +Z steep-down area not on bed = 188 mm2
+OVERHANG -Z steep-down area not on bed = 675 mm2
+OVERHANG +X steep-down area not on bed = 4943 mm2
+OVERHANG -X steep-down area not on bed = 4948 mm2
+OVERHANG +Y steep-down area not on bed = 4942 mm2
+OVERHANG -Y steep-down area not on bed = 5002 mm2
+volume_mm3=18739.9 faces=51
+bbox min=(-171.78,81.72,-94.00) max=(-80.22,178.90,-25.50)
+KEY A1 free window 306 deg (need 60)
+TOOL A1 tool cylinder clear=True
+KEY A2 free window 309 deg (need 60)
+TOOL A2 tool cylinder clear=True
+KEY A3 free window 303 deg (need 60)
+TOOL A3 tool cylinder clear=True
+KEY A4 free window 297 deg (need 60)
+TOOL A4 tool cylinder clear=True
+KEY B1 free window 285 deg (need 60)
+TOOL B1 tool cylinder clear=True
+KEY B2 free window 300 deg (need 60)
+TOOL B2 tool cylinder clear=True
+KEY B3 free window 288 deg (need 60)
+TOOL B3 tool cylinder clear=True

@@ -1,0 +1,34 @@
+FAIL  (26/29 required checks)  pipe-L3-s1
+  ok   FILE_VALID       1 closed valid solid, 27 faces
+  ok   HOLES            8 holes on axis within 0.000 mm (tol 0.1), dia 4.55-5.55, grip 5.0-5.0 mm
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  ok   NO_INTERFERENCE  no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)
+  ok   CLEAR_PATH       no obstacles in this task
+  ok   TOOL_ACCESS      a straight tool (30 mm long, head dia + 0) reaches every bolt
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 0.97 mm wide)
+  ok   Q_TINY_FACE      smallest face 35.89 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 1.00 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 1.00 mm (min 0.2 mm)
+  ok   Q_THIN_WEDGE     sharpest corner 31.0 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 48.2 deg (min 2 deg)
+  FAIL Q_UNMERGED       1 pair(s) of faces on the same surface not merged
+  ok   Q_NEAR_VERTICES  closest unjoined corners 3.94 mm apart (min 0.05 mm)
+  ok   Q_STUB           no member runs on past a face it joins
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 71 deg (min 45 deg)
+  --   SECTION_MIN      skipped: the part does not fit yet
+  FAIL STIFFNESS        weakest mount B: 9.9 N/mm, need 15.7 N/mm (mount B: 0.5 kg (4.91 N) over at most 0.313 mm (span 78.2 mm / 250; PLA, filament printed); +-15%)
+  FAIL FDM_WALL_MIN     wall 0.11 mm thin at [48.219, 114.735, -8.896] (min 0.8 mm; 142 of 20698 samples under): wall from the plane face 48.6 x 38.2 mm (face 7) straight into the material to the inside fillet r = 34.00 mm, 55.0 mm long (face 23), direction [-0.947, -0.018, 0.32]; along a strip about 56 mm long (67 sample points)
+  ok   FDM_OVERHANG     steepest overhang 43.6 deg (max 45 deg)
+  ok   FDM_BRIDGE       no bridges
+  ok   FDM_HOLE_MIN     8 hole(s), smallest 4.55 mm (min 2 mm)
+  ok   FDM_PIN_MIN      no round pins
+  ok   FDM_GAP_MIN      narrowest gap 0.63 mm (min 0.5 mm)
+  ok   FDM_BED_CONTACT  1459 mm2 flat on the bed over 2 face(s) (min 50 mm2)
+  ok   FDM_STANCE       69.0 mm tall on a 52.2 mm stance, 1.32 x (max 3 x)
+  ok   FDM_SEALED_HOLLOW no sealed hollows
+  ok   FDM_SUPPORT_REMOVABLE no support needed in this direction
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits pass, clean fail, makeable fail, sturdy fail
+  info volume 64063.7 mm3, bounding box 69.9 x 98.8 x 97.8 mm

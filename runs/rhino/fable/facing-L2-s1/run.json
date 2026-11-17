@@ -1,0 +1,55 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c+4562a24 (the v1 checker 9c2a54c plus exact areas and volumes by adaptive integration, for Rhino's one-edge closed loops; build123d and FreeCAD verdicts proven unchanged on 142 answers)",
+ "model": "fable",
+ "task": "facing-L2-s1",
+ "tool": "rhino",
+ "rhino_version": "9.1",
+ "where": "owner's Mac, local subagent, Rhino 9 via rhinocode",
+ "start_utc": "2026-11-16T23:59:22Z",
+ "end_utc": "2026-11-17T00:56:59Z",
+ "wall_clock_s": 3456.5,
+ "tokens": 136346,
+ "tool_uses": 21,
+ "checks": 6,
+ "last_outcome": "fail",
+ "last_failing": [
+  "FDM_OVERHANG"
+ ],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T00:19:27Z"
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T00:37:08Z"
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T00:41:48Z"
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T00:45:48Z"
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T00:52:27Z"
+  },
+  {
+   "n": 6,
+   "finished_utc": "2026-11-17T00:56:44Z"
+  }
+ ],
+ "nproc": 12,
+ "python": "checker: kit/.venv 3.14.7",
+ "usage_totals": {
+  "input_tokens": 66,
+  "cache_creation_input_tokens": 289715,
+  "cache_read_input_tokens": 2633794,
+  "output_tokens": 52004
+ },
+ "messages": 27
+}

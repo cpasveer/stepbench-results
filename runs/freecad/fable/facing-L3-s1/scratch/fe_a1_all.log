@@ -1,0 +1,28 @@
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+BFGS update error2
+mesh 80197 nodes 40866 tets 6.0 s
+assembled 11.2 s
+Arings+Brings-rigid k_xyz [ 30.2  43.7 120.1] k_rot(xyz) [19.7 63.5 26.5] worst lin 28.51 rot 16.77
+Arings+Bseat-rigid k_xyz [ 35.4  46.7 153.7] k_rot(xyz) [43.3 68.6 49.7] worst lin 32.29 rot 34.03
+   Arings D B1 k_xyz [0.3 0.5 8.6] worst 0.17
+   Arings D B2 k_xyz [ 8.7 14.6  8.2] worst 6.79
+   Arings D B3 k_xyz [20.8 20.6 78.3] worst 16.60
+   share Fx: mean disp 0.4296 -> k 2.33 ; max bolt disp 1.2246 -> k 0.82
+   share Fy: mean disp 0.2587 -> k 3.87 ; max bolt disp 0.7035 -> k 1.42
+   share Fz: mean disp 0.0304 -> k 32.95 ; max bolt disp 0.0442 -> k 22.63
+time 579.1
+Aseat+Brings-rigid k_xyz [103.9 188.3 433.7] k_rot(xyz) [ 34.5 252.4  59.8] worst lin 77.43 rot 34.06

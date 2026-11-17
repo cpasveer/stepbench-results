@@ -1,0 +1,82 @@
+[
+ {
+  "id": "msg_011Ch7hTB9feqesBP5DcW32v",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 21442,
+  "cache_read_input_tokens": 36597,
+  "output_tokens": 163,
+  "ephemeral_5m_input_tokens": 21442,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7hTURE4RiqYsYbXfxRe",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 13852,
+  "cache_read_input_tokens": 58039,
+  "output_tokens": 56212,
+  "ephemeral_5m_input_tokens": 13852,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7iJtYAeJb2utrktusH5",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 128211,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 396,
+  "ephemeral_5m_input_tokens": 128211,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7iKMTBBehW5ubifn7vH",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 481,
+  "cache_read_input_tokens": 128211,
+  "output_tokens": 6183,
+  "ephemeral_5m_input_tokens": 481,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7iPRpxps1t5hiWCLANW",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6513,
+  "cache_read_input_tokens": 128692,
+  "output_tokens": 528,
+  "ephemeral_5m_input_tokens": 6513,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7idHHQ7WTZmEYf9vb1E",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 826,
+  "cache_read_input_tokens": 135205,
+  "output_tokens": 262,
+  "ephemeral_5m_input_tokens": 826,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7idb6xf7B9GaESFKCeT",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3267,
+  "cache_read_input_tokens": 136031,
+  "output_tokens": 214,
+  "ephemeral_5m_input_tokens": 3267,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7ihNp8wovGUqTCYUhdC",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1794,
+  "cache_read_input_tokens": 139298,
+  "output_tokens": 713,
+  "ephemeral_5m_input_tokens": 1794,
+  "ephemeral_1h_input_tokens": 0
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "msg_011Ch7mDKsr87vr2W7BPSwUE",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 58043,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 491,
+  "ephemeral_5m_input_tokens": 58043,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7mDbvknzcq5PUWiTgaU",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 13147,
+  "cache_read_input_tokens": 58043,
+  "output_tokens": 23244,
+  "ephemeral_5m_input_tokens": 13147,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7mN272YtiRhUpdcP87z",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 23365,
+  "cache_read_input_tokens": 71190,
+  "output_tokens": 6692,
+  "ephemeral_5m_input_tokens": 23365,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7mQ48sAG9KdZ2sDLG8W",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6779,
+  "cache_read_input_tokens": 94555,
+  "output_tokens": 593,
+  "ephemeral_5m_input_tokens": 6779,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7mQJw7L7YhJPKiqBUM5",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 680,
+  "cache_read_input_tokens": 101334,
+  "output_tokens": 179,
+  "ephemeral_5m_input_tokens": 680,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7mQkcCfqNpb7t25FfMa",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 457,
+  "cache_read_input_tokens": 102014,
+  "output_tokens": 440,
+  "ephemeral_5m_input_tokens": 457,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7mR34QeVMvqtMtA7VbJ",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 527,
+  "cache_read_input_tokens": 102471,
+  "output_tokens": 153,
+  "ephemeral_5m_input_tokens": 527,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7mRRu6NcFJYAgKRYyw2",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 204,
+  "cache_read_input_tokens": 102998,
+  "output_tokens": 290,
+  "ephemeral_5m_input_tokens": 204,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7mSEeCgQQWjxg1fnCTw",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1087,
+  "cache_read_input_tokens": 103202,
+  "output_tokens": 656,
+  "ephemeral_5m_input_tokens": 1087,
+  "ephemeral_1h_input_tokens": 0
+ }
+]

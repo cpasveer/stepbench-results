@@ -1,0 +1,392 @@
+{
+  "format_version": 1,
+  "family": "facing",
+  "generator_version": 5,
+  "id": "facing-L3-s1",
+  "level": 3,
+  "seed": 1,
+  "units": "mm",
+  "requirements": {
+    "fits": "required",
+    "sturdy": "required",
+    "clean": "required",
+    "makeable": "required"
+  },
+  "knobs": {},
+  "fixed_parts": [
+    {
+      "name": "A",
+      "interface": {
+        "kind": "square",
+        "params": {
+          "bolt": "M4",
+          "pitch": 60
+        },
+        "bolt": "M4",
+        "holes_local": [
+          [
+            -30.0,
+            -30.0
+          ],
+          [
+            30.0,
+            -30.0
+          ],
+          [
+            30.0,
+            30.0
+          ],
+          [
+            -30.0,
+            30.0
+          ]
+        ],
+        "face_size": [
+          73.0,
+          73.0
+        ],
+        "protrusions": [],
+        "description": "flat square mount 73 mm across: 4x M4 on a 60 mm square"
+      },
+      "step": "fixed_A.step"
+    },
+    {
+      "name": "B",
+      "interface": {
+        "kind": "round",
+        "params": {
+          "bolt": "M5",
+          "n": 3,
+          "pcd": 70
+        },
+        "bolt": "M5",
+        "holes_local": [
+          [
+            35.0,
+            0.0
+          ],
+          [
+            -17.5,
+            30.310889132
+          ],
+          [
+            -17.5,
+            -30.310889132
+          ]
+        ],
+        "face_size": [
+          84.5,
+          84.5
+        ],
+        "protrusions": [],
+        "description": "flat round mount 84.5 mm dia: 3x M5 equally spaced on a 70 mm bolt circle"
+      },
+      "step": "fixed_B.step"
+    }
+  ],
+  "tolerances": {
+    "hole_axis_offset_max": 0.1,
+    "seat_gap_max": 0.05,
+    "seat_contact_min": 0.75,
+    "overlap_volume_max": 0.01,
+    "head_clearance_radial": 0.5,
+    "head_clearance_axial": 1.0,
+    "section_factor": 2.0,
+    "manufacturing": {
+      "process": "fdm",
+      "quantity": 1,
+      "direction": null
+    },
+    "seat_setback": 1.0,
+    "seat_overhang_max": 0.5,
+    "tool_length": 30.0,
+    "tool_diameter_extra": 0.0,
+    "required_checks": [
+      "SEAT_INSIDE",
+      "CLEAN",
+      "KEY_TURN",
+      "MANUFACTURING",
+      "STIFFNESS"
+    ],
+    "score": "material"
+  },
+  "poses": [
+    {
+      "name": "pose0",
+      "placements": {
+        "A": {
+          "origin": [
+            -126.0,
+            127.5,
+            -94.0
+          ],
+          "rotation": [
+            [
+              0.5735765984126814,
+              0.8191521213976911,
+              0.0
+            ],
+            [
+              -0.8191521213976911,
+              0.5735765984126814,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "B": {
+          "origin": [
+            -124.18164228311065,
+            135.11206773573574,
+            -25.5
+          ],
+          "rotation": [
+            [
+              -0.7660444657789058,
+              -0.6427879130922661,
+              0.0
+            ],
+            [
+              -0.6427879130922661,
+              0.7660444657789058,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ]
+        }
+      },
+      "resolved": {
+        "mounting_faces": [
+          {
+            "part": "A",
+            "origin": [
+              -126.0,
+              127.5,
+              -94.0
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "part": "B",
+            "origin": [
+              -124.18164228311065,
+              135.11206773573574,
+              -25.5
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        ],
+        "bolts": [
+          {
+            "id": "A1",
+            "size": "M4",
+            "position": [
+              -167.78186159431118,
+              134.8672656895503,
+              -94.0
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "clearance_diameter_range": [
+              4.3,
+              4.8
+            ],
+            "grip_range": [
+              3.0,
+              25.0
+            ],
+            "head_diameter": 7.0,
+            "head_height": 4.0
+          },
+          {
+            "id": "A2",
+            "size": "M4",
+            "position": [
+              -133.3672656895503,
+              85.71813840568882,
+              -94.0
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "clearance_diameter_range": [
+              4.3,
+              4.8
+            ],
+            "grip_range": [
+              3.0,
+              25.0
+            ],
+            "head_diameter": 7.0,
+            "head_height": 4.0
+          },
+          {
+            "id": "A3",
+            "size": "M4",
+            "position": [
+              -84.21813840568882,
+              120.1327343104497,
+              -94.0
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "clearance_diameter_range": [
+              4.3,
+              4.8
+            ],
+            "grip_range": [
+              3.0,
+              25.0
+            ],
+            "head_diameter": 7.0,
+            "head_height": 4.0
+          },
+          {
+            "id": "A4",
+            "size": "M4",
+            "position": [
+              -118.6327343104497,
+              169.28186159431118,
+              -94.0
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "clearance_diameter_range": [
+              4.3,
+              4.8
+            ],
+            "grip_range": [
+              3.0,
+              25.0
+            ],
+            "head_diameter": 7.0,
+            "head_height": 4.0
+          },
+          {
+            "id": "B1",
+            "size": "M5",
+            "position": [
+              -150.99319858537234,
+              112.61449077750642,
+              -25.5
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "clearance_diameter_range": [
+              5.3,
+              5.8
+            ],
+            "grip_range": [
+              3.75,
+              25.0
+            ],
+            "head_diameter": 8.5,
+            "head_height": 5.0
+          },
+          {
+            "id": "B2",
+            "size": "M5",
+            "position": [
+              -130.25933730110913,
+              169.58034508725697,
+              -25.5
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "clearance_diameter_range": [
+              5.3,
+              5.8
+            ],
+            "grip_range": [
+              3.75,
+              25.0
+            ],
+            "head_diameter": 8.5,
+            "head_height": 5.0
+          },
+          {
+            "id": "B3",
+            "size": "M5",
+            "position": [
+              -91.29239096285048,
+              123.14136734244381,
+              -25.5
+            ],
+            "axis": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "clearance_diameter_range": [
+              5.3,
+              5.8
+            ],
+            "grip_range": [
+              3.75,
+              25.0
+            ],
+            "head_diameter": 8.5,
+            "head_height": 5.0
+          }
+        ]
+      }
+    }
+  ],
+  "stiffness": {
+    "mode": "stated",
+    "held": "A",
+    "per_mount": [
+      {
+        "mount": "B",
+        "mass_kg": 0.9,
+        "design_load_N": 8.83,
+        "span_mm": 68.95,
+        "deflection_ratio": 250,
+        "allowed_deflection_mm": 0.2758,
+        "required": 32.0143564701158,
+        "bolts": "stated load",
+        "statement": "Fixed part B carries 0.9 kg (8.83 N). With A held, that weight may move B by at most 0.276 mm, whichever way it pulls (a turning load counts as the weight at the 68.95 mm span): at least 32.0 N/mm, in PLA, filament printed."
+      }
+    ],
+    "precision": 2.0,
+    "how": "a stated load, the movement at most span / 250, in PLA, filament printed"
+  },
+  "meta": {
+    "generator": "facing",
+    "situation": "facing",
+    "test": "strong"
+  }
+}

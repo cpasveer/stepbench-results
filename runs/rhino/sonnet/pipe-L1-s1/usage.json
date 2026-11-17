@@ -1,0 +1,92 @@
+[
+ {
+  "id": "msg_011Ch7grSwhr3WbXH6cMUHs6",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 21452,
+  "cache_read_input_tokens": 36597,
+  "output_tokens": 128,
+  "ephemeral_5m_input_tokens": 21452,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7grZnxb6PDyB4xEizxa",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 13391,
+  "cache_read_input_tokens": 58049,
+  "output_tokens": 28951,
+  "ephemeral_5m_input_tokens": 13391,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7hAoVUgbL3AQcLf6t6t",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 29477,
+  "cache_read_input_tokens": 71440,
+  "output_tokens": 2657,
+  "ephemeral_5m_input_tokens": 29477,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7hCPiYVG2Xuu6Wb3Xjp",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2699,
+  "cache_read_input_tokens": 100917,
+  "output_tokens": 317,
+  "ephemeral_5m_input_tokens": 2699,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7hDMXMdDv35sXvBntSd",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1115,
+  "cache_read_input_tokens": 103616,
+  "output_tokens": 759,
+  "ephemeral_5m_input_tokens": 1115,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7hDqsvdXstuYsqpmLjb",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1027,
+  "cache_read_input_tokens": 104731,
+  "output_tokens": 1182,
+  "ephemeral_5m_input_tokens": 1027,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7hFX8cjVGcC1vWay2M7",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2017,
+  "cache_read_input_tokens": 105758,
+  "output_tokens": 461,
+  "ephemeral_5m_input_tokens": 2017,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7hGY3Cpavq4uFaubPW9",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 599,
+  "cache_read_input_tokens": 107775,
+  "output_tokens": 428,
+  "ephemeral_5m_input_tokens": 599,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7hHpfcNRWDmsSrjLauz",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 538,
+  "cache_read_input_tokens": 108374,
+  "output_tokens": 505,
+  "ephemeral_5m_input_tokens": 538,
+  "ephemeral_1h_input_tokens": 0
+ }
+]

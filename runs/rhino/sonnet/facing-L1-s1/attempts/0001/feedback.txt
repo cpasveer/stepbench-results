@@ -1,0 +1,21 @@
+FAIL  (15/16 required checks)  facing-L1-s1
+  ok   FILE_VALID       1 closed valid solid, 45 faces
+  ok   HOLES            7 holes on axis within 0.000 mm (tol 0.1), dia 4.50-5.50, grip 6.0-6.0 mm
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  ok   NO_INTERFERENCE  no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 10.16 mm wide)
+  ok   Q_TINY_FACE      smallest face 36.89 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 1.00 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 16.34 mm (min 0.2 mm)
+  ok   Q_THIN_WEDGE     sharpest corner 65.4 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 65.4 deg (min 2 deg)
+  FAIL Q_UNMERGED       7 pair(s) of faces on the same surface not merged
+  ok   Q_NEAR_VERTICES  closest unjoined corners 2.19 mm apart (min 0.05 mm)
+  ok   Q_STUB           no short stubs (shortest run-on 22.5 mm, min 5 mm)
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 90 deg (min 45 deg)
+  --   SECTION_MIN      skipped: the part does not fit yet
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits pass, clean fail, sturdy not measured (not required)
+  info volume 43462.6 mm3, bounding box 93.6 x 93.9 x 68.5 mm

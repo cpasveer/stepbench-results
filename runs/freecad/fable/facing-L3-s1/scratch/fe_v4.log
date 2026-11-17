@@ -1,0 +1,12 @@
+mesh 134080 nodes 65826 tets 9.8 s
+assembled 17.4 s
+time 17.5
+   local-frame k_xyz [ 60.5 533.  639.7] k_rot [115.   64.5  70.4]
+Arings+RBE3-Brings k_xyz [151.8  84.7 639.7] k_rot(xyz) [ 70.  100.8  70.4] worst lin 60.38 rot 54.62
+time 134.1
+FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)
+(C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+Recompute......
+						(50 %)							(100 %)									

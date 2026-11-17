@@ -1,0 +1,22 @@
+ok: wrote output.step
+column clash total 0.000
+print-down overhang area (flipped) 118.64
+  overhang near (145, -40, 20) area 10.7
+  overhang near (145, -40, -60) area 10.7
+  overhang near (105, -100, -25) area 8.8
+  overhang near (105, -100, 30) area 8.8
+  overhang near (120, -25, 20) area 6.9
+  overhang near (120, -25, -60) area 6.9
+  overhang near (85, -80, -25) area 6.8
+  overhang near (85, -80, 30) area 6.8
+small crease 0.00 deg len 3.80 faces [11, 11] at 104.66326939508978,-98.764903386258,31.480762113519997
+small crease 0.00 deg len 3.80 faces [12, 12] at 114.77780520911057,-109.84173349593641,5.499999999760001
+small crease 0.00 deg len 3.80 faces [13, 13] at 104.66326939535472,-98.76490338654814,-20.480762113760004
+small crease 0.00 deg len 3.80 faces [14, 14] at 84.4341977675781,-76.61124316748149,-20.480762113519997
+small crease 0.00 deg len 3.80 faces [15, 15] at 74.3196619535573,-65.53441305780309,5.500000000240001
+small crease 0.00 deg len 3.80 faces [16, 16] at 84.43419776731315,-76.61124316719133,31.48076211376
+small crease 0.00 deg len 4.55 faces [17, 17] at 114.86605502876407,-23.960974177992345,-57.99999999999999
+small crease 0.00 deg len 4.55 faces [18, 18] at 141.20554429159364,-38.321729916206706,-58
+small crease 0.00 deg len 4.55 faces [19, 19] at 114.86605502876408,-23.960974177992345,21.999999999999996
+small crease 0.00 deg len 4.55 faces [20, 20] at 141.20554429159364,-38.3217299162067,22
+volume 72206.9 faces 21 valid True solid True

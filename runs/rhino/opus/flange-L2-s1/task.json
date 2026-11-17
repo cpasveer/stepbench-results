@@ -1,0 +1,458 @@
+{
+  "format_version": 1,
+  "family": "flange",
+  "generator_version": 5,
+  "id": "flange-L2-s1",
+  "level": 2,
+  "seed": 1,
+  "units": "mm",
+  "requirements": {
+    "fits": "required",
+    "sturdy": "reported",
+    "clean": "required",
+    "makeable": "required"
+  },
+  "knobs": {},
+  "fixed_parts": [
+    {
+      "name": "A",
+      "interface": {
+        "kind": "round",
+        "params": {
+          "bolt": "M5",
+          "n": 6,
+          "pcd": 60
+        },
+        "bolt": "M5",
+        "holes_local": [
+          [
+            30.0,
+            0.0
+          ],
+          [
+            15.0,
+            25.980762114
+          ],
+          [
+            -15.0,
+            25.980762114
+          ],
+          [
+            -30.0,
+            0.0
+          ],
+          [
+            -15.0,
+            -25.980762114
+          ],
+          [
+            15.0,
+            -25.980762114
+          ]
+        ],
+        "face_size": [
+          74.5,
+          74.5
+        ],
+        "protrusions": [],
+        "description": "flat round mount 74.5 mm dia: 6x M5 equally spaced on a 60 mm bolt circle"
+      },
+      "step": "fixed_A.step"
+    },
+    {
+      "name": "B",
+      "interface": {
+        "kind": "rect",
+        "params": {
+          "bolt": "M6",
+          "nx": 2,
+          "ny": 2,
+          "pitch_x": 30,
+          "pitch_y": 80
+        },
+        "bolt": "M6",
+        "holes_local": [
+          [
+            -15.0,
+            -40.0
+          ],
+          [
+            15.0,
+            -40.0
+          ],
+          [
+            -15.0,
+            40.0
+          ],
+          [
+            15.0,
+            40.0
+          ]
+        ],
+        "face_size": [
+          46.0,
+          96.0
+        ],
+        "protrusions": [],
+        "description": "flat rectangular mount 46 x 96 mm: 4x M6 in 2 x 2 grid at 30 x 80 mm"
+      },
+      "step": "fixed_B.step"
+    }
+  ],
+  "tolerances": {
+    "hole_axis_offset_max": 0.1,
+    "seat_gap_max": 0.05,
+    "seat_contact_min": 0.75,
+    "overlap_volume_max": 0.01,
+    "head_clearance_radial": 0.5,
+    "head_clearance_axial": 1.0,
+    "section_factor": 2.0,
+    "manufacturing": {
+      "process": "fdm",
+      "quantity": 1,
+      "direction": null
+    },
+    "seat_setback": 1.0,
+    "seat_overhang_max": 0.5,
+    "tool_length": 30.0,
+    "tool_diameter_extra": 0.0,
+    "required_checks": [
+      "SEAT_INSIDE",
+      "CLEAN",
+      "KEY_TURN",
+      "MANUFACTURING"
+    ]
+  },
+  "poses": [
+    {
+      "name": "pose0",
+      "placements": {
+        "A": {
+          "origin": [
+            95.0,
+            -91.0,
+            5.5
+          ],
+          "rotation": [
+            [
+              0.3371511937918617,
+              0.5839629974797093,
+              0.7384553406258838
+            ],
+            [
+              -0.3692276703129419,
+              -0.6395210845419822,
+              0.6743023875837234
+            ],
+            [
+              0.866025403784,
+              -0.5,
+              0.0
+            ]
+          ]
+        },
+        "B": {
+          "origin": [
+            132.06606660467747,
+            -30.747558502102073,
+            -18.0
+          ],
+          "rotation": [
+            [
+              0.8779829754276512,
+              0.0,
+              -0.4786918579404784
+            ],
+            [
+              -0.4786918579404784,
+              0.0,
+              -0.8779829754276512
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        }
+      },
+      "resolved": {
+        "mounting_faces": [
+          {
+            "part": "A",
+            "origin": [
+              95.0,
+              -91.0,
+              5.5
+            ],
+            "normal": [
+              0.7384553406258838,
+              0.6743023875837234,
+              0.0
+            ]
+          },
+          {
+            "part": "B",
+            "origin": [
+              132.06606660467747,
+              -30.747558502102073,
+              -18.0
+            ],
+            "normal": [
+              -0.4786918579404784,
+              -0.8779829754276512,
+              0.0
+            ]
+          }
+        ],
+        "bolts": [
+          {
+            "id": "A1",
+            "size": "M5",
+            "position": [
+              105.11453581375585,
+              -102.07683010938825,
+              31.480762113519997
+            ],
+            "axis": [
+              0.7384553406258838,
+              0.6743023875837234,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              5.3,
+              5.8
+            ],
+            "grip_range": [
+              3.75,
+              25.0
+            ],
+            "head_diameter": 8.5,
+            "head_height": 5.0
+          },
+          {
+            "id": "A2",
+            "size": "M5",
+            "position": [
+              115.22907162777663,
+              -113.15366021906665,
+              5.499999999759998
+            ],
+            "axis": [
+              0.7384553406258838,
+              0.6743023875837234,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              5.3,
+              5.8
+            ],
+            "grip_range": [
+              3.75,
+              25.0
+            ],
+            "head_diameter": 8.5,
+            "head_height": 5.0
+          },
+          {
+            "id": "A3",
+            "size": "M5",
+            "position": [
+              105.11453581402078,
+              -102.0768301096784,
+              -20.48076211376
+            ],
+            "axis": [
+              0.7384553406258838,
+              0.6743023875837234,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              5.3,
+              5.8
+            ],
+            "grip_range": [
+              3.75,
+              25.0
+            ],
+            "head_diameter": 8.5,
+            "head_height": 5.0
+          },
+          {
+            "id": "A4",
+            "size": "M5",
+            "position": [
+              84.88546418624415,
+              -79.92316989061175,
+              -20.480762113519997
+            ],
+            "axis": [
+              0.7384553406258838,
+              0.6743023875837234,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              5.3,
+              5.8
+            ],
+            "grip_range": [
+              3.75,
+              25.0
+            ],
+            "head_diameter": 8.5,
+            "head_height": 5.0
+          },
+          {
+            "id": "A5",
+            "size": "M5",
+            "position": [
+              74.77092837222337,
+              -68.84633978093335,
+              5.500000000240002
+            ],
+            "axis": [
+              0.7384553406258838,
+              0.6743023875837234,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              5.3,
+              5.8
+            ],
+            "grip_range": [
+              3.75,
+              25.0
+            ],
+            "head_diameter": 8.5,
+            "head_height": 5.0
+          },
+          {
+            "id": "A6",
+            "size": "M5",
+            "position": [
+              84.88546418597922,
+              -79.9231698903216,
+              31.48076211376
+            ],
+            "axis": [
+              0.7384553406258838,
+              0.6743023875837234,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              5.3,
+              5.8
+            ],
+            "grip_range": [
+              3.75,
+              25.0
+            ],
+            "head_diameter": 8.5,
+            "head_height": 5.0
+          },
+          {
+            "id": "B1",
+            "size": "M6",
+            "position": [
+              118.8963219732627,
+              -23.567180632994898,
+              -58.0
+            ],
+            "axis": [
+              -0.4786918579404784,
+              -0.8779829754276512,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              6.4,
+              7.0
+            ],
+            "grip_range": [
+              4.5,
+              25.0
+            ],
+            "head_diameter": 10.0,
+            "head_height": 6.0
+          },
+          {
+            "id": "B2",
+            "size": "M6",
+            "position": [
+              145.23581123609225,
+              -37.92793637120925,
+              -58.0
+            ],
+            "axis": [
+              -0.4786918579404784,
+              -0.8779829754276512,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              6.4,
+              7.0
+            ],
+            "grip_range": [
+              4.5,
+              25.0
+            ],
+            "head_diameter": 10.0,
+            "head_height": 6.0
+          },
+          {
+            "id": "B3",
+            "size": "M6",
+            "position": [
+              118.8963219732627,
+              -23.567180632994898,
+              22.0
+            ],
+            "axis": [
+              -0.4786918579404784,
+              -0.8779829754276512,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              6.4,
+              7.0
+            ],
+            "grip_range": [
+              4.5,
+              25.0
+            ],
+            "head_diameter": 10.0,
+            "head_height": 6.0
+          },
+          {
+            "id": "B4",
+            "size": "M6",
+            "position": [
+              145.23581123609225,
+              -37.92793637120925,
+              22.0
+            ],
+            "axis": [
+              -0.4786918579404784,
+              -0.8779829754276512,
+              0.0
+            ],
+            "clearance_diameter_range": [
+              6.4,
+              7.0
+            ],
+            "grip_range": [
+              4.5,
+              25.0
+            ],
+            "head_diameter": 10.0,
+            "head_height": 6.0
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "generator": "flange",
+    "situation": "flange",
+    "test": "printable"
+  }
+}

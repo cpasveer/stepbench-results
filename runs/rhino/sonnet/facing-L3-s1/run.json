@@ -1,0 +1,60 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c+4562a24 (the v1 checker 9c2a54c plus exact areas and volumes by adaptive integration, for Rhino's one-edge closed loops; build123d and FreeCAD verdicts proven unchanged on 142 answers)",
+ "model": "sonnet",
+ "task": "facing-L3-s1",
+ "tool": "rhino",
+ "rhino_version": "9.1",
+ "where": "owner's Mac, local subagent, Rhino 9 via rhinocode",
+ "start_utc": "2026-11-17T00:17:19Z",
+ "end_utc": "2026-11-17T00:53:48Z",
+ "wall_clock_s": 2188.8,
+ "tokens": 236266,
+ "tool_uses": 47,
+ "checks": 6,
+ "last_outcome": "fail",
+ "last_failing": [
+  "Q_SHORT_EDGE",
+  "FDM_OVERHANG"
+ ],
+ "stiffness_last": {
+  "status": "pass",
+  "value": 1.5021,
+  "reason": "weakest mount B: 48.1 N/mm, need 32.0 N/mm (mount B: 0.9 kg (8.83 N) over at most 0.276 mm (span 69.0 mm / 250; PLA, filament printed); +-15%)"
+ },
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T00:22:08Z"
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T00:29:44Z"
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T00:37:47Z"
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T00:43:19Z"
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T00:48:39Z"
+  },
+  {
+   "n": 6,
+   "finished_utc": "2026-11-17T00:53:42Z"
+  }
+ ],
+ "nproc": 12,
+ "python": "checker: kit/.venv 3.14.7",
+ "usage_totals": {
+  "input_tokens": 94,
+  "cache_creation_input_tokens": 198610,
+  "cache_read_input_tokens": 7657295,
+  "output_tokens": 142123
+ },
+ "messages": 47
+}

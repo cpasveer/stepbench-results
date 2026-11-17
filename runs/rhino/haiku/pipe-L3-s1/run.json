@@ -1,0 +1,63 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c+4562a24 (the v1 checker 9c2a54c plus exact areas and volumes by adaptive integration, for Rhino's one-edge closed loops; build123d and FreeCAD verdicts proven unchanged on 142 answers)",
+ "model": "haiku",
+ "task": "pipe-L3-s1",
+ "tool": "rhino",
+ "rhino_version": "9.1",
+ "where": "owner's Mac, local subagent, Rhino 9 via rhinocode",
+ "start_utc": "2026-11-17T05:13:11Z",
+ "end_utc": "2026-11-17T07:17:56Z",
+ "wall_clock_s": 7484.7,
+ "tokens": 433194,
+ "tool_uses": 114,
+ "checks": 5,
+ "last_outcome": "fail",
+ "last_failing": [
+  "Q_SLIVER_FACE",
+  "Q_TINY_FACE",
+  "Q_SHORT_EDGE",
+  "Q_UNMERGED",
+  "Q_NEAR_VERTICES",
+  "Q_STUB",
+  "FDM_WALL_MIN",
+  "FDM_OVERHANG",
+  "FDM_SUPPORT_REMOVABLE"
+ ],
+ "stiffness_last": {
+  "status": "pass",
+  "value": 1.0895,
+  "reason": "weakest mount B: 17.1 N/mm, need 15.7 N/mm (mount B: 0.5 kg (4.91 N) over at most 0.313 mm (span 78.2 mm / 250; PLA, filament printed); +-2%) -- straight elements (curved ones failed to map): round members read up to 6 % too flexible"
+ },
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T05:51:42Z"
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T06:18:29Z"
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T06:35:24Z"
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T06:50:11Z"
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T07:14:19Z"
+  }
+ ],
+ "nproc": 12,
+ "python": "checker: kit/.venv 3.14.7",
+ "usage_totals": {
+  "input_tokens": 228,
+  "cache_creation_input_tokens": 439539,
+  "cache_read_input_tokens": 33371253,
+  "output_tokens": 311502
+ },
+ "messages": 114
+}

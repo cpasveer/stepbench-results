@@ -1,0 +1,1568 @@
+{
+  "n": 6,
+  "time": "2026-11-17T04:38:58.697+00:00",
+  "by": "opus",
+  "file": "output.step",
+  "sha256": "9d7019eb56d34dc2227b9d3c9ec5cd4a5dd43639d69d83df906db2db0f959184",
+  "archive": "attempts/0006",
+  "files": {
+    "step": "attempts/0006/output.step",
+    "script": "attempts/0006/submission.py",
+    "script_link": "found",
+    "feedback": "attempts/0006/feedback.txt"
+  },
+  "feedback_format": "text",
+  "step_header": {
+    "file_description": "FILE_DESCRIPTION( /* description */ (''), /* implementation_level */ '2;1');",
+    "file_name": "FILE_NAME( /* name */ 'output', /* time_stamp */ '2026-11-17T05:35:16+01:00', /* author */ (''), /* organization */ (''), /* preprocessor_version */ 'ST-DEVELOPER v19.2', /* originating_system */ 'Rhino 9.1', /* authorisation */ '');",
+    "name": "output",
+    "time_stamp": "2026-11-17T05:35:16+01:00",
+    "author": [
+      ""
+    ],
+    "organization": [
+      ""
+    ],
+    "preprocessor_version": "ST-DEVELOPER v19.2",
+    "originating_system": "Rhino 9.1",
+    "authorization": ""
+  },
+  "task_set": null,
+  "tool": "rhino",
+  "tool_vs_header": "consistent",
+  "task": "pipe-L3-s1",
+  "passed": true,
+  "outcome": "pass",
+  "counts_as_attempt": true,
+  "verdict": {
+    "passed": true,
+    "outcome": "pass",
+    "counts_as_attempt": true,
+    "errors": [],
+    "requirements": {
+      "fits": {
+        "required": true,
+        "result": "pass",
+        "failed": []
+      },
+      "clean": {
+        "required": true,
+        "result": "pass",
+        "failed": []
+      },
+      "makeable": {
+        "required": true,
+        "result": "pass",
+        "failed": []
+      },
+      "sturdy": {
+        "required": true,
+        "result": "pass",
+        "failed": []
+      }
+    },
+    "score": {
+      "material_used_cm3": 32.875,
+      "material_measure": "printed plastic: shell and infill as the printer lays them"
+    }
+  },
+  "checks": [
+    {
+      "name": "FILE_VALID",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "1 closed valid solid, 37 faces",
+      "value": 1,
+      "unit": "solids",
+      "details": {}
+    },
+    {
+      "name": "HOLES",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "8 holes on axis within 0.000 mm (tol 0.1), dia 4.55-5.55, grip 5.0-5.0 mm",
+      "value": 0.0,
+      "unit": "mm",
+      "details": {
+        "holes": [
+          {
+            "bolt": "A1",
+            "offset": 0.0,
+            "diameter": 5.55,
+            "grip": 4.9641
+          },
+          {
+            "bolt": "A2",
+            "offset": 0.0,
+            "diameter": 5.55,
+            "grip": 4.9641
+          },
+          {
+            "bolt": "A3",
+            "offset": 0.0,
+            "diameter": 5.55,
+            "grip": 4.9929
+          },
+          {
+            "bolt": "A4",
+            "offset": 0.0,
+            "diameter": 5.55,
+            "grip": 4.9929
+          },
+          {
+            "bolt": "B1",
+            "offset": 0.0,
+            "diameter": 4.55,
+            "grip": 5.0
+          },
+          {
+            "bolt": "B2",
+            "offset": 0.0,
+            "diameter": 4.55,
+            "grip": 5.0
+          },
+          {
+            "bolt": "B3",
+            "offset": 0.0,
+            "diameter": 4.55,
+            "grip": 5.0
+          },
+          {
+            "bolt": "B4",
+            "offset": 0.0,
+            "diameter": 4.55,
+            "grip": 5.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "SEATING",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "seated on every mounting face; worst bolt ring 100% in contact (need 75%)",
+      "value": 1.0,
+      "unit": "ratio",
+      "details": {
+        "bolts": [
+          {
+            "bolt": "B1",
+            "contact": 1.0
+          },
+          {
+            "bolt": "B2",
+            "contact": 1.0
+          },
+          {
+            "bolt": "B3",
+            "contact": 1.0
+          },
+          {
+            "bolt": "B4",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A1",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A2",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A3",
+            "contact": 1.0
+          },
+          {
+            "bolt": "A4",
+            "contact": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "SEAT_INSIDE",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)",
+      "value": 0.0,
+      "unit": "mm2",
+      "details": {
+        "faces": [
+          {
+            "part": "B",
+            "seat_mm2": 1202.321,
+            "outside_mm2": 0.0
+          }
+        ],
+        "setback_mm": 1.0
+      }
+    },
+    {
+      "name": "NO_INTERFERENCE",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)",
+      "value": 0.0,
+      "unit": "mm3",
+      "details": {
+        "overlaps": [
+          {
+            "what": "part vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "part vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A1 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A1 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A1 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A2 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A2 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A2 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A3 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A3 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A3 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A4 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A4 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt A4 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B1 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B1 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B1 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B2 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B2 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B2 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B3 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B3 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B3 vs fixed B",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B4 vs part",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B4 vs fixed A",
+            "volume": 0.0
+          },
+          {
+            "what": "bolt B4 vs fixed B",
+            "volume": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "CLEAR_PATH",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "no obstacles in this task",
+      "value": 0.0,
+      "unit": "mm3",
+      "details": {
+        "overlaps": []
+      }
+    },
+    {
+      "name": "TOOL_ACCESS",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "a straight tool (30 mm long, head dia + 0) reaches every bolt",
+      "value": 0.0,
+      "unit": "mm3",
+      "details": {
+        "envelopes": [
+          {
+            "bolt": "A1",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A1",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A1",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A2",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A2",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A2",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A3",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A3",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A3",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A4",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A4",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "A4",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B1",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B1",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B1",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B2",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B2",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B2",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B3",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B3",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B3",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B4",
+            "blocked_by": "the part itself",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B4",
+            "blocked_by": "fixed part A",
+            "volume": 0.0
+          },
+          {
+            "bolt": "B4",
+            "blocked_by": "fixed part B",
+            "volume": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "KEY_TURN",
+      "status": "pass",
+      "required": true,
+      "group": "fits",
+      "reason": "a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)",
+      "value": 60.0,
+      "unit": "deg",
+      "details": {
+        "bolts": [
+          {
+            "bolt": "A1",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 268.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 198.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "A2",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 296.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 222.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "A3",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 274.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 110.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "A4",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 306.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 52.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B1",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 240.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 134.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B2",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 290.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 110.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B3",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 282.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 136.0,
+            "blocked_by": []
+          },
+          {
+            "bolt": "B4",
+            "pose": 0,
+            "ok": true,
+            "swing_deg": 60.0,
+            "open_deg": 226.0,
+            "tilt_deg": 0.0,
+            "lean_direction_deg": 0.0,
+            "start_deg": 162.0,
+            "blocked_by": []
+          }
+        ],
+        "grid": {
+          "tilt_max": 25.0,
+          "tilt_step": 5.0,
+          "lean_directions": 8,
+          "coarse_deg": 10.0,
+          "fine_deg": 2.0,
+          "swing_needed": 60.0
+        }
+      }
+    },
+    {
+      "name": "Q_SLIVER_FACE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "no sliver faces (narrowest long face 0.97 mm wide)",
+      "value": 0.9709,
+      "unit": "mm",
+      "details": {
+        "rule": "No sliver faces",
+        "limit": 0.25,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_TINY_FACE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "smallest face 35.89 mm2 (min 0.1 mm2)",
+      "value": 35.8887,
+      "unit": "mm2",
+      "details": {
+        "rule": "No tiny faces",
+        "limit": 0.1,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_SHORT_EDGE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "shortest edge 0.76 mm (min 0.1 mm)",
+      "value": 0.7643,
+      "unit": "mm",
+      "details": {
+        "rule": "No very short edges",
+        "limit": 0.1,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_SMALL_STEP",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "lowest step 1.00 mm (min 0.2 mm)",
+      "value": 1.0,
+      "unit": "mm",
+      "details": {
+        "rule": "No hairline steps between faces meant to be flush",
+        "limit": 0.2,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_THIN_WEDGE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "sharpest corner 37.0 deg (min 5 deg)",
+      "value": 36.962,
+      "unit": "deg",
+      "details": {
+        "rule": "No knife edges or thin wedges",
+        "limit": 5.0,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_CREASE",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "gentlest bend between faces 39.8 deg (min 2 deg)",
+      "value": 39.82,
+      "unit": "deg",
+      "details": {
+        "rule": "No near-flat creases",
+        "limit": 2.0,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_UNMERGED",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "no face is split on its own surface",
+      "value": 0,
+      "unit": "pairs",
+      "details": {
+        "rule": "Faces on the same surface are merged",
+        "limit": 0.0,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_NEAR_VERTICES",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "closest unjoined corners 1.41 mm apart (min 0.05 mm)",
+      "value": 1.41421,
+      "unit": "mm",
+      "details": {
+        "rule": "No near-coincident corners",
+        "limit": 0.05,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_STUB",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "no member runs on past a face it joins",
+      "value": null,
+      "unit": "mm",
+      "details": {
+        "rule": "No stubs: members end at the faces they join",
+        "limit": 5.0,
+        "where": []
+      }
+    },
+    {
+      "name": "Q_SHALLOW_JOINT",
+      "status": "pass",
+      "required": true,
+      "group": "clean",
+      "reason": "narrowest inside corner 60 deg (min 45 deg)",
+      "value": 60.0,
+      "unit": "deg",
+      "details": {
+        "rule": "No shallow joints",
+        "limit": 45.0,
+        "where": []
+      }
+    },
+    {
+      "name": "SECTION_MIN",
+      "status": "pass",
+      "required": false,
+      "group": "sturdy",
+      "reason": "thinnest section 282.1 mm2 between A-B (need 100.5)",
+      "value": 2.8057,
+      "unit": "ratio",
+      "details": {
+        "sections": [
+          {
+            "pair": "A-B",
+            "area": 282.059,
+            "required": 100.531,
+            "at": [
+              21.89,
+              98.18,
+              -6.82
+            ],
+            "normal": [
+              0.2488,
+              0.5901,
+              0.7681
+            ],
+            "outline": [
+              [
+                [
+                  -1.946,
+                  103.21,
+                  -2.961
+                ],
+                [
+                  -2.6,
+                  102.452,
+                  -2.167
+                ],
+                [
+                  -3.254,
+                  101.695,
+                  -1.374
+                ],
+                [
+                  -3.908,
+                  100.938,
+                  -0.58
+                ],
+                [
+                  -4.416,
+                  100.185,
+                  0.163
+                ],
+                [
+                  -3.354,
+                  99.5,
+                  0.345
+                ],
+                [
+                  -2.271,
+                  98.841,
+                  0.501
+                ],
+                [
+                  -1.17,
+                  98.207,
+                  0.631
+                ],
+                [
+                  -0.05,
+                  97.601,
+                  0.734
+                ],
+                [
+                  1.086,
+                  97.022,
+                  0.81
+                ],
+                [
+                  2.237,
+                  96.472,
+                  0.86
+                ],
+                [
+                  3.403,
+                  95.951,
+                  0.883
+                ],
+                [
+                  4.582,
+                  95.458,
+                  0.88
+                ],
+                [
+                  5.772,
+                  94.996,
+                  0.849
+                ],
+                [
+                  6.973,
+                  94.565,
+                  0.792
+                ],
+                [
+                  8.183,
+                  94.164,
+                  0.708
+                ],
+                [
+                  9.4,
+                  93.794,
+                  0.597
+                ],
+                [
+                  10.624,
+                  93.456,
+                  0.46
+                ],
+                [
+                  11.854,
+                  93.151,
+                  0.297
+                ],
+                [
+                  13.087,
+                  92.877,
+                  0.107
+                ],
+                [
+                  14.323,
+                  92.637,
+                  -0.108
+                ],
+                [
+                  15.56,
+                  92.429,
+                  -0.349
+                ],
+                [
+                  16.796,
+                  92.255,
+                  -0.616
+                ],
+                [
+                  18.032,
+                  92.114,
+                  -0.908
+                ],
+                [
+                  19.265,
+                  92.006,
+                  -1.224
+                ],
+                [
+                  20.493,
+                  91.932,
+                  -1.566
+                ],
+                [
+                  21.716,
+                  91.892,
+                  -1.931
+                ],
+                [
+                  22.933,
+                  91.886,
+                  -2.32
+                ],
+                [
+                  24.141,
+                  91.913,
+                  -2.733
+                ],
+                [
+                  25.341,
+                  91.974,
+                  -3.168
+                ],
+                [
+                  26.529,
+                  92.069,
+                  -3.626
+                ],
+                [
+                  27.706,
+                  92.197,
+                  -4.106
+                ],
+                [
+                  28.87,
+                  92.359,
+                  -4.607
+                ],
+                [
+                  30.019,
+                  92.554,
+                  -5.129
+                ],
+                [
+                  31.152,
+                  92.782,
+                  -5.672
+                ],
+                [
+                  32.269,
+                  93.043,
+                  -6.234
+                ],
+                [
+                  33.368,
+                  93.337,
+                  -6.815
+                ],
+                [
+                  34.448,
+                  93.662,
+                  -7.415
+                ],
+                [
+                  35.507,
+                  94.02,
+                  -8.033
+                ],
+                [
+                  36.545,
+                  94.409,
+                  -8.668
+                ],
+                [
+                  37.56,
+                  94.829,
+                  -9.319
+                ],
+                [
+                  38.551,
+                  95.28,
+                  -9.987
+                ],
+                [
+                  39.518,
+                  95.761,
+                  -10.669
+                ],
+                [
+                  40.458,
+                  96.271,
+                  -11.366
+                ],
+                [
+                  41.372,
+                  96.811,
+                  -12.077
+                ],
+                [
+                  42.259,
+                  97.379,
+                  -12.8
+                ],
+                [
+                  43.116,
+                  97.974,
+                  -13.536
+                ],
+                [
+                  43.944,
+                  98.598,
+                  -14.283
+                ],
+                [
+                  44.741,
+                  99.247,
+                  -15.04
+                ],
+                [
+                  45.507,
+                  99.923,
+                  -15.807
+                ],
+                [
+                  45.89,
+                  100.739,
+                  -16.558
+                ],
+                [
+                  45.631,
+                  101.77,
+                  -17.266
+                ],
+                [
+                  45.372,
+                  102.801,
+                  -17.974
+                ],
+                [
+                  45.113,
+                  103.832,
+                  -18.682
+                ],
+                [
+                  44.143,
+                  104.075,
+                  -18.555
+                ],
+                [
+                  42.934,
+                  104.053,
+                  -18.146
+                ],
+                [
+                  42.168,
+                  103.414,
+                  -17.407
+                ],
+                [
+                  41.425,
+                  102.72,
+                  -16.634
+                ],
+                [
+                  40.646,
+                  102.055,
+                  -15.871
+                ],
+                [
+                  39.831,
+                  101.421,
+                  -15.119
+                ],
+                [
+                  38.982,
+                  100.817,
+                  -14.38
+                ],
+                [
+                  38.099,
+                  100.246,
+                  -13.655
+                ],
+                [
+                  37.185,
+                  99.706,
+                  -12.945
+                ],
+                [
+                  36.24,
+                  99.201,
+                  -12.25
+                ],
+                [
+                  35.266,
+                  98.729,
+                  -11.572
+                ],
+                [
+                  34.263,
+                  98.292,
+                  -10.912
+                ],
+                [
+                  33.234,
+                  97.891,
+                  -10.27
+                ],
+                [
+                  32.181,
+                  97.525,
+                  -9.648
+                ],
+                [
+                  31.103,
+                  97.196,
+                  -9.046
+                ],
+                [
+                  30.004,
+                  96.904,
+                  -8.466
+                ],
+                [
+                  28.884,
+                  96.649,
+                  -7.907
+                ],
+                [
+                  27.745,
+                  96.432,
+                  -7.372
+                ],
+                [
+                  26.588,
+                  96.253,
+                  -6.859
+                ],
+                [
+                  25.416,
+                  96.112,
+                  -6.372
+                ],
+                [
+                  24.23,
+                  96.01,
+                  -5.909
+                ],
+                [
+                  23.032,
+                  95.946,
+                  -5.472
+                ],
+                [
+                  21.823,
+                  95.921,
+                  -5.061
+                ],
+                [
+                  20.605,
+                  95.935,
+                  -4.677
+                ],
+                [
+                  19.379,
+                  95.988,
+                  -4.32
+                ],
+                [
+                  18.148,
+                  96.079,
+                  -3.992
+                ],
+                [
+                  16.914,
+                  96.208,
+                  -3.691
+                ],
+                [
+                  15.677,
+                  96.376,
+                  -3.42
+                ],
+                [
+                  14.44,
+                  96.582,
+                  -3.177
+                ],
+                [
+                  13.205,
+                  96.826,
+                  -2.964
+                ],
+                [
+                  11.972,
+                  97.108,
+                  -2.781
+                ],
+                [
+                  10.745,
+                  97.426,
+                  -2.628
+                ],
+                [
+                  9.524,
+                  97.781,
+                  -2.506
+                ],
+                [
+                  8.312,
+                  98.172,
+                  -2.413
+                ],
+                [
+                  7.109,
+                  98.599,
+                  -2.352
+                ],
+                [
+                  5.919,
+                  99.06,
+                  -2.321
+                ],
+                [
+                  4.742,
+                  99.556,
+                  -2.321
+                ],
+                [
+                  3.58,
+                  100.086,
+                  -2.351
+                ],
+                [
+                  2.435,
+                  100.648,
+                  -2.412
+                ],
+                [
+                  1.308,
+                  101.243,
+                  -2.504
+                ],
+                [
+                  0.201,
+                  101.868,
+                  -2.626
+                ],
+                [
+                  -0.884,
+                  102.524,
+                  -2.778
+                ],
+                [
+                  -1.946,
+                  103.21,
+                  -2.961
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "STIFFNESS",
+      "status": "pass",
+      "required": true,
+      "group": "sturdy",
+      "reason": "weakest mount B: 30.0 N/mm, need 15.7 N/mm (mount B: 0.5 kg (4.91 N) over at most 0.313 mm (span 78.2 mm / 250; PLA, filament printed); +-15%)",
+      "value": 1.9139,
+      "unit": "ratio",
+      "details": {
+        "verdict": "pass",
+        "per_mount": [
+          {
+            "mount": "B",
+            "mass_kg": 0.5,
+            "design_load_N": 4.91,
+            "span_mm": 78.15,
+            "deflection_ratio": 250,
+            "allowed_deflection_mm": 0.3126,
+            "required": 15.689998685633599,
+            "bolts": "stated load",
+            "statement": "Fixed part B carries 0.5 kg (4.91 N). With A held, that weight may move B by at most 0.313 mm, whichever way it pulls (a turning load counts as the weight at the 78.15 mm span): at least 15.7 N/mm, in PLA, filament printed.",
+            "figure": 30.02851839335992,
+            "verdict": "pass",
+            "margin_percent": 91.4
+          }
+        ],
+        "precision": 15.0,
+        "stages": [
+          {
+            "stage": "screen, 4 mm",
+            "seconds": 6.4,
+            "figure": 30.02851839335992,
+            "verdict": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FDM_WALL_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "thinnest wall 0.83 mm (min 0.8 mm)",
+      "value": 0.833,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum wall thickness",
+        "limit": 0.8,
+        "where": [
+          {
+            "point": [
+              40.17,
+              45.965,
+              40.178
+            ],
+            "face": 20
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    },
+    {
+      "name": "FDM_OVERHANG",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "steepest overhang 43.6 deg (max 45 deg)",
+      "value": 43.58,
+      "unit": "deg",
+      "details": {
+        "rule": "Overhang without support",
+        "limit": 45.0,
+        "where": [
+          {
+            "point": [
+              9.332,
+              129.336,
+              31.261
+            ],
+            "face": 15
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    },
+    {
+      "name": "FDM_BRIDGE",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "no bridges",
+      "value": null,
+      "unit": "mm",
+      "details": {
+        "rule": "Maximum bridge span",
+        "limit": 10.0,
+        "where": [],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    },
+    {
+      "name": "FDM_HOLE_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "8 hole(s), smallest 4.55 mm (min 2 mm)",
+      "value": 4.55,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum hole diameter",
+        "limit": 2.0,
+        "where": [
+          {
+            "point": [
+              34.089,
+              46.268,
+              64.274
+            ],
+            "face": 33
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    },
+    {
+      "name": "FDM_PIN_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "no round pins",
+      "value": null,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum pin diameter",
+        "limit": 3.0,
+        "where": [],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    },
+    {
+      "name": "FDM_GAP_MIN",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "narrowest gap 0.63 mm (min 0.5 mm)",
+      "value": 0.635,
+      "unit": "mm",
+      "details": {
+        "rule": "Minimum gap between faces",
+        "limit": 0.5,
+        "where": [
+          {
+            "point": [
+              7.496,
+              88.355,
+              -6.39
+            ],
+            "face": 18
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    },
+    {
+      "name": "FDM_BED_CONTACT",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "1637 mm2 flat on the bed over 1 face(s) (min 50 mm2)",
+      "value": 1636.78,
+      "unit": "mm2",
+      "details": {
+        "rule": "Flat face on the bed, large enough",
+        "limit": 50.0,
+        "where": [
+          {
+            "point": [
+              54.768,
+              50.77,
+              6.91
+            ],
+            "face": 35
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    },
+    {
+      "name": "FDM_STANCE",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "69.0 mm tall on a 52.3 mm stance, 1.32 x (max 3 x)",
+      "value": 1.32,
+      "unit": "x",
+      "details": {
+        "rule": "Stance wide enough for the height",
+        "limit": 3.0,
+        "where": [
+          {
+            "point": [
+              54.768,
+              50.77,
+              6.91
+            ],
+            "face": 35
+          }
+        ],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    },
+    {
+      "name": "FDM_SEALED_HOLLOW",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "no sealed hollows",
+      "value": 0,
+      "unit": "voids",
+      "details": {
+        "rule": "No sealed hollows",
+        "limit": 0.0,
+        "where": [],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    },
+    {
+      "name": "FDM_SUPPORT_REMOVABLE",
+      "status": "pass",
+      "required": true,
+      "group": "makeable",
+      "reason": "no support needed in this direction",
+      "value": 0.0,
+      "unit": "mm2",
+      "details": {
+        "rule": "Support can be removed",
+        "limit": 0.0,
+        "where": [],
+        "process": "fdm",
+        "direction": [
+          -0.947098,
+          -0.017782,
+          0.32045
+        ],
+        "direction_chosen": "chosen by the checker (best of 17 candidates: face 35 down)"
+      }
+    }
+  ],
+  "info": {
+    "volume": 66834.487,
+    "bbox_min": [
+      -6.932,
+      34.032,
+      -26.35
+    ],
+    "bbox_max": [
+      64.425,
+      130.793,
+      70.047
+    ],
+    "bbox_size": [
+      71.357,
+      96.76,
+      96.397
+    ],
+    "build_box": [
+      69.903,
+      81.4,
+      102.985
+    ],
+    "fits_build_volume": true,
+    "material_used": {
+      "process": "fdm",
+      "measure": "printed plastic: shell and infill as the printer lays them",
+      "used_cm3": 32.875,
+      "grams": 40.76,
+      "solid_cm3": 66.834,
+      "shell_cm3": 24.385,
+      "infill_cm3": 8.49
+    }
+  }
+}

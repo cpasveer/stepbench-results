@@ -1,0 +1,17 @@
+ok: wrote output.step
+start
+taper ok
+union ok
+pipe ok
+bed ok
+holes ok
+volume 63755.8 faces 17
+  overhang face 9 cyl 27.8 mm2
+  overhang face 10 cyl 28.0 mm2
+  overhang face 11 cyl 16.7 mm2
+  overhang face 12 cyl 16.7 mm2
+  overhang face 13 cyl 20.9 mm2
+  overhang face 14 cyl 20.9 mm2
+  overhang face 15 cyl 20.9 mm2
+  overhang face 16 cyl 21.0 mm2
+overhang total 172.9 bed-level faces [4, 7, 8] height 94.2

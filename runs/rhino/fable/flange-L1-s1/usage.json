@@ -1,0 +1,32 @@
+[
+ {
+  "id": "msg_011Ch7cpWaiRzXxFgjAknPGS",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 21441,
+  "cache_read_input_tokens": 36597,
+  "output_tokens": 167,
+  "ephemeral_5m_input_tokens": 21441,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7cpoLXBwqQsSpPyMjvT",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 13916,
+  "cache_read_input_tokens": 58038,
+  "output_tokens": 16899,
+  "ephemeral_5m_input_tokens": 13916,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7d5qvyAFT9c7yMkMVXL",
+  "model": "claude-fable-5-2",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17884,
+  "cache_read_input_tokens": 71954,
+  "output_tokens": 440,
+  "ephemeral_5m_input_tokens": 17884,
+  "ephemeral_1h_input_tokens": 0
+ }
+]

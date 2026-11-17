@@ -1,0 +1,7 @@
+attempts/0004/output.step:
+grid 44 60 68 h 1.3833333333333335 1.5 1.5 voxels 13506 vol 42037.425 t 224
+CFG full     tied  592 worst 0.01529 six 0.01422 | transl(u,n,zl) [0.0775 0.4432 0.0549] rot [0.0209 0.0174 0.0188] (21s)
+CFG seat3.5  tied  224 worst 0.01480 six 0.01361 | transl(u,n,zl) [0.0772 0.4124 0.0548] rot [0.0185 0.017  0.0169] (18s)
+CFG seat5    tied  306 worst 0.01497 six 0.01380 | transl(u,n,zl) [0.0772 0.4213 0.0548] rot [0.0192 0.0171 0.0174] (18s)
+CFG head3.5  tied  224 worst 0.01480 six 0.01361 | transl(u,n,zl) [0.0772 0.412  0.0548] rot [0.0184 0.017  0.0169] (18s)
+CFG hole     tied  216 worst 0.01479 six 0.01360 | transl(u,n,zl) [0.0771 0.4105 0.0548] rot [0.0184 0.017  0.0169] (18s)

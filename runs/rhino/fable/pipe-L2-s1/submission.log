@@ -1,0 +1,9 @@
+ok: wrote output.step
+ub.axis=2.78e-17
+Bc=99.81394054936786,32.39240883805465,-6.081234000000002 n=-0.7680648380709508,2.366782513394844E-33,0.6403720828698297 zw=0.6403720828698299,4.2119798763481516E-17,0.7680648380709507
+valid=True solid=True faces=31 edges=87 naked=0 vol=68459
+shortest edges 2.612 2.612 4.000 4.000 5.511 5.511
+smallest faces 84.82 84.82 84.82 84.82 104.63 104.63
+faces by kind {'plane': 20, 'cyl': 11}
+fixed_A.step import=True breps=0 overlap=0.0000
+fixed_B.step import=True breps=0 overlap=0.0000

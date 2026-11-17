@@ -1,0 +1,27 @@
+ok: wrote output.step
+solid valid=True closed=True volume=57578.3 mm3 faces=65
+A1 tool_overlap=0.000 head_env_overlap=0.000
+A2 tool_overlap=0.000 head_env_overlap=0.000
+A3 tool_overlap=0.000 head_env_overlap=0.000
+A4 tool_overlap=0.000 head_env_overlap=0.000
+A5 tool_overlap=0.000 head_env_overlap=0.000
+A6 tool_overlap=0.000 head_env_overlap=0.000
+B1 tool_overlap=0.000 head_env_overlap=0.000
+B2 tool_overlap=0.000 head_env_overlap=0.000
+B3 tool_overlap=0.000 head_env_overlap=0.000
+B4 tool_overlap=0.000 head_env_overlap=0.000
+coplanar group n=(0.88,-0.48,0.00) d=122.2 faces=2 areas=[284.6, 520.7]
+coplanar group n=(-0.00,0.00,1.00) d=28.5 faces=2 areas=[130.0, 130.0]
+coplanar group n=(-0.00,0.00,-1.00) d=64.5 faces=2 areas=[130.0, 130.0]
+coplanar group n=(-0.48,-0.88,-0.00) d=-26.2 faces=2 areas=[1100.3, 1112.8]
+coplanar group n=(-0.88,0.48,-0.00) d=-139.2 faces=2 areas=[293.1, 523.3]
+coplanar group n=(-0.58,0.64,-0.50) d=-113.4 faces=2 areas=[33.0, 56.9]
+coplanar group n=(0.58,-0.64,-0.50) d=113.9 faces=2 areas=[56.9, 30.5]
+coplanar group n=(-0.58,0.64,0.50) d=-107.9 faces=2 areas=[25.1, 56.9]
+coplanar group n=(0.58,-0.64,0.50) d=119.4 faces=2 areas=[25.3, 56.9]
+coplanar group n=(-0.74,-0.67,-0.00) d=-8.8 faces=2 areas=[289.8, 1562.2]
+coplanar group n=(0.74,0.67,0.00) d=12.8 faces=2 areas=[710.7, 689.1]
+coplanar group n=(0.67,-0.74,0.00) d=146.3 faces=2 areas=[69.1, 69.1]
+coplanar group n=(0.67,-0.74,-0.00) d=116.3 faces=2 areas=[69.1, 69.1]
+coplanar group n=(0.88,-0.48,0.00) d=115.7 faces=2 areas=[207.3, 207.3]
+coplanar group n=(0.88,-0.48,0.00) d=145.7 faces=2 areas=[207.3, 207.3]

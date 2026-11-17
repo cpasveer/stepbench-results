@@ -1,0 +1,33 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c+4562a24 (the v1 checker 9c2a54c plus exact areas and volumes by adaptive integration, for Rhino's one-edge closed loops; build123d and FreeCAD verdicts proven unchanged on 142 answers)",
+ "model": "fable",
+ "task": "pipe-L2-s1",
+ "tool": "rhino",
+ "rhino_version": "9.1",
+ "where": "owner's Mac, local subagent, Rhino 9 via rhinocode",
+ "start_utc": "2026-11-17T02:18:22Z",
+ "end_utc": "2026-11-17T02:34:51Z",
+ "wall_clock_s": 989.6,
+ "tokens": 141807,
+ "tool_uses": 8,
+ "checks": 1,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T02:34:37Z"
+  }
+ ],
+ "nproc": 12,
+ "python": "checker: kit/.venv 3.14.7",
+ "usage_totals": {
+  "input_tokens": 16,
+  "cache_creation_input_tokens": 176386,
+  "cache_read_input_tokens": 762073,
+  "output_tokens": 64671
+ },
+ "messages": 8
+}

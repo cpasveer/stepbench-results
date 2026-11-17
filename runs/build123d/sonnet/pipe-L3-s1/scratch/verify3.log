@@ -1,0 +1,37 @@
+warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+FAIL  (24/29 required checks)  pipe-L3-s1
+  ok   FILE_VALID       1 closed valid solid, 55 faces
+  ok   HOLES            8 holes on axis within 0.000 mm (tol 0.1), dia 4.50-5.50, grip 3.6-4.2 mm
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  ok   NO_INTERFERENCE  no overlap with fixed parts or bolt space (worst 0.0000 mm3, limit 0.01)
+  ok   CLEAR_PATH       no obstacles in this task
+  ok   TOOL_ACCESS      a straight tool (30 mm long, head dia + 0) reaches every bolt
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 1.35 mm wide)
+  ok   Q_TINY_FACE      smallest face 10.93 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 0.50 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 3.60 mm (min 0.2 mm)
+  ok   Q_THIN_WEDGE     sharpest corner 18.5 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 27.9 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 0.96 mm apart (min 0.05 mm)
+  FAIL Q_STUB           2 stub(s): a member runs 3.23 mm past the face it joins
+  FAIL Q_SHALLOW_JOINT  1 shallow joint(s): faces meet at 43.3 deg, leaving a narrow crevice
+  --   SECTION_MIN      skipped: the part does not fit yet
+  FAIL STIFFNESS        could not be analysed: gmsh could not mesh the solid: Invalid boundary mesh (overlapping facets) on surface 26 surface 28; the model is untidy: Q_STUB, Q_SHALLOW_JOINT
+  FAIL FDM_WALL_MIN     wall 0.40 mm thin at [45.568, 104.389, -6.618] (min 0.8 mm; 33 of 19582 samples under): wall from the inside of a hole r = 5.00 mm, 2.8 mm long (face 43) straight into the material to the plane face 20.9 x 18.2 mm (face 37), direction [0.332, 0.647, 0.687]; along a strip about 5 mm long (20 sample points)
+  FAIL FDM_OVERHANG     downward edge 90.0 deg from vertical (edges: max 63.4 deg, one line width per layer), 32 mm long: two downward faces meet in a keel that each layer extends in mid-air, and it sticks out level from one support; 104 mm of such edges and 0 mm2 of surface need support
+  ok   FDM_BRIDGE       no bridges
+  ok   FDM_HOLE_MIN     12 hole(s), smallest 4.50 mm (min 2 mm)
+  ok   FDM_PIN_MIN      no round pins
+  ok   FDM_GAP_MIN      narrowest gap 0.53 mm (min 0.5 mm)
+  ok   FDM_BED_CONTACT  1155 mm2 flat on the bed over 1 face(s) (min 50 mm2)
+  ok   FDM_STANCE       90.3 mm tall on a 33.0 mm stance, 2.74 x (max 3 x)
+  ok   FDM_SEALED_HOLLOW no sealed hollows
+  ok   FDM_SUPPORT_REMOVABLE no support needed in this direction
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits pass, clean fail, makeable fail, sturdy fail
+  info volume 32660.2 mm3, bounding box 67.3 x 90.5 x 90.3 mm
+  attempt #3 archived in ./attempts/0003
+  checks used: 3 of 6

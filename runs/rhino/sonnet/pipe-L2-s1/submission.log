@@ -1,0 +1,34 @@
+ok: wrote output.step
+dirA vs bis 6.0 deg, bend 40.8 deg, lenB 57.2
+rib poly (16.9,0.0) (17.8,0.0) (31.6,11.5) (25.3,19.0) (16.9,12.0)
+part vol 100937.7 solid True
+part vol 11393.7 solid True
+solid=True valid=True volume=62109.5 faces=18
+  face 0 area 4049 share 0.09 axial 4.4 curved
+  face 3 area 944 share 1.00 axial 25.5 plane
+  face 10 area 105 share 0.25 axial -17.5 curved
+  face 11 area 105 share 0.25 axial 17.5 curved
+  face 12 area 105 share 0.25 axial -17.5 curved
+  face 13 area 105 share 0.25 axial 17.5 curved
+  face 14 area 71 share 0.17 axial -14.1 curved
+  face 15 area 71 share 0.17 axial 5.1 curved
+  face 16 area 71 share 0.17 axial 5.1 curved
+  face 17 area 71 share 0.17 axial -14.1 curved
+F0 NurbsSurface area 4049 axial -27.9..38.5
+F1 PlaneSurface area 320 axial -20.3..30.8
+F2 PlaneSurface area 320 axial -20.3..30.8
+F3 PlaneSurface area 944 axial -45.5..96.5
+F4 PlaneSurface area 972 axial -96.5..45.5
+F5 NurbsSurface area 4680 axial -88.0..90.8
+F6 NurbsSurface area 92 axial -495.4..485.8
+F7 NurbsSurface area 4345 axial -88.0..90.8
+F8 NurbsSurface area 369 axial -567.9..549.8
+F9 RevSurface area 2791 axial -241.1..241.1
+F10 RevSurface area 105 axial -29.7..-5.3
+F11 RevSurface area 105 axial 5.3..29.7
+F12 RevSurface area 105 axial -31.7..-3.3
+F13 RevSurface area 105 axial 3.3..31.7
+F14 RevSurface area 71 axial -20.4..-7.2
+F15 RevSurface area 71 axial -1.2..12.0
+F16 RevSurface area 71 axial -1.2..12.0
+F17 RevSurface area 71 axial -20.4..-7.2

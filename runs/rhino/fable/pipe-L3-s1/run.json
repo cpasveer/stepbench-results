@@ -1,0 +1,49 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c+4562a24 (the v1 checker 9c2a54c plus exact areas and volumes by adaptive integration, for Rhino's one-edge closed loops; build123d and FreeCAD verdicts proven unchanged on 142 answers)",
+ "model": "fable",
+ "task": "pipe-L3-s1",
+ "tool": "rhino",
+ "rhino_version": "9.1",
+ "where": "owner's Mac, local subagent, Rhino 9 via rhinocode",
+ "start_utc": "2026-11-17T02:34:59Z",
+ "end_utc": "2026-11-17T03:07:33Z",
+ "wall_clock_s": 1953.6,
+ "tokens": 194313,
+ "tool_uses": 13,
+ "checks": 4,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": {
+  "status": "pass",
+  "value": 1.6744,
+  "reason": "weakest mount B: 26.3 N/mm, need 15.7 N/mm (mount B: 0.5 kg (4.91 N) over at most 0.313 mm (span 78.2 mm / 250; PLA, filament printed); +-15%)"
+ },
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T02:51:49Z"
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T03:00:29Z"
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T03:04:25Z"
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T03:07:20Z"
+  }
+ ],
+ "nproc": 12,
+ "python": "checker: kit/.venv 3.14.7",
+ "usage_totals": {
+  "input_tokens": 34,
+  "cache_creation_input_tokens": 229883,
+  "cache_read_input_tokens": 2266039,
+  "output_tokens": 110778
+ },
+ "messages": 15
+}

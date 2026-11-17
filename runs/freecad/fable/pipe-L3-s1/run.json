@@ -1,0 +1,53 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c (jointbench, acae10b plus the four checker fixes found by inspecting the pilot parts; frozen for STEP.bench v1 on 16 Nov 2026)",
+ "model": "fable",
+ "task": "pipe-L3-s1",
+ "tool": "freecad",
+ "freecad_version": "FreeCAD 1.1.4",
+ "start_utc": "2026-11-16T22:25:44Z",
+ "end_utc": "2026-11-16T23:44:18Z",
+ "wall_clock_s": 4713.5,
+ "tokens": 262080,
+ "tool_uses": 44,
+ "checks": 5,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": "ok   STIFFNESS        weakest mount B: 17.7 N/mm, need 15.7 N/mm (mount B: 0.5 kg (4.91 N) over at most 0.313 mm (span 78.2 mm / 250; PLA, filament printed); +-2%)",
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-16T22:37:45.067+00:00",
+   "approx_check_s": 92.6
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-16T22:57:28.462+00:00",
+   "approx_check_s": 79.9
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-16T23:04:07.315+00:00",
+   "approx_check_s": 67.3
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-16T23:13:46.850+00:00",
+   "approx_check_s": 47.1
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-16T23:43:50.603+00:00",
+   "approx_check_s": 80.2
+  }
+ ],
+ "setup_s": 98,
+ "nproc": 4,
+ "python": "3.13.18",
+ "usage_totals": {
+  "input_tokens": 86,
+  "cache_creation_input_tokens": 751363,
+  "cache_read_input_tokens": 7663288,
+  "output_tokens": 145369
+ }
+}

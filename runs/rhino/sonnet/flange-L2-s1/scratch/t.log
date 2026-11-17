@@ -1,0 +1,8 @@
+faces 12
+merge True
+faces 10
+prism faces 6 solid True
+prism faces 6 solid True
+ext faces 12
+merge True
+faces 10

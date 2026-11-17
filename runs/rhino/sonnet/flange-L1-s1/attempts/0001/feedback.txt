@@ -1,0 +1,21 @@
+FAIL  (12/16 required checks)  flange-L1-s1
+  ok   FILE_VALID       1 closed valid solid, 24 faces
+  FAIL HOLES            A1: no M5 hole found within 5 mm of the bolt axis (+9 more)
+  FAIL SEATING          A1: 0% of the bearing ring touches the face (need 75%); no flat face facing this mounting face (+5 more)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  FAIL NO_INTERFERENCE  part blocks bolt B2 (shank or head space): 528.274 mm3 overlap (5 clashes)
+  ok   KEY_TURN         a standard hex key swings at least 60 degrees on every bolt (leaning at most 25 degrees)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 1.82 mm wide)
+  ok   Q_TINY_FACE      smallest face 34.21 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 4.00 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 2.00 mm (min 0.2 mm)
+  ok   Q_THIN_WEDGE     sharpest corner 90.0 deg (min 5 deg)
+  ok   Q_CREASE         gentlest bend between faces 90.0 deg (min 2 deg)
+  ok   Q_UNMERGED       no face is split on its own surface
+  ok   Q_NEAR_VERTICES  closest unjoined corners 6.74 mm apart (min 0.05 mm)
+  FAIL Q_STUB           8 stub(s): a member runs 2.00 mm past the face it joins
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 90 deg (min 45 deg)
+  --   SECTION_MIN      skipped: the part does not fit yet
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits fail, clean fail, sturdy not measured (not required)
+  info volume 32007.7 mm3, bounding box 41.6 x 28.1 x 93.0 mm

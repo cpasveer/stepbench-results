@@ -1,0 +1,2 @@
+A plate centroid along normal: 2.00
+B plate centroid along normal: 2.50

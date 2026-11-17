@@ -1,0 +1,152 @@
+[
+ {
+  "id": "msg_011Ch7ptZHCF5HB7PAk5mqVw",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 21446,
+  "cache_read_input_tokens": 36597,
+  "output_tokens": 601,
+  "ephemeral_5m_input_tokens": 21446,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7ptupxnKAXQCNf87d7M",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 11261,
+  "cache_read_input_tokens": 58043,
+  "output_tokens": 317,
+  "ephemeral_5m_input_tokens": 11261,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7pu9P36rombtGGAtmQW",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3830,
+  "cache_read_input_tokens": 69304,
+  "output_tokens": 549,
+  "ephemeral_5m_input_tokens": 3830,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7puT3S13cqjVXzFjfPu",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2130,
+  "cache_read_input_tokens": 73134,
+  "output_tokens": 56742,
+  "ephemeral_5m_input_tokens": 2130,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qFNY7vrm3s2djLTp2R",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 56829,
+  "cache_read_input_tokens": 75264,
+  "output_tokens": 175,
+  "ephemeral_5m_input_tokens": 56829,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qFrHDeMhtGhQiQX7ks",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 291,
+  "cache_read_input_tokens": 132093,
+  "output_tokens": 1444,
+  "ephemeral_5m_input_tokens": 291,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qGiNkfG2rMVhMZBzYy",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1759,
+  "cache_read_input_tokens": 132384,
+  "output_tokens": 2034,
+  "ephemeral_5m_input_tokens": 1759,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qHoLBfukNZvRKYuBZP",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2255,
+  "cache_read_input_tokens": 134143,
+  "output_tokens": 425,
+  "ephemeral_5m_input_tokens": 2255,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qJtVksBVJ5FUxA1Qwc",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1294,
+  "cache_read_input_tokens": 136398,
+  "output_tokens": 1042,
+  "ephemeral_5m_input_tokens": 1294,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qKgmM7kZqRegRNJhC3",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1263,
+  "cache_read_input_tokens": 137692,
+  "output_tokens": 284,
+  "ephemeral_5m_input_tokens": 1263,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qLZzLSFSX6tv43QoaQ",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1111,
+  "cache_read_input_tokens": 138955,
+  "output_tokens": 2939,
+  "ephemeral_5m_input_tokens": 1111,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qMxKmkAv6Tth8MYXNZ",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3160,
+  "cache_read_input_tokens": 140066,
+  "output_tokens": 284,
+  "ephemeral_5m_input_tokens": 3160,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qNt5ZuuzYvAfNkJgbi",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1137,
+  "cache_read_input_tokens": 143226,
+  "output_tokens": 6939,
+  "ephemeral_5m_input_tokens": 1137,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qRp5HynuTjXwQUjLsD",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7267,
+  "cache_read_input_tokens": 144363,
+  "output_tokens": 284,
+  "ephemeral_5m_input_tokens": 7267,
+  "ephemeral_1h_input_tokens": 0
+ },
+ {
+  "id": "msg_011Ch7qSqe6L2SErwq8yVqmZ",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1153,
+  "cache_read_input_tokens": 151630,
+  "output_tokens": 469,
+  "ephemeral_5m_input_tokens": 1153,
+  "ephemeral_1h_input_tokens": 0
+ }
+]

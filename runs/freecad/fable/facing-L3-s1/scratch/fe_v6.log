@@ -1,0 +1,14 @@
+BFGS update error2
+BFGS update error2
+mesh 142662 nodes 70475 tets 10.7 s
+assembled 19.5 s
+time 19.5
+   local-frame k_xyz [ 60.1 527.4 563.4] k_rot [108.4  52.9  68.4]
+Arings+RBE3-Brings k_xyz [149.2  84.4 563.4] k_rot(xyz) [55.6 98.5 68.4] worst lin 59.97 rot 46.31
+time 151.6
+FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)
+(C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+Recompute......
+						(50 %)							(100 %)									

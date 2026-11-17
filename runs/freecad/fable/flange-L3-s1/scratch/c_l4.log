@@ -1,0 +1,18 @@
+FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)
+(C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/user/stepbench-runs/tasks-freecad/flange-L3-s1/scratch/c_l4.step(1937 ents)  Write  Done[0m
+solids 1 valid True volume 51897.7 faces 58
+wrote /home/user/stepbench-runs/tasks-freecad/flange-L3-s1/scratch/c_l4.step
+MAT vol 51.9 shell~28.1 infill~4.8 total~32.9 cm3
+H3 rbe3        k/E: force 0.02307 moment 0.003384 combined 0.003156 | Fdir(A) [-0.2  -0.93  0.32] Maxis(A) [0.58 0.06 0.81] fixA 947 tieB 1088
+l4 {"tB":5,"finL":20,"finR":20}

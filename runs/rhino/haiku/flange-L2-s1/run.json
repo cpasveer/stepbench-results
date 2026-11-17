@@ -1,0 +1,56 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c+4562a24 (the v1 checker 9c2a54c plus exact areas and volumes by adaptive integration, for Rhino's one-edge closed loops; build123d and FreeCAD verdicts proven unchanged on 142 answers)",
+ "model": "haiku",
+ "task": "flange-L2-s1",
+ "tool": "rhino",
+ "rhino_version": "9.1",
+ "where": "owner's Mac, local subagent, Rhino 9 via rhinocode",
+ "start_utc": "2026-11-17T04:03:24Z",
+ "end_utc": "2026-11-17T05:40:30Z",
+ "wall_clock_s": 5825.5,
+ "tokens": 315804,
+ "tool_uses": 91,
+ "checks": 6,
+ "last_outcome": "fail",
+ "last_failing": [
+  "FDM_OVERHANG"
+ ],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T04:14:49Z"
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T04:23:22Z"
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T04:42:02Z"
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T05:03:21Z"
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T05:21:50Z"
+  },
+  {
+   "n": 6,
+   "finished_utc": "2026-11-17T05:40:20Z"
+  }
+ ],
+ "nproc": 12,
+ "python": "checker: kit/.venv 3.14.7",
+ "usage_totals": {
+  "input_tokens": 148,
+  "cache_creation_input_tokens": 276881,
+  "cache_read_input_tokens": 15148254,
+  "output_tokens": 196271
+ },
+ "messages": 74,
+ "notes": "The agent reported listing one folder outside its task folder by mistake (it says: the checker's task output directory, while looking for the checker output). Against its rules; recorded as reported."
+}

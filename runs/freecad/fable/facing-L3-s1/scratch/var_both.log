@@ -1,0 +1,3 @@
+wrote /home/user/stepbench-runs/tasks-freecad/facing-L3-s1/scratch/both.step volume 24223.4 mm3 faces 75
+   local-frame k_xyz [ 62.5 537.4 686.1] k_rot [146.9  64.   70.9]
+Arings+RBE3-Brings k_xyz [155.4  87.6 686.1] k_rot(xyz) [ 74.4 111.3  70.9] worst lin 62.33 rot 54.20

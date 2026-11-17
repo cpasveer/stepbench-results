@@ -1,0 +1,1 @@
+n=1 valid=True solid=True vol=37730.94481432398 faces=25

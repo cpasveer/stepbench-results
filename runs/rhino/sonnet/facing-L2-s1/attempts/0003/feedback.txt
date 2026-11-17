@@ -1,0 +1,31 @@
+FAIL  (19/26 required checks)  facing-L2-s1
+  ok   FILE_VALID       1 closed valid solid, 39 faces
+  FAIL HOLES            A3: grip 68.50 mm outside 3-25 (material under the head) (+1 more)
+  ok   SEATING          seated on every mounting face; worst bolt ring 100% in contact (need 75%)
+  ok   SEAT_INSIDE      every seat at least 1 mm inside its mounting face's edge (worst 0.00 mm2 beyond, limit 0.5)
+  FAIL NO_INTERFERENCE  bolt B3 head would hit fixed part A: 425.293 mm3 overlap (2 clashes)
+  FAIL KEY_TURN         A3: its 3 mm hex key turns at most 0 of the 60 degrees needed, blocked by fixed part B (+1 more)
+  ok   Q_SLIVER_FACE    no sliver faces (narrowest long face 0.38 mm wide)
+  ok   Q_TINY_FACE      smallest face 2.39 mm2 (min 0.1 mm2)
+  ok   Q_SHORT_EDGE     shortest edge 0.90 mm (min 0.1 mm)
+  ok   Q_SMALL_STEP     lowest step 21.00 mm (min 0.2 mm)
+  FAIL Q_THIN_WEDGE     6 thin wedge(s), sharpest 0.00 deg (face corner)
+  ok   Q_CREASE         gentlest bend between faces 16.1 deg (min 2 deg)
+  FAIL Q_UNMERGED       5 pair(s) of faces on the same surface not merged
+  ok   Q_NEAR_VERTICES  closest unjoined corners 2.70 mm apart (min 0.05 mm)
+  FAIL Q_STUB           1 stub(s): a member runs 1.92 mm past the face it joins
+  ok   Q_SHALLOW_JOINT  narrowest inside corner 90 deg (min 45 deg)
+  --   SECTION_MIN      skipped: the part does not fit yet
+  ok   FDM_WALL_MIN     thinnest wall 1.21 mm (min 0.8 mm)
+  FAIL FDM_OVERHANG     overhang 90.0 deg (flat ceiling with no support at one end) (max 45 deg), 354 mm2 needs support
+  ok   FDM_BRIDGE       no bridges
+  ok   FDM_HOLE_MIN     7 hole(s), smallest 4.50 mm (min 2 mm)
+  ok   FDM_PIN_MIN      1 pin(s), smallest 24.00 mm (min 3 mm)
+  ok   FDM_GAP_MIN      narrowest gap 4.50 mm (min 0.5 mm)
+  ok   FDM_BED_CONTACT  1757 mm2 flat on the bed over 1 face(s) (min 50 mm2)
+  ok   FDM_STANCE       68.5 mm tall on a 70.0 mm stance, 0.98 x (max 3 x)
+  ok   FDM_SEALED_HOLLOW no sealed hollows
+  ok   FDM_SUPPORT_REMOVABLE all support can be reached (354 mm2 of overhang held up)
+  (warn: reported for information, not required for a pass in this task)
+  requirements: fits fail, clean fail, makeable fail, sturdy not measured (not required)
+  info volume 46529.0 mm3, bounding box 93.6 x 94.4 x 68.5 mm

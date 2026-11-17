@@ -1,0 +1,32 @@
+union parts -> 1 brep(s), vol 34567.4
+cavity pieces 1
+minus cavity -> 1 brep(s), vol 26829.5
+minus pipe -> 1 brep(s), vol 20947.7
+  piece 0 vol 20947.7 centroid (30.2, 85.2, 27.9)
+minus vent and holes -> 1 brep(s), vol 20151.7
+volume 20151.7 mm3, PLA mass 24.99 g (solid)
+A1 radius from pipe axis 34.000 (34 expected)
+A2 radius from pipe axis 34.000 (34 expected)
+A3 radius from pipe axis 34.000 (34 expected)
+A4 radius from pipe axis 34.000 (34 expected)
+B1 mount local (-12.50, -12.50, 0.000)
+B2 mount local (12.50, -12.50, 0.000)
+B3 mount local (12.50, 12.50, -0.000)
+B4 mount local (-12.50, 12.50, -0.000)
+A1 head zone overlap 0.0000 mm3, tool access overlap 0.0000 mm3
+A2 head zone overlap 0.0000 mm3, tool access overlap 0.0000 mm3
+A3 head zone overlap 0.0000 mm3, tool access overlap 0.0000 mm3
+A4 head zone overlap 0.0000 mm3, tool access overlap 0.0000 mm3
+B1 head zone overlap 0.0000 mm3, tool access overlap 0.0000 mm3
+B2 head zone overlap 0.0000 mm3, tool access overlap 0.0000 mm3
+B3 head zone overlap 0.0000 mm3, tool access overlap 0.0000 mm3
+B4 head zone overlap 0.0000 mm3, tool access overlap 0.0000 mm3
+A1 key swing: longest free arc 270 deg (need 60), starting at 60 deg
+A2 key swing: longest free arc 270 deg (need 60), starting at 174 deg
+A3 key swing: longest free arc 264 deg (need 60), starting at 0 deg
+A4 key swing: longest free arc 270 deg (need 60), starting at 246 deg
+B1 key swing: longest free arc 204 deg (need 60), starting at 330 deg
+B2 key swing: longest free arc 252 deg (need 60), starting at 12 deg
+B3 key swing: longest free arc 240 deg (need 60), starting at 108 deg
+B4 key swing: longest free arc 198 deg (need 60), starting at 192 deg
+ok: wrote output.step

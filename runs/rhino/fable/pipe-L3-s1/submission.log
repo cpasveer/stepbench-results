@@ -1,0 +1,40 @@
+ok: wrote output.step
+Xh.e2 = 0.000e+00
+C in pipe frame X,W,V = -6.081 99.814 32.392
+nB in frame = 0.6404 -0.7681 0.0000
+bolt rows at -4.97 / 65.03 deg, beam ray 28.77 deg
+crank corners W = 61.05 / 56.95, beam end W = 109.47
+valid=True solid=True faces=29 edges=81
+volume = 47150 mm3
+shortest edges: 2.458, 2.458, 3.200, 3.200, 3.200, 3.200
+smallest faces: 45.24, 45.24, 45.24, 45.24, 70.08, 70.08
+faces by kind: {'plane': 20, 'cyl': 9}
+  f0  plane area   105.60  cen X  -17.73 W   88.02 V   32.39  n(X,W,V) -0.77 -0.64 -0.00
+  f1  plane area  1041.88  cen X   -5.88 W   99.98 V   32.39  n(X,W,V) -0.64  0.77  0.00
+  f2  plane area   502.40  cen X   14.59 W  110.70 V   32.39  n(X,W,V) -0.00  1.00  0.00
+  f3  plane area   764.30  cen X   -6.08 W   95.65 V   32.39  n(X,W,V)  0.64 -0.77  0.00
+  f4  plane area   142.10  cen X    0.04 W  101.39 V   48.89  n(X,W,V) -0.00  0.00 -1.00
+  f5  plane area   142.10  cen X    0.04 W  101.39 V   15.89  n(X,W,V) -0.00  0.00  1.00
+  f6  plane area   194.18  cen X    0.00 W   35.26 V   -8.12  n(X,W,V)  0.00  0.22  0.97
+  f7  plane area   701.26  cen X   -0.00 W   38.14 V   -0.01  n(X,W,V)  0.00 -1.00  0.09
+  f8  plane area   640.09  cen X   -5.93 W   32.94 V   18.96  n(X,W,V)  0.00 -0.88 -0.48
+  f9  plane area   742.04  cen X   -0.00 W   19.47 V   32.85  n(X,W,V)  0.00 -0.42 -0.91
+  f10 plane area   194.18  cen X    0.00 W   10.56 V   34.61  n(X,W,V) -0.00  0.96 -0.29
+  f11 plane area   246.08  cen X  -22.20 W   28.67 V   16.69  n(X,W,V) -1.00  0.00 -0.00
+  f12 curv  area  2170.77  cen X   -0.00 W   26.87 V   15.53  n(X,W,V)  0.00  0.87  0.50
+  f13 plane area   722.27  cen X    8.95 W   49.11 V   17.83  n(X,W,V)  0.00 -0.48  0.88
+  f14 plane area   831.01  cen X    8.95 W   43.20 V   32.85  n(X,W,V)  0.00  0.48 -0.88
+  f15 plane area   111.99  cen X   15.61 W  108.24 V   44.64  n(X,W,V)  0.00 -1.00 -0.00
+  f16 plane area   111.99  cen X   15.61 W  108.24 V   20.14  n(X,W,V)  0.00 -1.00 -0.00
+  f17 plane area  1176.54  cen X    9.50 W   83.40 V   24.39  n(X,W,V) -0.00 -0.00  1.00
+  f18 plane area  1285.28  cen X    9.46 W   81.33 V   40.39  n(X,W,V)  0.00 -0.00 -1.00
+  f19 plane area  1079.04  cen X   -4.30 W   64.16 V   29.48  n(X,W,V) -1.00  0.00 -0.00
+  f20 curv  area    70.08  cen X  -17.50 W   15.19 V   32.61  n(X,W,V)  0.19 -0.89  0.41
+  f21 curv  area    70.08  cen X   17.50 W   15.19 V   32.61  n(X,W,V)  0.19 -0.89  0.41
+  f22 curv  area    70.08  cen X  -17.50 W   35.84 V   -3.12  n(X,W,V)  0.97 -0.02 -0.25
+  f23 curv  area    70.08  cen X   17.50 W   35.84 V   -3.12  n(X,W,V)  0.97 -0.02 -0.25
+  f24 curv  area    45.24  cen X  -14.66 W   90.58 V   19.89  n(X,W,V) -0.00 -0.00  1.00
+  f25 curv  area    45.24  cen X    4.54 W  106.59 V   19.89  n(X,W,V) -0.00 -0.00  1.00
+  f26 curv  area    45.24  cen X    4.54 W  106.59 V   44.89  n(X,W,V) -0.00 -0.00  1.00
+  f27 curv  area    45.24  cen X  -14.66 W   90.58 V   44.89  n(X,W,V) -0.00 -0.00  1.00
+  f28 plane area  1583.98  cen X   22.20 W   65.29 V   27.97  n(X,W,V)  1.00 -0.00 -0.00

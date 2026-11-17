@@ -1,0 +1,52 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c+4562a24 (the v1 checker 9c2a54c plus exact areas and volumes by adaptive integration, for Rhino's one-edge closed loops; build123d and FreeCAD verdicts proven unchanged on 142 answers)",
+ "model": "haiku",
+ "task": "pipe-L2-s1",
+ "tool": "rhino",
+ "rhino_version": "9.1",
+ "where": "owner's Mac, local subagent, Rhino 9 via rhinocode",
+ "start_utc": "2026-11-17T05:12:11Z",
+ "end_utc": "2026-11-17T05:54:25Z",
+ "wall_clock_s": 2534.0,
+ "tokens": 319425,
+ "tool_uses": 45,
+ "checks": 5,
+ "last_outcome": "fail",
+ "last_failing": [
+  "FDM_WALL_MIN",
+  "FDM_OVERHANG"
+ ],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T05:22:18Z"
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T05:28:17Z"
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T05:37:00Z"
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T05:43:59Z"
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T05:53:58Z"
+  }
+ ],
+ "nproc": 12,
+ "python": "checker: kit/.venv 3.14.7",
+ "usage_totals": {
+  "input_tokens": 88,
+  "cache_creation_input_tokens": 314049,
+  "cache_read_input_tokens": 8484598,
+  "output_tokens": 222039
+ },
+ "messages": 44
+}

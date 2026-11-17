@@ -1,0 +1,49 @@
+{
+ "round": "v1",
+ "checker": "9c2a54c+4562a24 (the v1 checker 9c2a54c plus exact areas and volumes by adaptive integration, for Rhino's one-edge closed loops; build123d and FreeCAD verdicts proven unchanged on 142 answers)",
+ "model": "sonnet",
+ "task": "flange-L2-s1",
+ "tool": "rhino",
+ "rhino_version": "9.1",
+ "where": "owner's Mac, local subagent, Rhino 9 via rhinocode",
+ "start_utc": "2026-11-17T00:57:56Z",
+ "end_utc": "2026-11-17T01:26:06Z",
+ "wall_clock_s": 1689.6,
+ "tokens": 149025,
+ "tool_uses": 31,
+ "checks": 5,
+ "last_outcome": "pass",
+ "last_failing": [],
+ "stiffness_last": null,
+ "per_check": [
+  {
+   "n": 1,
+   "finished_utc": "2026-11-17T01:02:17Z"
+  },
+  {
+   "n": 2,
+   "finished_utc": "2026-11-17T01:08:31Z"
+  },
+  {
+   "n": 3,
+   "finished_utc": "2026-11-17T01:11:44Z"
+  },
+  {
+   "n": 4,
+   "finished_utc": "2026-11-17T01:16:53Z"
+  },
+  {
+   "n": 5,
+   "finished_utc": "2026-11-17T01:26:00Z"
+  }
+ ],
+ "nproc": 12,
+ "python": "checker: kit/.venv 3.14.7",
+ "usage_totals": {
+  "input_tokens": 62,
+  "cache_creation_input_tokens": 111486,
+  "cache_read_input_tokens": 3783907,
+  "output_tokens": 65997
+ },
+ "messages": 31
+}

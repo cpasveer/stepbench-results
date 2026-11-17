@@ -1,0 +1,22 @@
+mesh 102754 nodes 49442 tets 8.6 s
+assembled 14.8 s
+   Arings D B1 k_xyz [1.9 2.9 6. ] worst 1.16
+   Arings D B2 k_xyz [0.3 0.4 2. ] worst 0.17
+   Arings D B3 k_xyz [0.6 0.2 7.2] worst 0.15
+   share Fx: mean disp 0.5435 -> k 1.84 ; max bolt disp 0.8878 -> k 1.13
+   share Fy: mean disp 0.8315 -> k 1.20 ; max bolt disp 1.4906 -> k 0.67
+   share Fz: mean disp 0.0936 -> k 10.68 ; max bolt disp 0.1704 -> k 5.87
+time 74.1
+   Aseat D B1 k_xyz [1.9 3.1 6. ] worst 1.17
+   Aseat D B2 k_xyz [0.4 0.4 2. ] worst 0.18
+   Aseat D B3 k_xyz [0.6 0.2 7.3] worst 0.16
+   share Fx: mean disp 0.5291 -> k 1.89 ; max bolt disp 0.8572 -> k 1.17
+   share Fy: mean disp 0.7965 -> k 1.26 ; max bolt disp 1.4414 -> k 0.69
+   share Fz: mean disp 0.0929 -> k 10.77 ; max bolt disp 0.1697 -> k 5.89
+time 133.8
+FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)
+(C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+Recompute......
+						(50 %)							(100 %)									
